@@ -4,6 +4,7 @@
          <head>
             @include('block.head_css_script')
          </head>
+
          <body class="common-home">
             <div id="page">
                <header>

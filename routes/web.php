@@ -18,11 +18,12 @@ use App\Http\Controllers\Admin\CartController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 // ================Client
+
 Route::name('client.')->group(function(){
     //==========index
         Route::get('homeindex', [HomePageController::class, 'homeindex'])->name('homeindex');
+        // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');
         Route::get('about', [HomePageController::class, 'about'])->name('about');
         Route::get('news', [HomePageController::class, 'news'])->name('news');
         Route::get('contact', [HomePageController::class, 'contact'])->name('contact');
