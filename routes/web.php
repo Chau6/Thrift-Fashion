@@ -19,10 +19,6 @@ use App\Http\Controllers\Admin\CartController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 // ================Client
 Route::name('client.')->group(function(){
     //==========index
@@ -32,3 +28,4 @@ Route::name('client.')->group(function(){
         Route::get('contact', [HomePageController::class, 'contact'])->name('contact');
         Route::get('notification', [HomePageController::class, 'notification'])->name('notification');
 });
+// Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');
