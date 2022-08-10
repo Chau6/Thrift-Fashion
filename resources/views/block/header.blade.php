@@ -206,7 +206,7 @@
                       
                       {{-- More --}}
                       <li class="li-top-item ">
-                         <a class="a-top-link" href="{{asset('contact')}}">
+                         <a class="a-top-link" href="{{route('client.contact')}}">
                          <span>contact us</span>
                          </a>
                       </li>
