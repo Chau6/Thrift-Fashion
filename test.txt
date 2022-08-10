@@ -1,7 +1,3 @@
 hell
 
-<<<<<<< HEAD
 case 1
-=======
-case 2
->>>>>>> d90fe19acfbd0b4f68c88d17107138e56bdcc8f1
