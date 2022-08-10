@@ -18,15 +18,15 @@
             <link href="{{asset('css/css1.css')}}" rel="stylesheet" media="screen" />
             <link href="{{asset('css/css2.css')}}" rel="stylesheet" media="screen" />
             <link href="{{asset('css/css3.css')}}" rel="stylesheet" media="screen" />
-            <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/catalog/view/theme/OPC164_01/stylesheet/stylesheet.css" rel="stylesheet">
-            <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/ttblogstyle.css" rel="stylesheet" type="text/css" />
-            <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/newsletter.css" rel="stylesheet" type="text/css" />
-            <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/animate.css" rel="stylesheet" type="text/css" />
-            <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/ttcountdown.css" rel="stylesheet" type="text/css" />
-            <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/menu.css" rel="stylesheet" type="text/css" />
-            <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/lightbox.css" rel="stylesheet" type="text/css" />
-            <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/catalog/view/javascript/jquery/swiper/css/swiper.min.css" type="text/css" rel="stylesheet" media="screen" />
-            <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/catalog/view/javascript/jquery/swiper/css/opencart.css" type="text/css" rel="stylesheet" media="screen" />
+            <link href="{{asset('css/css4.css')}}" rel="stylesheet">
+            <link href="{{asset('css/css5.css')}}" rel="stylesheet" type="text/css" />
+            <link href="{{asset('css/css6.css')}}" rel="stylesheet" type="text/css" />
+            <link href="{{asset('css/css7.css')}}" rel="stylesheet" type="text/css" />
+            <link href="{{asset('css/css8.css')}}" rel="stylesheet" type="text/css" />
+            <link href="{{asset('css/css9.css')}}" rel="stylesheet" type="text/css" />
+            <link href="{{asset('css/css10.css')}}" rel="stylesheet" type="text/css" />
+            <link href="{{asset('css/css11.css')}}" type="text/css" rel="stylesheet" media="screen" />
+            <link href="{{asset('css/css12.css')}}" type="text/css" rel="stylesheet" media="screen" />
             
             <script src="{{asset('javascript/script1.js')}}"></script>
             <script src="{{asset('javascript/script2.js')}}"></script>
@@ -431,115 +431,6 @@
                      });
                      -->
                   </script>
-                  <div class="newletter-popup">
-                     <div class="ttpopupclose"></div>
-                     <div id="boxes" class="newletter-container">
-                        <div style="" id="dialog" class="window">
-                           <div id="popup2">
-                              <span class="b-close"><i class="material-icons icon-close">clear</i></span>
-                           </div>
-                           <div class="newslatter-img col-sm-6 col-xs-6"></div>
-                           <div class="box col-sm-6 col-xs-6">
-                              <div class="newletter-title">
-                                 <h2>Newsletter</h2>
-                              </div>
-                              <div class="box-content newleter-content">
-                                 <label></label>
-                                 <div id="frm_subscribe">
-                                    <form name="subscribe" id="subscribe_popup">
-                                       <div class="newslatterpopup-content">
-                                          <span>Subscribe to our newsletters now and stay up to date with new collections, latest lookbooks and exclusive offers.</span>
-                                          <div id="notification"></div>
-                                          <input type="text" value="" name="subscribe_pemail" id="subscribe_pemail" placeholder="Your email address">
-                                          <input type="hidden" value="" name="subscribe_pname" id="subscribe_pname" />
-                                          <div class="popup-button">
-                                             <a class="button btn btn-primary" onclick="email_subscribepopup()"><span>subscribe</span></a>
-                                          </div>
-                                       </div>
-                                    </form>
-                                    <div class="subscribe-bottom">
-                                       <input type="checkbox" id="newsletter_popup_dont_show_again">
-                                       <label for="newsletter_popup_dont_show_again">Don't show this popup again</label>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <script>
-                           function email_subscribepopup(){
-                           	$.ajax({
-                           			type: 'post',
-                           			url: 'index.php?route=extension/module/ttnewslettersubscribe/subscribepopup',
-                           			dataType: 'html',
-                                       data:$("#subscribe_popup").serialize(),
-                           			success: function (html) {
-                           				//$.cookie('shownewsletter', '1');
-                           					try {
-                           					
-                           						eval(html);
-                           					
-                           					} catch (e) {
-                           					}
-                           			}}); 
-                           	
-                           	
-                           }
-                           function email_unsubscribepopup(){
-                           	$.ajax({
-                           			type: 'post',
-                           			url: 'index.php?route=extension/module/ttnewslettersubscribe/unsubscribe',
-                           			dataType: 'html',
-                                       data:$("#subscribe_popup").serialize(),
-                           			success: function (html) {
-                           					try {
-                           			
-                           						eval(html);
-                           					
-                           					} catch (e) {
-                           					}
-                           			}}); 
-                           	$('html, body').delay( 1500 ).animate({ scrollTop: 0 }, 'slow'); 
-                           	
-                           }
-                        </script>
-                        <script>
-                           $(document).ready(function() {
-                           
-                           if($.cookie('shownewsletter')==1) $('.newletter-popup').hide();
-                           $('#subscribe_pemail').keypress(function(e) {
-                                   if(e.which == 13) {
-                                       e.preventDefault();
-                                       email_subscribepopup();
-                                   }
-                           var name= $(this).val();
-                           	$('#subscribe_pname').val(name);
-                               });
-                           $('#subscribe_pemail').change(function() {
-                           var name= $(this).val();
-                           		$('#subscribe_pname').val(name);
-                           });
-                           
-                           
-                               //transition effect
-                               if($.cookie("shownewsletter") != 1){
-                           $('.newletter-popup').bPopup();
-                             
-                               }
-                           
-                           
-                           $('#newsletter_popup_dont_show_again').on('change', function(){
-                           if($.cookie("shownewsletter") != 1){   
-                           $.cookie("shownewsletter",'1')
-                           }else{
-                           $.cookie("shownewsletter",'0')
-                           }
-                           }); 
-                           
-                           
-                           });
-                        </script>
-                     </div>
-                  </div>
                </div>
                <div class="tt-home">
                   <div id="content" class="col-sm-12">
@@ -571,14 +462,14 @@
                            </div>
                         </div>
                      </div>
-                     <div class="html-content">
+                     {{-- <div class="html-content">
                         <div class="box-content">
                            <div id="ttcmsservices">
                               <div class="container">
                                  <div class="ttcmstopservice-content">
                                     <div class="ttsupport service">
                                        <div class="service-icon-background">
-                                          <div class="ttsupport_img service-icon"></div>
+                                          <div class="ttsupport_img service-icon fa fa-rocket"></div>
                                        </div>
                                        <div class="service-content">
                                           <div class="service-title">Worldwide Delivery</div>
@@ -616,7 +507,7 @@
                               </div>
                            </div>
                         </div>
-                     </div>
+                     </div> --}}
                      <div class="ttproduct-main bottom-to-top hb-animate-element">
                         <div class="container">
                            <div class="row main-tab">
