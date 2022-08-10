@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class HomePageController extends Controller
 {
     public function homeindex(){
-
+        return view('master');
     }
 
     public function about(){
