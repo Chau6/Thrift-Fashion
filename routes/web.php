@@ -25,7 +25,7 @@ Route::get('/', function () {
 // ================Admin
 Route::prefix('admin')->name('admin.')->group(function(){
     // HomeIndex
-    Route::get('index', [HomePageAdminController::class, 'index'])->name('index');
+    Route::get('index', [HomePageAdminController::class, 'index'])->name('index');1
 
     // Product
     Route::prefix('product')->name('product.')->group(function(){
