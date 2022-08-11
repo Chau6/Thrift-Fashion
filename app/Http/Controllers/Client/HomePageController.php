@@ -55,4 +55,9 @@ class HomePageController extends Controller
     public function nilestill () {
         return view('nilestill');
     }
+
+    public function jeans ($id) {
+       return view('jeans');
+    
+}
 }

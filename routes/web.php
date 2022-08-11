@@ -42,6 +42,9 @@ Route::name('client.')->group(function(){
         Route::get('account', [HomePageController::class, 'account'])->name('account');
 
         Route::get('nilestill', [HomePageController::class, 'nilestill'])->name('nilestill');
+        Route::name('product.')->group(function(){
+            Route::get('jeans/{id}', [HomePageController::class, 'jeans'])->name('jeans');
+        });
 
 });
 // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');
