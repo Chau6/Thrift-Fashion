@@ -186,15 +186,7 @@
 						 <li class="li-second-items">
 						   <a href="{{route('client.product.jeans',['id'=>"petuntse"])}}" class="a-second-link a-item">
 							<span class="a-second-title">Petuntse</span>
-							<i class="material-icons chevron-right">chevron_right</i>
 							</a>
-							<div class="flyout-third-items">
-							   <ul class="ul-third-items">
-								  <li class="li-third-items">
-									<a href="{{route('client.product.jeans',['id'=>"bonechina"])}}" class="a-third-link">  <span class="a-third-title">Bone china</span></a>
-								  </li>
-							   </ul>
-							</div>
 						 </li>
 						 <li class="li-second-items">
 						   <a href="{{route('client.product.jeans',['id'=>"gilrs"])}}" class="a-second-link a-item">
