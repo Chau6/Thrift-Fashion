@@ -171,6 +171,95 @@
 				   </div>
 				</li>
 
+<<<<<<< HEAD
+<div class="mega-menu-container sub-menu-container ">
+<div class="col-sm-12 sub-item2-content" data-cols="12">
+<h4><strong></strong></h4>
+<p><div class="banner-static static-menu">
+<div class="column layout-1">
+<div class="menu-title">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/">Peter Fashion</a> 
+</div>
+<div class="image">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/"><img src="image/catalog/demo/banners/demo-1.png" alt="image" width="180" height="100"></a>
+</div>
+</div>
+<div class="column layout-2">
+<div class="menu-title">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC02/"> #10 Bestselling</a>
+</div>
+<div class="image">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC02/"><img src="image/catalog/demo/banners/demo-2.png" alt="image" width="180" height="100"></a>
+</div>
+</div>
+<div class="column layout-3">
+<div class="menu-title">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC03/">Goggles</a>
+</div>
+<div class="image">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC03/"><img src="image/catalog/demo/banners/demo-3.png" alt="image" width="180" height="100"></a>
+</div>
+</div>
+<div class="column layout-4">
+<div class="menu-title">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC04/">instagram shop</a>
+</div>
+<div class="image">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC04/"><img src="image/catalog/demo/banners/demo-4.png" alt="image" width="180" height="100"></a>
+</div>
+</div>
+<div class="column layout-5">
+<div class="menu-title">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC05/">Banners</a>
+</div>
+<div class="image">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC05/"><img src="image/catalog/demo/banners/demo-5.png" alt="image" width="180" height="100"></a>
+</div>
+</div>
+<div class="column layout-6">
+<div class="menu-title">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC06/">Market shop</a>
+</div>
+<div class="image">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC06/"><img src="image/catalog/demo/banners/demo-6.png" alt="image" width="180" height="100"></a>
+</div>
+</div>
+<div class="column layout-7">
+<div class="menu-title">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC07/">catalogue</a>
+</div>
+<div class="image">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC07/"><img src="image/catalog/demo/banners/demo-7.png" alt="image" width="180" height="100"></a>
+</div>
+</div>
+<div class="column layout-8">
+<div class="menu-title">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC08/">box view</a>
+</div>
+<div class="image">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC08/"><img src="image/catalog/demo/banners/demo-8.png" alt="image" width="180" height="100"></a>
+</div>
+</div>
+<div class="column layout-9">
+<div class="menu-title">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC09/">catalogue v2</a>
+</div>
+<div class="image">
+<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC09/"><img src="image/catalog/demo/banners/demo-9.png" alt="image" width="180" height="100"></a>
+</div>
+</div>
+<div class="column layout-10">
+<div class="menu-title">
+<a href="#">coming soon</a>
+</div>
+<div class="image">
+<a href="#"><img src="image/catalog/demo/banners/demo-10.png" alt="image" width="180" height="100"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+=======
 				 {{-- Jean --}}
 				 <li class="li-top-item mega-menu">
 				   <a class="a-top-link" href="{{route('client.product.jeans',['id'=>"all"])}}">
@@ -201,6 +290,7 @@
 					  </ul>
 				   </div>
 				</li>
+>>>>>>> fe0c3d6d15b722a55bbf0f8b68e12632a8faf5e8
 
 				 {{-- Dress --}}
 				 <li class="li-top-item">

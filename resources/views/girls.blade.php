@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if IE]> <![endif]-->
 <!--[if IE 8]><html dir="ltr" lang="en" class="ie8"><![endif]-->
@@ -9,7 +10,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Nile silt</title>
+        <title>Jeans</title>
         <base href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/" />
         <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
         <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
@@ -46,24 +47,16 @@
         <script src="catalog/view/javascript/TemplateTrip/backgroundVideo.js"></script>
         <script src="catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js"></script>
 
-        <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=26" rel="canonical" />
+        <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=128" rel="canonical" />
         <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/cart.png" rel="icon" />
         <script src="catalog/view/javascript/jquery/swiper/js/swiper.jquery.js"></script>
         <script src="catalog/view/javascript/TemplateTrip/jquery.bpopup.min.js"></script>
         <script src="catalog/view/javascript/TemplateTrip/jquery.cookie.js"></script>
     </head>
-    <body class="product-category-20_26">
+    <body class="product-category-25_128">
         <div id="page">
             <div class="header-top-cms">
-                <aside id="header-top">
-                    <div class="html-content">
-                        <div class="box-content">
-                            <div id="ttcmsheader">
-                                <div class="headerservice-close"></div>
-                            </div>
-                        </div>
-                    </div>
-                </aside>
+                
             </div>
             <header>
                 <div class="header">
@@ -84,15 +77,70 @@
                                         </a>
                                         <ul class="dropdown-menu dropdown-menu-right account-link-toggle">
                                             <li>
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/register"><i class="material-icons ma-user">perm_identity</i>Register</a>
+                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account"><i class="material-icons ma-user">perm_identity</i> Account</a>
                                             </li>
                                             <li>
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/login"><i class="material-icons">lock_outline</i>Login</a>
+                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/order"><i class="material-icons calendar-today">calendar_today</i> Order History</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/transaction"><i class="material-icons credit-card">credit_card</i> Transactions</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/download"><i class="material-icons save-alt">save_alt</i> Downloads</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/logout"><i class="material-icons">lock_open</i> Logout</a>
                                             </li>
                                             <li>
                                                 <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)">
-                                                    <i class="material-icons icon-wishlist">favorite_border</i><span class="hidden-sm hidden-md">Wish List (0)</span>
+                                                    <i class="material-icons icon-wishlist">favorite_border</i> <span class="hidden-sm hidden-md">Wish List (0)</span>
                                                 </a>
+                                            </li>
+                                            <li class="ttlanguage">
+                                                <div class="pull-left">
+                                                    <form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="form-language">
+                                                        <div class="btn-group">
+                                                            <button class="btn btn-link">
+                                                                <img src="catalog/language/en-gb/en-gb.png" alt="English" title="English" />
+                                                                <span class="hidden-xs hidden-sm hidden-md">Language</span>
+                                                            </button>
+                                                            <ul>
+                                                                <li>
+                                                                    <button class="btn btn-link btn-block language-select" type="button" name="en-gb">
+                                                                        <img src="catalog/language/en-gb/en-gb.png" alt="English" title="English" /> English
+                                                                    </button>
+                                                                </li>
+                                                                <li>
+                                                                    <button class="btn btn-link btn-block language-select" type="button" name="ar-lb"><img src="catalog/language/ar-lb/ar-lb.png" alt="Arabic" title="Arabic" /> Arabic</button>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <input type="hidden" name="code" value="" />
+                                                        <input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_128" />
+                                                    </form>
+                                                </div>
+                                            </li>
+                                            <li class="ttcurrency">
+                                                <div class="pull-left">
+                                                    <form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency">
+                                                        <div class="btn-group">
+                                                            <button class="btn btn-link"><strong>$</strong> <span class="hidden-xs hidden-sm hidden-md">Currency</span></button>
+                                                            <ul>
+                                                                <li>
+                                                                    <button class="currency-select btn btn-link btn-block" type="button" name="EUR">€ Euro</button>
+                                                                </li>
+                                                                <li>
+                                                                    <button class="currency-select btn btn-link btn-block" type="button" name="GBP">£ Pound Sterling</button>
+                                                                </li>
+                                                                <li>
+                                                                    <button class="currency-select btn btn-link btn-block" type="button" name="USD">$ US Dollar</button>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <input type="hidden" name="code" value="" />
+                                                        <input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_128" />
+                                                    </form>
+                                                </div>
                                             </li>
                                         </ul>
                                     </li>
@@ -140,45 +188,45 @@
 									   <div class="tt-menu horizontal-menu tt-menu-bar" id="tt-menu-9478">
 										  <ul class="ul-top-items">
 											 <li class="li-top-item ">
-												<a class="a-top-link" href="{{route('client.homeindex')}}">
+												<a class="a-top-link" href="http://127.0.0.1:8000/homeindex">
 												<span>Home</span>
 												</a>
 											 </li>
 											 
-											 {{-- Peluntse --}}
+											 
 											 <li class="li-top-item mega-menu">
-											   <a class="a-top-link" href="{{route('client.product.petuntse',['id'=>'all_petuntse'])}}">
+											   <a class="a-top-link" href="http://127.0.0.1:8000/petuntse/all_petuntse">
 											   <span>Petuntse</span>
 											   </a>
 											   <div class="mega-menu-container sub-menu-container ">
 												  <div class="col-sm-2 sub-item2-content" data-cols="2">
-													 <a class="a-mega-second-link" href="{{route('client.product.nilesilt',['id'=>'all_petuntse_1'])}}">
+													 <a class="a-mega-second-link" href="http://127.0.0.1:8000/nilesilt/all_petuntse_1">
 														<h4><strong>Nile silt</strong></h4>
 													 </a>
 													 <div class="sub_item3-content">
-														<a class="a-mega-third-link" href="{{route('client.product.geopolymer',['id'=>'all_petuntse_2'])}}">
+														<a class="a-mega-third-link" href="http://127.0.0.1:8000/geopolymer/all_petuntse_2">
 														   <h5>Geopolymer</h5>
 														</a>
-														<a class="a-mega-third-link" href="{{route('client.product.lumicera',['id'=>'all_petuntse_3'])}}">
+														<a class="a-mega-third-link" href="http://127.0.0.1:8000/lumicera/all_petuntse_3">
 														   <h5>Lumicera</h5>
 														</a>
-														<a class="a-mega-third-link" href="{{route('client.product.sea_pottery',['id'=>'all_petuntse_4'])}}">
+														<a class="a-mega-third-link" href="http://127.0.0.1:8000/sea_pottery/all_petuntse_4">
 														   <h5>Sea pottery</h5>
 														</a>
 													 </div>
 												  </div>
 												  <div class="col-sm-2 sub-item2-content" data-cols="2">
-													 <a class="a-mega-second-link" href="{{route('client.product.jesmonite',['id'=>'all_jesmonite'])}}">
+													 <a class="a-mega-second-link" href="http://127.0.0.1:8000/jesmonite/all_jesmonite">
 														<h4><strong>Jesmonite</strong></h4>
 													 </a>
 													 <div class="sub_item3-content">
-														<a class="a-mega-third-link" href="{{route('client.product.nilesilt',['id'=>'all_jesmonite_1'])}}">
+														<a class="a-mega-third-link" href="http://127.0.0.1:8000/nilesilt/all_jesmonite_1">
 														   <h5>Nile silt</h5>
 														</a>
-														<a class="a-mega-third-link" href="{{route('client.product.petuntse',['id'=>'all_jesmonite_2'])}}">
+														<a class="a-mega-third-link" href="http://127.0.0.1:8000/petuntse/all_jesmonite_2">
 														   <h5>Petuntse</h5>
 														</a>
-														<a class="a-mega-third-link" href="{{route('client.product.pitchers',['id'=>'all_jesmonite_3'])}}">
+														<a class="a-mega-third-link" href="http://127.0.0.1:8000/pitchers/all_jesmonite_3">
 														   <h5>Pitchers</h5>
 														</a>
 													 </div>
@@ -186,38 +234,32 @@
 											   </div>
 											</li>
 					   
-											 {{-- Jean --}}
+											 
 											 <li class="li-top-item mega-menu">
-											   <a class="a-top-link" href="{{route('client.product.jeans',['id'=>"all"])}}">
+											   <a class="a-top-link" href="http://127.0.0.1:8000/jeans/all">
 											   <span>Jeans</span>
 											   </a>
 											   <div class="flyout-menu-container sub-menu-container">
 												  <ul class="ul-second-items">
 													 <li class="li-second-items">
-													   <a  href="{{route('client.product.jeans',['id'=>"geopolymer"])}}" class="a-second-link a-item">
+													   <a  href="{{route('client.product.geopolymer',['id'=>'geopolymer_1'])}}" class="a-second-link a-item">
 														<span class="a-second-title">Geopolymer</span>
 														</a>
 													 </li>
 													 <li class="li-second-items">
-													   <a href="{{route('client.product.jeans',['id'=>"petuntse"])}}" class="a-second-link a-item">
+													   <a href="http://127.0.0.1:8000/petuntse/petuntse" class="a-second-link a-item">
 														<span class="a-second-title">Petuntse</span>
-														<i class="material-icons chevron-right">chevron_right</i>
+														
 														</a>
-														<div class="flyout-third-items">
-														   <ul class="ul-third-items">
-															  <li class="li-third-items">
-																<a href="{{route('client.product.jeans',['id'=>"bonechina"])}}" class="a-third-link">  <span class="a-third-title">Bone china</span></a>
-															  </li>
-														   </ul>
-														</div>
+														
 													 </li>
 													 <li class="li-second-items">
-													   <a href="{{route('client.product.jeans',['id'=>"gilrs"])}}" class="a-second-link a-item">
-														<span class="a-second-title">Gilrs</span>
+													   <a href="http://127.0.0.1:8000/jeans/girls" class="a-second-link a-item">
+														<span class="a-second-title">Girls</span>
 														</a>
 													 </li>
 													 <li class="li-second-items">
-													   <a href="{{route('client.product.jeans',['id'=>"kurti"])}}" class="a-second-link a-item">
+													   <a href="http://127.0.0.1:8000/jeans/kurti" class="a-second-link a-item">
 														<span class="a-second-title">Kurti</span>
 														</a>
 													 </li>
@@ -225,9 +267,9 @@
 											   </div>
 											</li>
 					   
-											 {{-- Dress --}}
+											 
 											 <li class="li-top-item">
-												<a class="a-top-link" href="{{route('client.product.carrier',['id'=>'all'])}}">
+												<a class="a-top-link" href="http://127.0.0.1:8000/carrier/all">
 												<span>Carrier Bag</span>
 												</a>
 											 </li>
@@ -246,9 +288,9 @@
             <div id="product-category" class="container product-category">
                 <ul class="breadcrumb">
                     <li>
-                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a>
+                        <a href="http://127.0.0.1:8000/homeindex"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26">Nile silt</a></li>
+                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_128">Jeans</a></li>
                 </ul>
                 <div class="row">
                     <aside id="column-left" class="col-sm-3 hidden-xs">
@@ -298,8 +340,8 @@
                                                 <div class="caption">
                                                     <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">perspiciatis unde omnis</a></h4>
                                                     <div class="price">
-                                                        <span class="price-new">$8.00</span>
-                                                        <span class="price-old">$14.00</span>
+                                                        <span class="price-new">$5.00</span>
+                                                        <span class="price-old">$10.00</span>
                                                         <span class="price-tax">Ex Tax: $5.00</span>
                                                     </div>
                                                 </div>
@@ -343,7 +385,7 @@
                                                 <div class="caption">
                                                     <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">voluptate velit esse</a></h4>
                                                     <div class="price">
-                                                        $123.20
+                                                        $101.00
                                                         <span class="price-tax">Ex Tax: $101.00</span>
                                                     </div>
                                                 </div>
@@ -394,7 +436,7 @@
                                                         <span class="fa-stack"><i class="material-icons star_off">star_border</i></span>
                                                     </div>
                                                     <div class="price">
-                                                        $122.00
+                                                        $100.00
                                                         <span class="price-tax">Ex Tax: $100.00</span>
                                                     </div>
                                                 </div>
@@ -418,60 +460,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="sidebar panel panel-default information-list">
-                                <div class="panel-heading">Information</div>
-                                <div class="list-group">
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=4" class="list-group-item">About Us</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=6" class="list-group-item">Delivery Information</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=3" class="list-group-item">Privacy Policy</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=5" class="list-group-item">Terms &amp; Conditions</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/contact" class="list-group-item">Contact Us</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/sitemap" class="list-group-item">Site Map</a>
-                                </div>
-                            </div>
+                            
                         </div>
                     </aside>
                     <div id="content" class="col-sm-9">
-                        <h1 class="category-name">Nile silt</h1>
+                        <h1 class="category-name">Jeans</h1>
                         <div class="category-description">
-                            <div class="row">
-                                <div class="col-sm-12 category-image">
-                                    <div class="category-bg">
-                                        <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/category-image-960x300.jpg" alt="Nile silt" title="Nile silt" class="img-thumbnail" />
-                                    </div>
-                                </div>
-                                <div class="block-description col-sm-12">
-                                    <div class="category-list">
-                                        <h3>Refine Search</h3>
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <ul>
-                                                    <li>
-                                                        <div class="subcategory-image"></div>
-                                                        <h5><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_85">Geopolymer</a></h5>
-                                                    </li>
-                                                    <li>
-                                                        <div class="subcategory-image"></div>
-                                                        <h5><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_60">Lumicera</a></h5>
-                                                    </li>
-                                                    <li>
-                                                        <div class="subcategory-image"></div>
-                                                        <h5><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_59">Petuntse</a></h5>
-                                                    </li>
-                                                    <li>
-                                                        <div class="subcategory-image"></div>
-                                                        <h5><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_61">Sea pottery</a></h5>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <p class="category-compare"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/compare" id="compare-total">Product Compare (0)</a></p>
-                                </div>
-                            </div>
+                            <div class="row"></div>
                         </div>
 
+                        <p class="text-empty">Your shopping cart is empty!</p>
+                        <div class="buttons">
+                            <div class="pull-right"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home" class="btn btn-primary">Continue</a></div>
+                        </div>
                         <script>
                             var Tawk_API = {},
                                 $_Tawk_LoadStart = new Date();
@@ -564,8 +565,8 @@
                                                         <i class="material-icons">mail_outline</i>
                                                         <div class="contact-title"><span>e-mail</span></div>
                                                         <span class="email-address">
-                                                            <a href="/cdn-cgi/l/email-protection#eb86828582ab9f8e869b878a9f8e9f99829bc5888486">
-                                                                <span class="__cf_email__" data-cfemail="4e2a2b23210e29232f2722602d2123">[email&#160;protected]</span>
+                                                            <a href="/cdn-cgi/l/email-protection#274a4e494e6753424a574b46534253554e570944484a">
+                                                                <span class="__cf_email__" data-cfemail="b3d7d6dedcf3d4ded2dadf9dd0dcde">[email&#160;protected]</span>
                                                             </a>
                                                         </span>
                                                     </div>
