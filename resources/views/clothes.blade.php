@@ -70,7 +70,7 @@
                   <div class="header">
                      <div class="full-header">
                         <div class="header-left">
-                           <div id="logo"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/logo.jpg" title="Your Store" alt="Your Store" class="img-responsive" /></a> </div>
+                           <div id="logo"><a href="{{route('client.homeindex')}}"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/logo.jpg" title="Your Store" alt="Your Store" class="img-responsive" /></a> </div>
                         </div>
                         <div class="header-top-right">
                            <div id="top-links" class="nav pull-right">
