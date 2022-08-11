@@ -100,5 +100,13 @@ class HomePageController extends Controller
     public function details () {
         return view('details');
     }
-    
+
+    public function girl () {
+        return view('girls');
+    }
+
+    public function kurti () {
+        return view('kurti');
+    }
+
 }

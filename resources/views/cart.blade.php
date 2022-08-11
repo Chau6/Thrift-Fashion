@@ -253,7 +253,7 @@
 <a href="#"><img src="image/catalog/demo/banners/demo-10.png" alt="image" width="180" height="100"></a>
 </div>
 </div>
-</div></p>
+</div>
 </div>
 </div>
 

@@ -61,6 +61,10 @@ Route::name('client.')->group(function(){
             Route::get('sea_pottery/{id}', [HomePageController::class, 'sea_pottery'])->name('sea_pottery');
 
             Route::get('pitchers/{id}', [HomePageController::class, 'pitchers'])->name('pitchers');
+
+            Route::get('kurti/{id}', [HomePageController::class, 'kurti'])->name('kurti');
+
+            Route::get('girl/{id}', [HomePageController::class, 'girl'])->name('girl');
         });
 
 

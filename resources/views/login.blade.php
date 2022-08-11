@@ -1,23 +1,21 @@
-@extends('master')
-
-@section('content')
+@extends('master') @section('content')
 
 <style>
-    .page-title{
+    .page-title {
         /* background: red; */
         height: 450px;
-        background: url({{asset('images/background.jpg')}});
+        background: url({{asset("images/background.jpg")}});
     }
 
-    .well{
-        height: 380px
+    .well {
+        height: 380px;
     }
 
-    .a{
-        margin-top: 140px
+    .a {
+        margin-top: 140px;
     }
 
-    .login{
+    .login {
         position: relative;
         bottom: 30px;
         margin-left: 630px;
@@ -34,12 +32,13 @@
     </ul>
     <div class="row">
         <div id="content" class="col-sm-12">
-            <h2 class="page-title" style="position:relative; right:335px; width: 1900px"></h2>
+            <h2 class="page-title" style="position: relative; right: 335px; width: 1900px;"></h2>
             <div class="row">
-                {{-- <h1>Login</h1> --}}
+                {{--
+                <h1>Login</h1>
+                --}}
                 <h2 class="login">Login</h2>
                 <div class="col-sm-6">
-
                     <div class="well">
                         <h2>New Customer</h2>
                         <p><strong>Register</strong></p>
@@ -52,7 +51,7 @@
                         <h2>Returning Customer</h2>
                         <p><strong>I am a returning customer</strong></p>
                         <form action="{{route('client.logined')}}" method="post" enctype="multipart/form-data">
-                             @csrf
+                            @csrf
 
                             <div class="form-group">
                                 <label class="control-label" for="input-email">Your email address</label>
@@ -71,6 +70,5 @@
         </div>
     </div>
 </div>
-
 
 @endsection

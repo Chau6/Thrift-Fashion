@@ -56,14 +56,7 @@
 <body class="product-category-20_92_93">
 <div id="page">
 <div class="header-top-cms">
-<aside id="header-top">
-<div class="html-content">
-<div class="box-content"><div id="ttcmsheader">
-<div class="header-service">Exclusive Selling Sale, Up to 50% OFF</div>
-<div class="headerservice-close"></div>
-</div></div>
-</div>
-</aside>
+
 </div>
 <header>
 <div class="header">
@@ -250,7 +243,7 @@
 <a href="#"><img src="image/catalog/demo/banners/demo-10.png" alt="image" width="180" height="100"></a>
 </div>
 </div>
-</div></p>
+</div>
 </div>
 </div>
 

@@ -258,7 +258,6 @@
                                                          </div>
                                                       </div>
                                                    </div>
-                                                   </p>
                                                 </div>
                                              </div>
                                           </li>
