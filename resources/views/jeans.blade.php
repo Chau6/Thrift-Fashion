@@ -69,62 +69,19 @@
 <div class="header">
 <div class="full-header">
 <div class="header-left">
-<div id="logo"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/logo.jpg" title="Your Store" alt="Your Store" class="img-responsive" /></a> </div>
+<div id="logo"><a href="{{route('client.homeindex')}}"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/logo.jpg" title="Your Store" alt="Your Store" class="img-responsive" /></a> </div>
 </div>
 <div class="header-top-right">
 <div id="top-links" class="nav pull-right">
-<ul class="list-inline">
-<li class="account-nav dropdown header_user_info"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account" title="Account" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons user">perm_identity</i><span class="ttuserheading">Account</span><i class="material-icons expand-more">expand_more</i></a>
-<ul class="dropdown-menu dropdown-menu-right account-link-toggle">
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account"><i class='material-icons ma-user'>perm_identity</i> Account</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/order"><i class='material-icons calendar-today'>calendar_today</i> Order History</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/transaction"><i class='material-icons credit-card'>credit_card</i> Transactions</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/download"><i class='material-icons save-alt'>save_alt</i> Downloads</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/logout"><i class="material-icons">lock_open</i> Logout</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><i class="material-icons icon-wishlist">favorite_border</i> <span class="hidden-sm hidden-md">Wish List (0)</span></a></li>
-<li class="ttlanguage"><div class="pull-left">
-<form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="form-language">
-<div class="btn-group">
-<button class="btn btn-link">
-<img src="catalog/language/en-gb/en-gb.png" alt="English" title="English">
-<span class="hidden-xs hidden-sm hidden-md">Language</span></button>
-<ul>
-<li>
-<button class="btn btn-link btn-block language-select" type="button" name="en-gb"><img src="catalog/language/en-gb/en-gb.png" alt="English" title="English" /> English</button>
-</li>
-<li>
-<button class="btn btn-link btn-block language-select" type="button" name="ar-lb"><img src="catalog/language/ar-lb/ar-lb.png" alt="Arabic" title="Arabic" /> Arabic</button>
-</li>
-</ul>
-</div>
-<input type="hidden" name="code" value="" />
-<input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_128" />
-</form>
-</div>
-</li>
-<li class="ttcurrency"><div class="pull-left">
-<form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency">
-<div class="btn-group">
-<button class="btn btn-link"> <strong>$</strong> <span class="hidden-xs hidden-sm hidden-md">Currency</span></button>
-<ul>
-<li>
-<button class="currency-select btn btn-link btn-block" type="button" name="EUR">€ Euro</button>
-</li>
-<li>
-<button class="currency-select btn btn-link btn-block" type="button" name="GBP">£ Pound Sterling</button>
-</li>
-<li>
-<button class="currency-select btn btn-link btn-block" type="button" name="USD">$ US Dollar</button>
-</li>
-</ul>
-</div>
-<input type="hidden" name="code" value="" />
-<input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_128" />
-</form>
-</div>
-</li>
-</ul>
-</li>
+	<ul class="list-inline">
+		<li class="account-nav dropdown header_user_info">
+			<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account" title="Account" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons user">perm_identity</i><span class="ttuserheading">Account</span><i class="material-icons expand-more">expand_more</i></a>
+			<ul class="dropdown-menu dropdown-menu-right account-link-toggle">
+			   <li><a href="{{route('client.notification')}}"><i class='material-icons ma-user'>perm_identity</i>Register</a></li>
+			   <li><a href="{{route('client.news')}}"><i class="material-icons">lock_outline</i>Login</a></li>
+			   <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><i class="material-icons icon-wishlist">favorite_border</i><span class="hidden-sm hidden-md">Wish List (0)</span></a></li>
+			</ul>
+		 </li>
 <li class="ttsearch"><div id="search" class="input-group">
 <span class="ttsearch_button">
 <i class="material-icons icon-search">search</i>
@@ -271,9 +228,9 @@
 </div>
 <div id="product-category" class="container product-category">
 <ul class="breadcrumb">
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25">Jeans</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_128">Gilrs</a></li>
+<li><a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a></li>
+<li><a href="">Jeans</a></li>
+<li><a href="">Gilrs</a></li>
 </ul>
 <div class="row"> <aside id="column-left" class="col-sm-3 hidden-xs">
 <div class="left-right-inner">
@@ -281,28 +238,28 @@
 <div class="panel-heading">Categories</div>
 <ul class="list-group">
 <li class="category-li">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20" class="list-group-item">Petuntse</a>
+<a href="" class="list-group-item">Petuntse</a>
 
 </li>
 <li class="category-li category-active">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25" class="list-group-item active">Jeans</a>
+<a href="" class="list-group-item active">Jeans</a>
 <ul>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_98" class="list-group-item current-child-item">Geopolymer</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_99" class="list-group-item current-child-item">Petuntse</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_128" class="list-group-item current-child-item active">Gilrs</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_129" class="list-group-item current-child-item">Kurti</a></li>
+<li><a href="" class="list-group-item current-child-item">Geopolymer</a></li>
+<li><a href="" class="list-group-item current-child-item">Petuntse</a></li>
+<li><a href="" class="list-group-item current-child-item active">Gilrs</a></li>
+<li><a href="" class="list-group-item current-child-item">Kurti</a></li>
 </ul>
 </li>
 <li class="category-li">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=65" class="list-group-item">Petuntse</a>
+<a href="" class="list-group-item">Petuntse</a>
 
 </li>
 <li class="category-li">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=66" class="list-group-item">Briquetage</a>
+<a href="" class="list-group-item">Briquetage</a>
 
 </li>
 <li class="category-li">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67" class="list-group-item">clothes</a>
+<a href="" class="list-group-item">clothes</a>
 
 </li>
 </ul>
@@ -326,7 +283,7 @@ $('#banner0').swiper({
 <div class="product-layouts">
 <div class="product-thumb transition">
 <div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">
+<a href="">
 <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09-70x91.jpg" title="perspiciatis unde omnis" alt="perspiciatis unde omnis" />
 <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09--70x91.jpg" title="perspiciatis unde omnis" alt="perspiciatis unde omnis" />
 </a>
@@ -335,7 +292,7 @@ $('#banner0').swiper({
 </div>
 <div class="thumb-description">
 <div class="caption">
-<h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">perspiciatis unde omnis</a></h4>
+<h4><a href="">perspiciatis unde omnis</a></h4>
 <div class="price">
 <span class="price-new">$5.00</span>
 <span class="price-old">$10.00</span>
@@ -442,7 +399,7 @@ $100.00
 
 <p class="text-empty">Your shopping cart is empty!</p>
 <div class="buttons">
-<div class="pull-right"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home" class="btn btn-primary">Continue</a></div>
+<div class="pull-right"><a href="{{route('client.homeindex')}}" class="btn btn-primary">Continue</a></div>
 </div>
 <script>
 var Tawk_API={},$_Tawk_LoadStart=new Date();
