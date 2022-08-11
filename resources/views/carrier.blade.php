@@ -49,10 +49,16 @@
                 <aside id="header-top">
                     <div class="html-content">
                         <div class="box-content">
+<<<<<<< HEAD
                             <div id="ttcmsheader">
                                 <div class="header-service">Exclusive Selling Sale, Up to 50% OFF</div>
                                 <div class="headerservice-close"></div>
                             </div>
+=======
+                           <div id="ttcmsheader">
+                              <div class="headerservice-close"></div>
+                           </div>
+>>>>>>> fe0c3d6d15b722a55bbf0f8b68e12632a8faf5e8
                         </div>
                     </div>
                 </aside>
@@ -61,6 +67,7 @@
                 <div class="header">
                     <div class="full-header">
                         <div class="header-left">
+<<<<<<< HEAD
                             <div id="logo">
                                 <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home">
                                     <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/logo.jpg" title="Your Store" alt="Your Store" class="img-responsive" />
@@ -411,10 +418,153 @@
                                                 </li>
                                             </ul>
                                         </div>
+=======
+                           <div id="logo"><a href="{{route('client.homeindex')}}"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/logo.jpg" title="Your Store" alt="Your Store" class="img-responsive" /></a> </div>
+                        </div>
+                        <div class="header-top-right">
+                           <div id="top-links" class="nav pull-right">
+                              <ul class="list-inline">
+                                 <li class="account-nav dropdown header_user_info">
+                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account" title="Account" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons user">perm_identity</i><span class="ttuserheading">Account</span><i class="material-icons expand-more">expand_more</i></a>
+                                    <ul class="dropdown-menu dropdown-menu-right account-link-toggle">
+                                       <li><a href="{{route('client.notification')}}"><i class='material-icons ma-user'>perm_identity</i>Register</a></li>
+                                       <li><a href="{{route('client.news')}}"><i class="material-icons">lock_outline</i>Login</a></li>
+                                       <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><i class="material-icons icon-wishlist">favorite_border</i><span class="hidden-sm hidden-md">Wish List (0)</span></a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="ttsearch">
+                                    <div id="search" class="input-group">
+                                       <span class="ttsearch_button">
+                                       <i class="material-icons icon-search">search</i>
+                                       <i class="material-icons icon-close">clear</i>
+                                       </span>
+                                       <div class="ttsearchtoggle">
+                                          <input type="text" name="search" value="" placeholder="Search" class="form-control input-lg" />
+                                          <span class="input-group-btn">
+                                          <button type="button" class="btn btn-default btn-lg"><i class="material-icons icon-search">search</i></button>
+                                          </span>
+                                       </div>
+                                    </div>
+                                 </li>
+                                 <li class="ttcart">
+                                    <div id="cart" class="btn-group">
+                                       <button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="btn btn-inverse btn-block btn-lg dropdown-toggle"><i class="material-icons shopping-cart">shopping_cart</i>
+                                       <span id="cart-total">0</span>
+                                       </button>
+                                       <ul class="dropdown-menu pull-right header-cart-toggle">
+                                          <li class="cart-btn">
+                                             <i class="material-icons">close</i>
+                                          </li>
+                                          <li>
+                                             <p class="text-center">Your shopping cart is empty!</p>
+                                          </li>
+                                       </ul>
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="header-top-left">
+                           <div class="header-left-cms">
+                              <aside id="header-left">
+                                 <div class="main-category-list">
+                                    <div class="TT-panel-heading">
+                                       <span>menu</span>
+                                       <span class="icon"><i class="material-icons icon-menu">menu</i></span>
+                                    </div>
+                                    <div class="tt-menu horizontal-menu tt-menu-bar" id="tt-menu-9478">
+                                       <ul class="ul-top-items">
+                                          <li class="li-top-item ">
+                                             <a class="a-top-link" href="{{route('client.homeindex')}}">
+                                             <span>Home</span>
+                                             </a>
+                                          </li>
+                                          
+                                          {{-- Peluntse --}}
+                                          <li class="li-top-item mega-menu">
+                                            <a class="a-top-link" href="{{route('client.product.petuntse',['id'=>'all_petuntse'])}}">
+                                            <span>Petuntse</span>
+                                            </a>
+                                            <div class="mega-menu-container sub-menu-container ">
+                                               <div class="col-sm-2 sub-item2-content" data-cols="2">
+                                                  <a class="a-mega-second-link" href="{{route('client.product.nilesilt',['id'=>'all_petuntse_1'])}}">
+                                                     <h4><strong>Nile silt</strong></h4>
+                                                  </a>
+                                                  <div class="sub_item3-content">
+                                                     <a class="a-mega-third-link" href="{{route('client.product.geopolymer',['id'=>'all_petuntse_2'])}}">
+                                                        <h5>Geopolymer</h5>
+                                                     </a>
+                                                     <a class="a-mega-third-link" href="{{route('client.product.lumicera',['id'=>'all_petuntse_3'])}}">
+                                                        <h5>Lumicera</h5>
+                                                     </a>
+                                                     <a class="a-mega-third-link" href="{{route('client.product.sea_pottery',['id'=>'all_petuntse_4'])}}">
+                                                        <h5>Sea pottery</h5>
+                                                     </a>
+                                                  </div>
+                                               </div>
+                                               <div class="col-sm-2 sub-item2-content" data-cols="2">
+                                                  <a class="a-mega-second-link" href="{{route('client.product.jesmonite',['id'=>'all_jesmonite'])}}">
+                                                     <h4><strong>Jesmonite</strong></h4>
+                                                  </a>
+                                                  <div class="sub_item3-content">
+                                                     <a class="a-mega-third-link" href="{{route('client.product.nilesilt',['id'=>'all_jesmonite_1'])}}">
+                                                        <h5>Nile silt</h5>
+                                                     </a>
+                                                     <a class="a-mega-third-link" href="{{route('client.product.petuntse',['id'=>'all_jesmonite_2'])}}">
+                                                        <h5>Petuntse</h5>
+                                                     </a>
+                                                     <a class="a-mega-third-link" href="{{route('client.product.pitchers',['id'=>'all_jesmonite_3'])}}">
+                                                        <h5>Pitchers</h5>
+                                                     </a>
+                                                  </div>
+                                               </div>
+                                            </div>
+                                         </li>
+                    
+                                          {{-- Jean --}}
+                                          <li class="li-top-item mega-menu">
+                                            <a class="a-top-link" href="{{route('client.product.jeans',['id'=>"all"])}}">
+                                            <span>Jeans</span>
+                                            </a>
+                                            <div class="flyout-menu-container sub-menu-container">
+                                               <ul class="ul-second-items">
+                                                  <li class="li-second-items">
+                                                    <a  href="{{route('client.product.jeans',['id'=>"geopolymer"])}}" class="a-second-link a-item">
+                                                     <span class="a-second-title">Geopolymer</span>
+                                                     </a>
+                                                  </li>
+                                                  <li class="li-second-items">
+                                                    <a href="{{route('client.product.jeans',['id'=>"petuntse"])}}" class="a-second-link a-item">
+                                                     <span class="a-second-title">Petuntse</span>
+                                                     </a>
+                                                  </li>
+                                                  <li class="li-second-items">
+                                                    <a href="{{route('client.product.jeans',['id'=>"gilrs"])}}" class="a-second-link a-item">
+                                                     <span class="a-second-title">Gilrs</span>
+                                                     </a>
+                                                  </li>
+                                                  <li class="li-second-items">
+                                                    <a href="{{route('client.product.jeans',['id'=>"kurti"])}}" class="a-second-link a-item">
+                                                     <span class="a-second-title">Kurti</span>
+                                                     </a>
+                                                  </li>
+                                               </ul>
+                                            </div>
+                                         </li>
+                    
+                                          {{-- Dress --}}
+                                          <li class="li-top-item">
+                                             <a class="a-top-link" href="{{route('client.product.carrier',['id'=>'all'])}}">
+                                             <span>Carrier Bag</span>
+                                             </a>
+                                          </li>
+                                       </ul>
+>>>>>>> fe0c3d6d15b722a55bbf0f8b68e12632a8faf5e8
                                     </div>
                                 </aside>
                             </div>
                         </div>
+<<<<<<< HEAD
                     </div>
                 </div>
             </header>
@@ -462,6 +612,71 @@
                                         <div class="swiper-slide">
                                             <a href="#"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
                                         </div>
+=======
+                     </div>
+                  </div>
+               </header>
+               <div class="header-content-title">
+                  <div style="background-image: url('image/catalog/demo/banners/breadcrumb-parallax.jpg'); background-position: 50% 78.1106%;" data-source-url="image/catalog/demo/banners/breadcrumb-parallax.jpg" class="parallex"></div>
+               </div>
+               <div id="product-category" class="container product-category">
+                  <ul class="breadcrumb">
+                     <li><a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a></li>
+                     <li><a href="">Carrier Bag</a></li>
+                  </ul>
+                  <div class="row">
+                     <aside id="column-left" class="col-sm-3 hidden-xs">
+                        <div class="left-right-inner">
+                           <div class="swiper-viewport">
+                              <div id="banner0" class="swiper-container">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><a href="#"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <script><!--
+                              $('#banner0').swiper({
+                              	effect: 'fade',
+                              	autoplay: 2500,
+                                  autoplayDisableOnInteraction: false
+                              });
+                              -->
+                           </script>
+                           <div class="featured-carousel products-list">
+                              <div class="box-heading">
+                                 <h3>Featured</h3>
+                              </div>
+                              <div class="featured-items products-carousel row">
+                                 <div class="product-layouts">
+                                    <div class="product-thumb transition">
+                                       <div class="image">
+                                          <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">
+                                          <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09-70x91.jpg" title="perspiciatis unde omnis" alt="perspiciatis unde omnis" />
+                                          <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09--70x91.jpg" title="perspiciatis unde omnis" alt="perspiciatis unde omnis" />
+                                          </a>
+                                          <div class="sale-icon">Sale</div>
+                                          <span class="percent">-50%</span>
+                                       </div>
+                                       <div class="thumb-description">
+                                          <div class="caption">
+                                             <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">perspiciatis unde omnis</a></h4>
+                                             <div class="price">
+                                                <span class="price-new">$8.00</span>
+                                                <span class="price-old">$14.00</span>
+                                                <span class="price-tax">Ex Tax: $5.00</span>
+                                             </div>
+                                          </div>
+                                          <div class="button-group">
+                                             <button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('43')">
+                                             <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
+                                             </span></button>
+                                             <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('43');"><i class="material-icons icon-wishlist">favorite</i></button>
+                                             <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('43');"><i class="material-icons icon-exchange">equalizer</i></button>
+                                             <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43')"><i class="material-icons quick_view_icon">visibility</i>
+                                             </button>
+                                          </div>
+                                       </div>
+>>>>>>> fe0c3d6d15b722a55bbf0f8b68e12632a8faf5e8
                                     </div>
                                 </div>
                             </div>
