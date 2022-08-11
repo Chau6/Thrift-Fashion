@@ -104,77 +104,85 @@
                          </a>
                       </li>
                       
+                      {{-- Peluntse --}}
+                      <li class="li-top-item mega-menu">
+                        <a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20">
+                        <span>Petuntse</span>
+                        </a>
+                        <div class="mega-menu-container sub-menu-container ">
+                           <div class="col-sm-2 sub-item2-content" data-cols="2">
+                              <a class="a-mega-second-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26">
+                                 <h4><strong>Nile silt</strong></h4>
+                              </a>
+                              <div class="sub_item3-content">
+                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_85">
+                                    <h5>Geopolymer</h5>
+                                 </a>
+                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_60">
+                                    <h5>Lumicera</h5>
+                                 </a>
+                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_59">
+                                    <h5>Petuntse</h5>
+                                 </a>
+                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_61">
+                                    <h5>Sea pottery</h5>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="col-sm-2 sub-item2-content" data-cols="2">
+                              <a class="a-mega-second-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92">
+                                 <h4><strong>Jesmonite</strong></h4>
+                              </a>
+                              <div class="sub_item3-content">
+                                 <a class="a-mega-third-link" href="{{route('client.nilestill')}}">
+                                    <h5>Nile silt</h5>
+                                 </a>
+                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_96">
+                                    <h5>Petuntse</h5>
+                                 </a>
+                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_93">
+                                    <h5>Pitchers</h5>
+                                 </a>
+                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_94">
+                                    <h5>Pitchers</h5>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+
                       {{-- Jean --}}
                       <li class="li-top-item mega-menu">
-                         <a class="a-top-link" href="{{route('client.product.jeans',['id'=>"all"])}}">
-                         <span>Jeans</span>
-                         </a>
-                         <div class="flyout-menu-container sub-menu-container">
-                            <ul class="ul-second-items">
-                               <li class="li-second-items">
-                                 <a  href="{{route('client.product.jeans',['id'=>"geopolymer"])}}" class="a-second-link a-item">
-                                  <span class="a-second-title">Geopolymer</span>
-                                  </a>
-                               </li>
-                               <li class="li-second-items">
-                                 <a href="{{route('client.product.jeans',['id'=>"petuntse"])}}" class="a-second-link a-item">
-                                  <span class="a-second-title">Petuntse</span>
-                                  <i class="material-icons chevron-right">chevron_right</i>
-                                  </a>
-                                  <div class="flyout-third-items">
-                                     <ul class="ul-third-items">
-                                        <li class="li-third-items">
-                                          <a href="{{route('client.product.jeans',['id'=>"bonechina"])}}" class="a-third-link">  <span class="a-third-title">Bone china</span></a>
-                                        </li>
-                                     </ul>
-                                  </div>
-                               </li>
-                               <li class="li-second-items">
-                                 <a href="{{route('client.product.jeans',['id'=>"gilrs"])}}" class="a-second-link a-item">
-                                  <span class="a-second-title">Gilrs</span>
-                                  </a>
-                               </li>
-                               <li class="li-second-items">
-                                 <a href="{{route('client.product.jeans',['id'=>"kurti"])}}" class="a-second-link a-item">
-                                  <span class="a-second-title">Kurti</span>
-                                  </a>
-                               </li>
-                            </ul>
-                         </div>
-                      </li>
-
-                      {{-- same jean --}}
-                      <li class="li-top-item mega-menu">
-                        <a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25">
+                        <a class="a-top-link" href="{{route('client.product.jeans',['id'=>"all"])}}">
                         <span>Jeans</span>
                         </a>
                         <div class="flyout-menu-container sub-menu-container">
                            <ul class="ul-second-items">
                               <li class="li-second-items">
-                                 <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_98" class="a-second-link a-item">
+                                <a  href="{{route('client.product.jeans',['id'=>"geopolymer"])}}" class="a-second-link a-item">
                                  <span class="a-second-title">Geopolymer</span>
                                  </a>
                               </li>
                               <li class="li-second-items">
-                                 <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_99" class="a-second-link a-item">
+                                <a href="{{route('client.product.jeans',['id'=>"petuntse"])}}" class="a-second-link a-item">
                                  <span class="a-second-title">Petuntse</span>
                                  <i class="material-icons chevron-right">chevron_right</i>
                                  </a>
                                  <div class="flyout-third-items">
                                     <ul class="ul-third-items">
                                        <li class="li-third-items">
-                                          <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_99_104" class="a-third-link"><span class="a-third-title">Bone china</span></a>
+                                         <a href="{{route('client.product.jeans',['id'=>"bonechina"])}}" class="a-third-link">  <span class="a-third-title">Bone china</span></a>
                                        </li>
                                     </ul>
                                  </div>
                               </li>
                               <li class="li-second-items">
-                                 <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_128" class="a-second-link a-item">
+                                <a href="{{route('client.product.jeans',['id'=>"gilrs"])}}" class="a-second-link a-item">
                                  <span class="a-second-title">Gilrs</span>
                                  </a>
                               </li>
                               <li class="li-second-items">
-                                 <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_129" class="a-second-link a-item">
+                                <a href="{{route('client.product.jeans',['id'=>"kurti"])}}" class="a-second-link a-item">
                                  <span class="a-second-title">Kurti</span>
                                  </a>
                               </li>
