@@ -41,10 +41,34 @@ Route::name('client.')->group(function(){
         Route::get('history_order', [HomePageController::class, 'history_order'])->name('history_order');
         Route::get('account', [HomePageController::class, 'account'])->name('account');
 
+        Route::get('clothes', [HomePageController::class, 'clothes'])->name('clothes');
+
         Route::get('nilestill', [HomePageController::class, 'nilestill'])->name('nilestill');
+
         Route::name('product.')->group(function(){
+            Route::get('petuntse/{id}', [HomePageController::class, 'petuntse'])->name('petuntse');
+            Route::get('nilesilt/{id}', [HomePageController::class, 'nilesilt'])->name('nilesilt');
+
             Route::get('jeans/{id}', [HomePageController::class, 'jeans'])->name('jeans');
+            Route::get('carrier/{id}', [HomePageController::class, 'carrier'])->name('carrier');
+
+            Route::get('jesmonite/{id}', [HomePageController::class, 'jesmonite'])->name('jesmonite');
+
+            Route::get('geopolymer/{id}', [HomePageController::class, 'geopolymer'])->name('geopolymer');
+
+            Route::get('lumicera/{id}', [HomePageController::class, 'lumicera'])->name('lumicera');
+
+            Route::get('sea_pottery/{id}', [HomePageController::class, 'sea_pottery'])->name('sea_pottery');
+
+            Route::get('pitchers/{id}', [HomePageController::class, 'pitchers'])->name('pitchers');
         });
 
+
+        Route::name('shopping_cart.')->group(function(){
+            Route::get('cart/{id}', [HomePageController::class, 'cart'])->name('cart');
+
+            Route::get('details/{id}', [HomePageController::class, 'details'])->name('details');
+
+        });
 });
 // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');

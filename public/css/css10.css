@@ -1,175 +1,177 @@
 @charset "UTF-8";
-/* --------------------------- TempalteTrip Lightbox Styles ----------------------------- */
 body:after {
-  /*content: url(../../img/lightbox/close.png) url(../../img/lightbox/loading.gif) url(../../img/lightbox/prev.png) url(../../img/lightbox/next.png);*/
-  display: none;
+    
+    display: none;
 }
 
 .lightboxOverlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  background-color: black;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
-  -moz-opacity:  0.8;
-  -khtml-opacity:  0.8;
-  -webkit-opacity:  0.8;
-  display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: black;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    -webkit-opacity: 0.8;
+    display: none;
 }
 
 .lightbox {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  z-index: 10000;
-  margin: 70px 0;
-  text-align: center;
-  line-height: 0;
-  font-weight: normal;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    margin: 70px 0;
+    text-align: center;
+    line-height: 0;
+    font-weight: normal;
 }
 .lightbox .lb-outerContainer {
-  position: relative;
-  background-color: white;
-  *zoom: 1;
-  width: 250px;
-  height: 250px;
-  margin: 0 auto;
+    position: relative;
+    background-color: white;
+    *zoom: 1;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
 }
 .lightbox .lb-outerContainer .lb-container {
-  padding: 4px;
+    padding: 4px;
 }
 .lightbox .lb-outerContainer .lb-container .lb-image {
-  display: block;
-  height: auto;
-  max-width: inherit;
-  border-radius: 0;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0; 
-  -khtml-border-radius: 0;
+    display: block;
+    height: auto;
+    max-width: inherit;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -khtml-border-radius: 0;
 }
 .lightbox .lb-outerContainer .lb-container .lb-loader {
-  position: absolute;
-  top: 43%;
-  left: 0;
-  height: 25%;
-  width: 100%;
-  text-align: center;
-  line-height: 0;
+    position: absolute;
+    top: 43%;
+    left: 0;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
 }
 .lightbox .lb-outerContainer .lb-container .lb-loader .lb-cancel {
-  display: block;
-  width: 32px;
-  height: 32px;
-  margin: 0 auto;
-  /*background: url(../../img/lightbox/loading.gif) no-repeat;*/
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
 }
 .lightbox .lb-outerContainer .lb-container .lb-nav {
-	position: absolute;
-	top: 45%;
-	left: 0;
-	width: 100%;
-	z-index: 10;
-	right: 0;
-	margin: 0 auto;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    right: 0;
+    margin: 0 auto;
 }
 .lightbox .lb-outerContainer .lb-container .lb-nav a {
-  outline: none;
+    outline: none;
 }
-.lightbox .lb-outerContainer .lb-container .lb-nav a.lb-prev, .lightbox .lb-outerContainer .lb-container .lb-nav a.lb-next {
-	padding: 0;
-	cursor: pointer;
-	width: 40px;
-	height: 40px;
-	display: block;
-	background: #fff;
-	transition: width 400ms ease-in-out;
-	-webkit-transition: width 400ms ease-in-out 0s;
-	-moz-transition: width 400ms ease-in-out 0s;
-	-o-transition: width 400ms ease-in-out 0s;
-	-ms-transition: width 400ms ease-in-out 0s;
+.lightbox .lb-outerContainer .lb-container .lb-nav a.lb-prev,
+.lightbox .lb-outerContainer .lb-container .lb-nav a.lb-next {
+    padding: 0;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: #fff;
+    transition: width 400ms ease-in-out;
+    -webkit-transition: width 400ms ease-in-out 0s;
+    -moz-transition: width 400ms ease-in-out 0s;
+    -o-transition: width 400ms ease-in-out 0s;
+    -ms-transition: width 400ms ease-in-out 0s;
 }
-.lightbox .lb-outerContainer .lb-container .lb-nav a.lb-prev:hover, .lightbox .lb-outerContainer .lb-container .lb-nav a.lb-next:hover {
-	background: #ffba00;
-	width: 50px;
+.lightbox .lb-outerContainer .lb-container .lb-nav a.lb-prev:hover,
+.lightbox .lb-outerContainer .lb-container .lb-nav a.lb-next:hover {
+    background: #ffba00;
+    width: 50px;
 }
-.lightbox .lb-outerContainer .lb-container .lb-nav a.lb-prev::before, .lightbox .lb-outerContainer .lb-container .lb-nav a.lb-next::before {
-	font-family: "Material Icons";
-	font-size: 26px;
-	float: left;
-	width: 100%;
-	height: 100%;
-	color: #222222;
-	line-height: 40px;
-	font-weight: 500;
+.lightbox .lb-outerContainer .lb-container .lb-nav a.lb-prev::before,
+.lightbox .lb-outerContainer .lb-container .lb-nav a.lb-next::before {
+    font-family: "Material Icons";
+    font-size: 26px;
+    float: left;
+    width: 100%;
+    height: 100%;
+    color: #222222;
+    line-height: 40px;
+    font-weight: 500;
 }
-.lightbox .lb-outerContainer .lb-container .lb-nav a.lb-prev:hover::before, .lightbox .lb-outerContainer .lb-container .lb-nav a.lb-next:hover::before {
-	color: #000;
+.lightbox .lb-outerContainer .lb-container .lb-nav a.lb-prev:hover::before,
+.lightbox .lb-outerContainer .lb-container .lb-nav a.lb-next:hover::before {
+    color: #000;
 }
 .lightbox .lb-outerContainer .lb-container .lb-nav a.lb-prev {
-  float: left;
+    float: left;
 }
 .lightbox .lb-outerContainer .lb-container .lb-nav a.lb-prev::before {
-	content: "\E314";
+    content: "\E314";
 }
 .lightbox .lb-outerContainer .lb-container .lb-nav a.lb-next {
-  float: right;
+    float: right;
 }
 .lightbox .lb-outerContainer .lb-container .lb-nav a.lb-next:before {
-  content: "\E315";
+    content: "\E315";
 }
 .lightbox .lb-dataContainer {
-  margin: 0 auto;
-  background: white;
-  *zoom: 1;
-  width: 100%;
+    margin: 0 auto;
+    background: white;
+    *zoom: 1;
+    width: 100%;
 }
 .lightbox .lb-dataContainer:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 .lightbox .lb-dataContainer .lb-data {
-  padding: 0 4px;
-  color: #ccc;
+    padding: 0 4px;
+    color: #ccc;
 }
 .lightbox .lb-dataContainer .lb-data .lb-details {
-  width: 85%;
-  float: left;
-  text-align: left;
-  padding: 10px;
-  line-height: 1.1em;
+    width: 85%;
+    float: left;
+    text-align: left;
+    padding: 10px;
+    line-height: 1.1em;
 }
 .lightbox .lb-dataContainer .lb-data .lb-caption {
-  color: #222222;
-  float: left;
-  margin: 0 0 5px;
-  width: 100%;
+    color: #222222;
+    float: left;
+    margin: 0 0 5px;
+    width: 100%;
 }
 .lightbox .lb-dataContainer .lb-data .lb-number {
-  display: block;
-  clear: left;
-  color: #222222;
+    display: block;
+    clear: left;
+    color: #222222;
 }
 .lightbox .lb-dataContainer .lb-data .lb-closeContainer {
-  float: right;
-  margin: 10px;
+    float: right;
+    margin: 10px;
 }
 .lightbox .lb-dataContainer .lb-data .lb-closeContainer .lb-close {
-  float: left;
-  height: 30px;
-  padding: 14px 0;
-  width: 20px;
-  cursor: pointer;
+    float: left;
+    height: 30px;
+    padding: 14px 0;
+    width: 20px;
+    cursor: pointer;
 }
 .lightbox .lb-dataContainer .lb-data .lb-closeContainer .lb-close::before {
-	font-family: "Material Icons";
-	font-size: 20px;
-	float: left;
-	width: 100%;
-	height: 100%;
-	content: "\E5CD";
-	color: #222222;
-	font-weight: bold;
+    font-family: "Material Icons";
+    font-size: 20px;
+    float: left;
+    width: 100%;
+    height: 100%;
+    content: "\E5CD";
+    color: #222222;
+    font-weight: bold;
 }

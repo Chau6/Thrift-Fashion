@@ -106,44 +106,38 @@
                       
                       {{-- Peluntse --}}
                       <li class="li-top-item mega-menu">
-                        <a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20">
+                        <a class="a-top-link" href="{{route('client.product.petuntse',['id'=>'all_petuntse'])}}">
                         <span>Petuntse</span>
                         </a>
                         <div class="mega-menu-container sub-menu-container ">
                            <div class="col-sm-2 sub-item2-content" data-cols="2">
-                              <a class="a-mega-second-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26">
+                              <a class="a-mega-second-link" href="{{route('client.product.nilesilt',['id'=>'all_petuntse_1'])}}">
                                  <h4><strong>Nile silt</strong></h4>
                               </a>
                               <div class="sub_item3-content">
-                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_85">
+                                 <a class="a-mega-third-link" href="{{route('client.product.geopolymer',['id'=>'all_petuntse_2'])}}">
                                     <h5>Geopolymer</h5>
                                  </a>
-                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_60">
+                                 <a class="a-mega-third-link" href="{{route('client.product.lumicera',['id'=>'all_petuntse_3'])}}">
                                     <h5>Lumicera</h5>
                                  </a>
-                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_59">
-                                    <h5>Petuntse</h5>
-                                 </a>
-                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_61">
+                                 <a class="a-mega-third-link" href="{{route('client.product.sea_pottery',['id'=>'all_petuntse_4'])}}">
                                     <h5>Sea pottery</h5>
                                  </a>
                               </div>
                            </div>
                            <div class="col-sm-2 sub-item2-content" data-cols="2">
-                              <a class="a-mega-second-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92">
+                              <a class="a-mega-second-link" href="{{route('client.product.jesmonite',['id'=>'all_jesmonite'])}}">
                                  <h4><strong>Jesmonite</strong></h4>
                               </a>
                               <div class="sub_item3-content">
-                                 <a class="a-mega-third-link" href="{{route('client.nilestill')}}">
+                                 <a class="a-mega-third-link" href="{{route('client.product.nilesilt',['id'=>'all_jesmonite_1'])}}">
                                     <h5>Nile silt</h5>
                                  </a>
-                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_96">
+                                 <a class="a-mega-third-link" href="{{route('client.product.petuntse',['id'=>'all_jesmonite_2'])}}">
                                     <h5>Petuntse</h5>
                                  </a>
-                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_93">
-                                    <h5>Pitchers</h5>
-                                 </a>
-                                 <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_94">
+                                 <a class="a-mega-third-link" href="{{route('client.product.pitchers',['id'=>'all_jesmonite_3'])}}">
                                     <h5>Pitchers</h5>
                                  </a>
                               </div>
@@ -192,8 +186,8 @@
 
                       {{-- Dress --}}
                       <li class="li-top-item">
-                         <a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67">
-                         <span>Dress</span>
+                         <a class="a-top-link" href="{{route('client.product.carrier',['id'=>'all'])}}">
+                         <span>Carrier Bag</span>
                          </a>
                       </li>
                    </ul>

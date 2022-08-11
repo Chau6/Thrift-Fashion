@@ -58,6 +58,47 @@ class HomePageController extends Controller
 
     public function jeans ($id) {
        return view('jeans');
+    }
+
     
-}
+    public function carrier ($id) {
+        return view('carrier');
+     }
+
+    public function petuntse ($id) {
+    return view('petuntse');
+    }
+
+    public function nilesilt ($id) {
+        return view('nilesilt');
+    }
+
+    public function jesmonite ($id) {
+        return view('jesmonite');
+    }
+
+    public function clothes () {
+        return view('clothes');
+    }
+
+    public function geopolymer () {
+        return view('geopolymer');
+    }
+
+    public function lumicera () {
+        return view('lumicera');
+    }
+
+    public function sea_pottery () {
+        return view('sea_pottery');
+    }
+
+    public function pitchers () {
+        return view('pitchers');
+    }
+
+    public function details () {
+        return view('details');
+    }
+    
 }
