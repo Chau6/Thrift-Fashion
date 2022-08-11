@@ -14,21 +14,15 @@
     <div class="col-sm-3 footer-column footer-my-account">
        <h5>My Account</h5>
        <ul class="list-unstyled">
-          <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account">My Account</a></li>
-          <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist">Wish List</a></li>
-          <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/voucher">Gift Certificates</a></li>
-          <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/return/add">Returns</a></li>
-          <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/special">Specials</a></li>
+          <li><a href="">My Account</a></li>
+          <li><a href="">Wish List</a></li>
        </ul>
     </div>
     <div class="col-xs-3 footer-column footer-extras">
        <h5>Extras</h5>
        <ul class="list-unstyled">
-          <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=4">About Us</a></li>
-          <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=6">Delivery Information</a></li>
-          <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=3">Privacy Policy</a></li>
-          <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=5">Terms &amp; Conditions</a></li>
-          <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/contact">Contact Us</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Contact Us</a></li>
        </ul>
     </div>
     <div class="footer-column footer-right-cms col-sm-3">
@@ -101,7 +95,7 @@
                    </div>
                 </div>
              </div>
-             <script data-cfasync="false" src="https://opencart.templatetrip.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+             <script data-cfasync="false" src="{{asset('javascript/email-decode.min.js')}}"></script><script>
                 function email_subscribe(){
                     $.ajax({
                             type: 'post',
