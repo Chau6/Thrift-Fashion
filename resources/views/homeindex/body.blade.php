@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="header-content-title">
-    <div style="background-image: url('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/breadcrumb-parallax.jpg'); background-position: 50% 78.1106%;" data-source-url="image/catalog/demo/banners/breadcrumb-parallax.jpg" class="parallex"></div>
+    <div style="background-image: url({{asset('images/breadcrumb-parallax.jpg')}}); background-position: 50% 78.1106%;" data-source-url="image/catalog/demo/banners/breadcrumb-parallax.jpg" class="parallex"></div>
  </div>
  <div class="content-top">
     @include('block.content-top')
