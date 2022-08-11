@@ -67,7 +67,7 @@
                             <i class="material-icons">mail_outline</i>
                             <div class="contact-title"><span>e-mail</span></div>
                             <span class="email-address">
-                            <a href="https://opencart.templatetrip.com/cdn-cgi/l/email-protection#e984808780a99d8c849985889d8c9d9b8099c78a8684"><span class="__cf_email__" data-cfemail="b9dddcd4d6f9ded4d8d0d597dad6d4">[email&#160;protected]</span></a>
+                            <a href="mailTo:phamphucloi460@gmail.com">phamphucloi460@gmail.com</a>
                             </span>
                          </div>
                       </li>

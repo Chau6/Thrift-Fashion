@@ -12,7 +12,7 @@
        <div class="html-content">
           @include('block.html-content')
        </div>
-       <div class="html-content">
+       {{-- <div class="html-content">
           <div class="box-content">
              <div id="ttcmsservices">
                 <div class="container">
@@ -57,7 +57,7 @@
                 </div>
              </div>
           </div>
-       </div>
+       </div> --}}
        <div class="ttproduct-main bottom-to-top hb-animate-element">
           <div class="container">
              <div class="row main-tab">

@@ -1,3 +1,5 @@
+{{-- @yeild('master') --}}
+
 <div class="full-header">
     <div class="header-left">
        <div id="logo"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><img src="" title="Your Store" alt="Your Store" class="img-responsive" /></a> </div>
@@ -8,10 +10,10 @@
              <li class="account-nav dropdown header_user_info">
                 <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account" title="Account" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons user">perm_identity</i><span class="ttuserheading">Account</span><i class="material-icons expand-more">expand_more</i></a>
                 <ul class="dropdown-menu dropdown-menu-right account-link-toggle">
-                   <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/register"><i class='material-icons ma-user'>perm_identity</i>Register</a></li>
-                   <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/login"><i class="material-icons">lock_outline</i>Login</a></li>
+                   <li><a href="{{route('client.notification')}}"><i class='material-icons ma-user'>perm_identity</i>Register</a></li>
+                   <li><a href="{{route('client.news')}}"><i class="material-icons">lock_outline</i>Login</a></li>
                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><i class="material-icons icon-wishlist">favorite_border</i><span class="hidden-sm hidden-md">Wish List (0)</span></a></li>
-                   <li class="ttlanguage">
+                   {{-- <li class="ttlanguage">
                       <div class="pull-left">
                          <form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="form-language">
                             <div class="btn-group">
@@ -51,7 +53,7 @@
                             <input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home" />
                          </form>
                       </div>
-                   </li>
+                   </li> --}}
                 </ul>
              </li>
              <li class="ttsearch">
@@ -97,7 +99,7 @@
                 <div class="tt-menu horizontal-menu tt-menu-bar" id="tt-menu-9478">
                    <ul class="ul-top-items">
                       <li class="li-top-item mega-menu">
-                         <a class="a-top-link" href="#">
+                         <a class="a-top-link" href="{{route('client.homeindex')}}">
                          <span>Home</span>
                          </a>
                       </li>
@@ -132,7 +134,7 @@
                                   <h4><strong>Jesmonite</strong></h4>
                                </a>
                                <div class="sub_item3-content">
-                                  <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_95">
+                                  <a class="a-mega-third-link" href="{{route('client.nilestill')}}">
                                      <h5>Nile silt</h5>
                                   </a>
                                   <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_96">
@@ -205,7 +207,7 @@
                       </li>
                       
                       {{-- More --}}
-                      <li class="li-top-item ">
+                      {{-- <li class="li-top-item ">
                          <a class="a-top-link" href="{{asset('contact')}}">
                          <span>contact us</span>
                          </a>
@@ -240,7 +242,7 @@
                       <li class="li-top-item"> <a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/tt_blog/blogs">
                          <span data-hover="Blogs">Blogs</span>
                          </a>
-                      </li>
+                      </li> --}}
                    </ul>
                 </div>
              </div>

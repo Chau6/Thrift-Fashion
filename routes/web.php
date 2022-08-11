@@ -25,8 +25,23 @@ Route::name('client.')->group(function(){
         Route::get('homeindex', [HomePageController::class, 'homeindex'])->name('homeindex');
         // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');
         Route::get('about', [HomePageController::class, 'about'])->name('about');
+
         Route::get('news', [HomePageController::class, 'news'])->name('news');
         Route::get('contact', [HomePageController::class, 'contact'])->name('contact');
         Route::get('notification', [HomePageController::class, 'notification'])->name('notification');
+
+        Route::post('login', [HomePageController::class, 'login'])->name('login');
+
+        Route::post('logined', [HomePageController::class, 'logined'])->name('logined');
+
+        Route::get('editAccout', [HomePageController::class, 'editAccout'])->name('editAccout');
+
+        Route::get('changePassword', [HomePageController::class, 'changePassword'])->name('changePassword');
+
+        Route::get('history_order', [HomePageController::class, 'history_order'])->name('history_order');
+        Route::get('account', [HomePageController::class, 'account'])->name('account');
+
+        Route::get('nilestill', [HomePageController::class, 'nilestill'])->name('nilestill');
+
 });
 // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');
