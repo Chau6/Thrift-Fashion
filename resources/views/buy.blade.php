@@ -47,8 +47,8 @@
 <script src="catalog/view/javascript/TemplateTrip/backgroundVideo.js"></script>
 <script src="catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js"></script>
 
-<link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42" rel="canonical" />
-<link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/cart.png" rel="icon" />
+<link href="" rel="canonical" />
+<link href="" rel="icon" />
 <script src="catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js"></script>
 <script src="catalog/view/javascript/jquery/datetimepicker/moment/moment.min.js"></script>
 <script src="catalog/view/javascript/jquery/datetimepicker/moment/moment-with-locales.min.js"></script>
@@ -72,59 +72,19 @@
 <div class="header">
 <div class="full-header">
 <div class="header-left">
-<div id="logo"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/logo.jpg" title="Your Store" alt="Your Store" class="img-responsive" /></a> </div>
+<div id="logo"><a href="{{route('client.homeindex')}}"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/logo.jpg" title="Your Store" alt="Your Store" class="img-responsive" /></a> </div>
 </div>
 <div class="header-top-right">
 <div id="top-links" class="nav pull-right">
 <ul class="list-inline">
-<li class="account-nav dropdown header_user_info"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account" title="Account" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons user">perm_identity</i><span class="ttuserheading">Account</span><i class="material-icons expand-more">expand_more</i></a>
-<ul class="dropdown-menu dropdown-menu-right account-link-toggle">
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/register"><i class='material-icons ma-user'>perm_identity</i>Register</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/login"><i class="material-icons">lock_outline</i>Login</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><i class="material-icons icon-wishlist">favorite_border</i><span class="hidden-sm hidden-md">Wish List (0)</span></a></li>
-<li class="ttlanguage"><div class="pull-left">
-<form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="form-language">
-<div class="btn-group">
-<button class="btn btn-link">
-<img src="catalog/language/en-gb/en-gb.png" alt="English" title="English">
-<span class="hidden-xs hidden-sm hidden-md">Language</span></button>
-<ul>
-<li>
-<button class="btn btn-link btn-block language-select" type="button" name="en-gb"><img src="catalog/language/en-gb/en-gb.png" alt="English" title="English" /> English</button>
-</li>
-<li>
-<button class="btn btn-link btn-block language-select" type="button" name="ar-lb"><img src="catalog/language/ar-lb/ar-lb.png" alt="Arabic" title="Arabic" /> Arabic</button>
-</li>
-</ul>
-</div>
-<input type="hidden" name="code" value="" />
-<input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=67&amp;product_id=42" />
-</form>
-</div>
-</li>
-<li class="ttcurrency"><div class="pull-left">
-<form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency">
-<div class="btn-group">
-<button class="btn btn-link"> <strong>$</strong> <span class="hidden-xs hidden-sm hidden-md">Currency</span></button>
-<ul>
-<li>
-<button class="currency-select btn btn-link btn-block" type="button" name="EUR">€ Euro</button>
-</li>
-<li>
-<button class="currency-select btn btn-link btn-block" type="button" name="GBP">£ Pound Sterling</button>
-</li>
-<li>
-<button class="currency-select btn btn-link btn-block" type="button" name="USD">$ US Dollar</button>
-</li>
-</ul>
-</div>
-<input type="hidden" name="code" value="" />
-<input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=67&amp;product_id=42" />
-</form>
-</div>
-</li>
-</ul>
-</li>
+	<li class="account-nav dropdown header_user_info">
+		<a href="" title="Account" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons user">perm_identity</i><span class="ttuserheading">Account</span><i class="material-icons expand-more">expand_more</i></a>
+		<ul class="dropdown-menu dropdown-menu-right account-link-toggle">
+		   <li><a href="{{route('client.notification')}}"><i class='material-icons ma-user'>perm_identity</i>Register</a></li>
+		   <li><a href="{{route('client.news')}}"><i class="material-icons">lock_outline</i>Login</a></li>
+		   <li><a href="" id="wishlist-total" title="Wish List (0)"><i class="material-icons icon-wishlist">favorite_border</i><span class="hidden-sm hidden-md">Wish List (0)</span></a></li>
+		</ul>
+	 </li>
 <li class="ttsearch"><div id="search" class="input-group">
 <span class="ttsearch_button">
 <i class="material-icons icon-search">search</i>
@@ -271,9 +231,9 @@
 </div>
 <div id="product-product" class="container product-product">
 <ul class="breadcrumb">
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67">clothes</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=67&amp;product_id=42">aliquam quaerat voluptatem</a></li>
+<li><a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a></li>
+<li><a href="">clothes</a></li>
+<li><a href="">aliquam quaerat voluptatem</a></li>
 </ul>
 <div class="row">
 <div id="content" class="col-sm-12">
@@ -284,39 +244,39 @@
 
 <div class="thumbnails">
 <div class="product-image">
-<a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg" title="aliquam quaerat voluptatem">
+<a class="thumbnail" href="" title="aliquam quaerat voluptatem">
 <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg" title="aliquam quaerat voluptatem" data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg" alt="aliquam quaerat voluptatem" />
 </a>
 </div>
 <div class="additional-images-container">
 <div class="additional-images">
 <div class="image-additional">
-<a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg" title="aliquam quaerat voluptatem">
+<a class="thumbnail" href="" title="aliquam quaerat voluptatem">
 <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg" title="aliquam quaerat voluptatem" data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg" data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg" alt="aliquam quaerat voluptatem" />
 </a>
 </div>
 <div class="image-additional">
-<a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--800x1040.jpg" title="aliquam quaerat voluptatem">
+<a class="thumbnail" href="" title="aliquam quaerat voluptatem">
 <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--371x482.jpg" title="aliquam quaerat voluptatem" data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--800x1040.jpg" data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--800x1040.jpg" alt="aliquam quaerat voluptatem" />
 </a>
 </div>
 <div class="image-additional">
-<a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-800x1040.jpg" title="aliquam quaerat voluptatem">
+<a class="thumbnail" href="" title="aliquam quaerat voluptatem">
 <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-371x482.jpg" title="aliquam quaerat voluptatem" data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-800x1040.jpg" data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-800x1040.jpg" alt="aliquam quaerat voluptatem" />
 </a>
 </div>
 <div class="image-additional">
-<a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-800x1040.jpg" title="aliquam quaerat voluptatem">
+<a class="thumbnail" href="" title="aliquam quaerat voluptatem">
 <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-371x482.jpg" title="aliquam quaerat voluptatem" data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-800x1040.jpg" data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-800x1040.jpg" alt="aliquam quaerat voluptatem" />
 </a>
 </div>
 <div class="image-additional">
-<a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/03-800x1040.jpg" title="aliquam quaerat voluptatem">
+<a class="thumbnail" href="" title="aliquam quaerat voluptatem">
 <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/03-371x482.jpg" title="aliquam quaerat voluptatem" data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/03-800x1040.jpg" data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/03-800x1040.jpg" alt="aliquam quaerat voluptatem" />
 </a>
 </div>
 <div class="image-additional">
-<a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/02-800x1040.jpg" title="aliquam quaerat voluptatem">
+<a class="thumbnail" href="" title="aliquam quaerat voluptatem">
 <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/02-371x482.jpg" title="aliquam quaerat voluptatem" data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/02-800x1040.jpg" data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/02-800x1040.jpg" alt="aliquam quaerat voluptatem" />
 </a>
 </div>
@@ -379,7 +339,7 @@
 </div>
 
 <table class="product-info">
-<tr><td>Brands</td><td class="product-info-value"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/manufacturer/info&amp;manufacturer_id=8">Apple</a></td></tr>
+<tr><td>Brands</td><td class="product-info-value"><a href="">Apple</a></td></tr>
 <tr><td>Product Code:</td><td class="product-info-value">Product 15</td></tr>
 <tr><td>Reward Points:</td><td class="product-info-value">100</td></tr>
 <tr><td>Availability:</td><td class="product-info-value">In Stock</td></tr>
@@ -711,12 +671,12 @@ Add to compare
 <div class="product-layouts">
 <div class="product-thumb transition">
 <div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=28"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-371x482.jpg" title="aspetur autodit autfugit" alt="aspetur autodit autfugit" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04--371x482.jpg" title="aspetur autodit autfugit" alt="aspetur autodit autfugit" /> </a> <div class="sale-icon">Sale</div>
+<a href=""> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-371x482.jpg" title="aspetur autodit autfugit" alt="aspetur autodit autfugit" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04--371x482.jpg" title="aspetur autodit autfugit" alt="aspetur autodit autfugit" /> </a> <div class="sale-icon">Sale</div>
 <span class="percent">-80%</span>
 </div>
 <div class="thumb-description">
 <div class="caption">
-<h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=28">aspetur autodit autfugit</a></h4>
+<h4><a href="">aspetur autodit autfugit</a></h4>
 <div class="price">
 <span class="price-new">$26.00</span>
 <span class="price-old">$122.00</span>
@@ -750,11 +710,11 @@ Add to compare
 <div class="product-layouts">
 <div class="product-thumb transition">
 <div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=30"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/02-371x482.jpg" title="aliquam quaerat voluptem" alt="aliquam quaerat voluptem" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/02--371x482.jpg" title="aliquam quaerat voluptem" alt="aliquam quaerat voluptem" /> </a>
+<a href=""> <img class="image_thumb" src="" title="aliquam quaerat voluptem" alt="aliquam quaerat voluptem" /> </a>
 </div>
 <div class="thumb-description">
 <div class="caption">
-<h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=30">aliquam quaerat voluptem</a></h4>
+<h4><a href="">aliquam quaerat voluptem</a></h4>
 <div class="price">
 $122.00
 <span class="price-tax">Ex Tax: $100.00</span>
@@ -787,11 +747,11 @@ $122.00
 <div class="product-layouts">
 <div class="product-thumb transition">
 <div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=36"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/06-371x482.jpg" title="neque porro quisquam" alt="neque porro quisquam" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/06--371x482.jpg" title="neque porro quisquam" alt="neque porro quisquam" /> </a>
+<a href=""> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/06-371x482.jpg" title="neque porro quisquam" alt="neque porro quisquam" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/06--371x482.jpg" title="neque porro quisquam" alt="neque porro quisquam" /> </a>
 </div>
 <div class="thumb-description">
 <div class="caption">
-<h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=36">neque porro quisquam</a></h4>
+<h4><a href="">neque porro quisquam</a></h4>
 <div class="price">
 $122.00
 <span class="price-tax">Ex Tax: $100.00</span>
@@ -824,11 +784,11 @@ $122.00
 <div class="product-layouts">
 <div class="product-thumb transition">
 <div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-371x482.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19--371x482.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> </a>
+<a href=""> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-371x482.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19--371x482.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> </a>
 </div>
 <div class="thumb-description">
 <div class="caption">
-<h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">voluptate velit esse</a></h4>
+<h4><a href="">voluptate velit esse</a></h4>
 <div class="price">
 $123.20
 <span class="price-tax">Ex Tax: $101.00</span>
@@ -861,7 +821,7 @@ $123.20
 <div class="product-layouts">
 <div class="product-thumb transition">
 <div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=41"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-371x482.jpg" title="magni dolores eosquies" alt="magni dolores eosquies" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05--371x482.jpg" title="magni dolores eosquies" alt="magni dolores eosquies" /> </a>
+<a href=""> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-371x482.jpg" title="magni dolores eosquies" alt="magni dolores eosquies" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05--371x482.jpg" title="magni dolores eosquies" alt="magni dolores eosquies" /> </a>
 <div class="rating">
 <span class="fa-stack"><i class="material-icons star_on">star</i></span>
 <span class="fa-stack"><i class="material-icons star_on">star</i></span>
@@ -872,7 +832,7 @@ $123.20
 </div>
 <div class="thumb-description">
 <div class="caption">
-<h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=41">magni dolores eosquies</a></h4>
+<h4><a href="">magni dolores eosquies</a></h4>
 <div class="price">
 $122.00
 <span class="price-tax">Ex Tax: $100.00</span>
@@ -905,7 +865,7 @@ $122.00
 <div class="product-layouts">
 <div class="product-thumb transition">
 <div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-371x482.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--371x482.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> </a>
+<a href=""> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-371x482.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--371x482.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> </a>
 <div class="rating">
 <span class="fa-stack"><i class="material-icons star_on">star</i></span>
 <span class="fa-stack"><i class="material-icons star_on">star</i></span>
@@ -916,7 +876,7 @@ $122.00
 </div>
 <div class="thumb-description">
 <div class="caption">
-<h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">aliquam quaerat voluptatem</a></h4>
+<h4><a href="">aliquam quaerat voluptatem</a></h4>
 <div class="price">
 $122.00
 <span class="price-tax">Ex Tax: $100.00</span>
@@ -1279,21 +1239,21 @@ $(".product-write-review,.product-total-review").click(function() {
 <div class="col-sm-3 footer-column footer-my-account">
 <h5>My Account</h5>
 <ul class="list-unstyled">
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account">My Account</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist">Wish List</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/voucher">Gift Certificates</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/return/add">Returns</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/special">Specials</a></li>
+<li><a href="">My Account</a></li>
+<li><a href="">Wish List</a></li>
+<li><a href="">Gift Certificates</a></li>
+<li><a href="">Returns</a></li>
+<li><a href="">Specials</a></li>
 </ul>
 </div>
 <div class="col-xs-3 footer-column footer-extras">
 <h5>Extras</h5>
 <ul class="list-unstyled">
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=4">About Us</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=6">Delivery Information</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=3">Privacy Policy</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=5">Terms &amp; Conditions</a></li>
-<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/contact">Contact Us</a></li>
+<li><a href="">About Us</a></li>
+<li><a href="">Delivery Information</a></li>
+<li><a href="">Privacy Policy</a></li>
+<li><a href="">Terms &amp; Conditions</a></li>
+<li><a href="">Contact Us</a></li>
 </ul>
 </div>
 <div class="footer-column footer-right-cms col-sm-3">
