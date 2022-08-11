@@ -13,47 +13,6 @@
                    <li><a href="{{route('client.notification')}}"><i class='material-icons ma-user'>perm_identity</i>Register</a></li>
                    <li><a href="{{route('client.news')}}"><i class="material-icons">lock_outline</i>Login</a></li>
                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><i class="material-icons icon-wishlist">favorite_border</i><span class="hidden-sm hidden-md">Wish List (0)</span></a></li>
-                   {{-- <li class="ttlanguage">
-                      <div class="pull-left">
-                         <form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="form-language">
-                            <div class="btn-group">
-                               <button class="btn btn-link">
-                               <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/catalog/language/en-gb/en-gb.png" alt="English" title="English">
-                               <span class="hidden-xs hidden-sm hidden-md">Language</span></button>
-                               <ul>
-                                  <li>
-                                     <button class="btn btn-link btn-block language-select" type="button" name="en-gb"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/catalog/language/en-gb/en-gb.png" alt="English" title="English" /> English</button>
-                                  </li>
-                                  
-                               </ul>
-                            </div>
-                            <input type="hidden" name="code" value="" />
-                            <input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home" />
-                         </form>
-                      </div>
-                   </li>
-                   <li class="ttcurrency">
-                      <div class="pull-left">
-                         <form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency">
-                            <div class="btn-group">
-                               <button class="btn btn-link"> <strong>$</strong> <span class="hidden-xs hidden-sm hidden-md">Currency</span></button>
-                               <ul>
-                                  <li>
-                                     <button class="currency-select btn btn-link btn-block" type="button" name="EUR">€ Euro</button>
-                                  </li>
-                                  <li>
-                                     <button class="currency-select btn btn-link btn-block" type="button" name="GBP">£ Pound Sterling</button>
-                                  </li>
-                                  <li>
-                                     <button class="currency-select btn btn-link btn-block" type="button" name="USD">$ US Dollar</button>
-                                  </li>
-                               </ul>
-                            </div>
-                            <input type="hidden" name="code" value="" />
-                            <input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home" />
-                         </form>
-                      </div>
-                   </li> --}}
                 </ul>
              </li>
              <li class="ttsearch">

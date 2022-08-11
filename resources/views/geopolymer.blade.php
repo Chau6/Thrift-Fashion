@@ -59,7 +59,6 @@
 <aside id="header-top">
 <div class="html-content">
 <div class="box-content"><div id="ttcmsheader">
-<div class="header-service">Exclusive Selling Sale, Up to 50% OFF</div>
 <div class="headerservice-close"></div>
 </div></div>
 </div>
@@ -153,231 +152,110 @@
 </div>
 <div class="header-top-left">
 <div class="header-left-cms">
-<aside id="header-left">
-<div class="main-category-list">
-<div class="TT-panel-heading">
-<span>menu</span>
-<span class="icon"><i class="material-icons icon-menu">menu</i></span>
-</div>
-<div class="tt-menu horizontal-menu tt-menu-bar" id="tt-menu-6617">
-<ul class="ul-top-items">
-<li class="li-top-item mega-menu">
-<a class="a-top-link" href="#">
-<span>home</span>
-</a>
+	<aside id="header-left">
+		<div class="main-category-list">
+		   <div class="TT-panel-heading">
+			  <span>menu</span>
+			  <span class="icon"><i class="material-icons icon-menu">menu</i></span>
+		   </div>
+		   <div class="tt-menu horizontal-menu tt-menu-bar" id="tt-menu-9478">
+			  <ul class="ul-top-items">
+				 <li class="li-top-item ">
+					<a class="a-top-link" href="{{route('client.homeindex')}}">
+					<span>Home</span>
+					</a>
+				 </li>
+				 
+				 {{-- Peluntse --}}
+				 <li class="li-top-item mega-menu">
+				   <a class="a-top-link" href="{{route('client.product.petuntse',['id'=>'all_petuntse'])}}">
+				   <span>Petuntse</span>
+				   </a>
+				   <div class="mega-menu-container sub-menu-container ">
+					  <div class="col-sm-2 sub-item2-content" data-cols="2">
+						 <a class="a-mega-second-link" href="{{route('client.product.nilesilt',['id'=>'all_petuntse_1'])}}">
+							<h4><strong>Nile silt</strong></h4>
+						 </a>
+						 <div class="sub_item3-content">
+							<a class="a-mega-third-link" href="{{route('client.product.geopolymer',['id'=>'all_petuntse_2'])}}">
+							   <h5>Geopolymer</h5>
+							</a>
+							<a class="a-mega-third-link" href="{{route('client.product.lumicera',['id'=>'all_petuntse_3'])}}">
+							   <h5>Lumicera</h5>
+							</a>
+							<a class="a-mega-third-link" href="{{route('client.product.sea_pottery',['id'=>'all_petuntse_4'])}}">
+							   <h5>Sea pottery</h5>
+							</a>
+						 </div>
+					  </div>
+					  <div class="col-sm-2 sub-item2-content" data-cols="2">
+						 <a class="a-mega-second-link" href="{{route('client.product.jesmonite',['id'=>'all_jesmonite'])}}">
+							<h4><strong>Jesmonite</strong></h4>
+						 </a>
+						 <div class="sub_item3-content">
+							<a class="a-mega-third-link" href="{{route('client.product.nilesilt',['id'=>'all_jesmonite_1'])}}">
+							   <h5>Nile silt</h5>
+							</a>
+							<a class="a-mega-third-link" href="{{route('client.product.petuntse',['id'=>'all_jesmonite_2'])}}">
+							   <h5>Petuntse</h5>
+							</a>
+							<a class="a-mega-third-link" href="{{route('client.product.pitchers',['id'=>'all_jesmonite_3'])}}">
+							   <h5>Pitchers</h5>
+							</a>
+						 </div>
+					  </div>
+				   </div>
+				</li>
 
-<div class="mega-menu-container sub-menu-container ">
-<div class="col-sm-12 sub-item2-content" data-cols="12">
-<h4><strong></strong></h4>
-<p><div class="banner-static static-menu">
-<div class="column layout-1">
-<div class="menu-title">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/">Peter Fashion</a>
-</div>
-<div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/"><img src="image/catalog/demo/banners/demo-1.png" alt="image" width="180" height="100"></a>
-</div>
-</div>
-<div class="column layout-2">
-<div class="menu-title">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC02/"> #10 Bestselling</a>
-</div>
-<div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC02/"><img src="image/catalog/demo/banners/demo-2.png" alt="image" width="180" height="100"></a>
-</div>
-</div>
-<div class="column layout-3">
-<div class="menu-title">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC03/">Goggles</a>
-</div>
-<div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC03/"><img src="image/catalog/demo/banners/demo-3.png" alt="image" width="180" height="100"></a>
-</div>
-</div>
-<div class="column layout-4">
-<div class="menu-title">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC04/">instagram shop</a>
-</div>
-<div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC04/"><img src="image/catalog/demo/banners/demo-4.png" alt="image" width="180" height="100"></a>
-</div>
-</div>
-<div class="column layout-5">
-<div class="menu-title">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC05/">Banners</a>
-</div>
-<div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC05/"><img src="image/catalog/demo/banners/demo-5.png" alt="image" width="180" height="100"></a>
-</div>
-</div>
-<div class="column layout-6">
-<div class="menu-title">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC06/">Market shop</a>
-</div>
-<div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC06/"><img src="image/catalog/demo/banners/demo-6.png" alt="image" width="180" height="100"></a>
-</div>
-</div>
-<div class="column layout-7">
-<div class="menu-title">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC07/">catalogue</a>
-</div>
-<div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC07/"><img src="image/catalog/demo/banners/demo-7.png" alt="image" width="180" height="100"></a>
-</div>
-</div>
-<div class="column layout-8">
-<div class="menu-title">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC08/">box view</a>
-</div>
-<div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC08/"><img src="image/catalog/demo/banners/demo-8.png" alt="image" width="180" height="100"></a>
-</div>
-</div>
-<div class="column layout-9">
-<div class="menu-title">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC09/">catalogue v2</a>
-</div>
-<div class="image">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC09/"><img src="image/catalog/demo/banners/demo-9.png" alt="image" width="180" height="100"></a>
-</div>
-</div>
-<div class="column layout-10">
-<div class="menu-title">
-<a href="#">coming soon</a>
-</div>
-<div class="image">
-<a href="#"><img src="image/catalog/demo/banners/demo-10.png" alt="image" width="180" height="100"></a>
-</div>
-</div>
-</div></p>
-</div>
-</div>
+				 {{-- Jean --}}
+				 <li class="li-top-item mega-menu">
+				   <a class="a-top-link" href="{{route('client.product.jeans',['id'=>"all"])}}">
+				   <span>Jeans</span>
+				   </a>
+				   <div class="flyout-menu-container sub-menu-container">
+					  <ul class="ul-second-items">
+						 <li class="li-second-items">
+						   <a  href="{{route('client.product.jeans',['id'=>"geopolymer"])}}" class="a-second-link a-item">
+							<span class="a-second-title">Geopolymer</span>
+							</a>
+						 </li>
+						 <li class="li-second-items">
+						   <a href="{{route('client.product.jeans',['id'=>"petuntse"])}}" class="a-second-link a-item">
+							<span class="a-second-title">Petuntse</span>
+							<i class="material-icons chevron-right">chevron_right</i>
+							</a>
+							<div class="flyout-third-items">
+							   <ul class="ul-third-items">
+								  <li class="li-third-items">
+									<a href="{{route('client.product.jeans',['id'=>"bonechina"])}}" class="a-third-link">  <span class="a-third-title">Bone china</span></a>
+								  </li>
+							   </ul>
+							</div>
+						 </li>
+						 <li class="li-second-items">
+						   <a href="{{route('client.product.jeans',['id'=>"gilrs"])}}" class="a-second-link a-item">
+							<span class="a-second-title">Gilrs</span>
+							</a>
+						 </li>
+						 <li class="li-second-items">
+						   <a href="{{route('client.product.jeans',['id'=>"kurti"])}}" class="a-second-link a-item">
+							<span class="a-second-title">Kurti</span>
+							</a>
+						 </li>
+					  </ul>
+				   </div>
+				</li>
 
-</li>
-<li class="li-top-item mega-menu">
-<a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20">
-<span>Petuntse</span>
-</a>
-
-<div class="mega-menu-container sub-menu-container ">
-<div class="col-sm-2 sub-item2-content" data-cols="2">
-<a class="a-mega-second-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26"><h4><strong>Nile silt</strong></h4></a>
-<div class="sub_item3-content">
- <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_85"><h5>Geopolymer</h5></a>
-<a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_60"><h5>Lumicera</h5></a>
-<a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_59"><h5>Petuntse</h5></a>
-<a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_61"><h5>Sea pottery</h5></a>
-</div>
-</div>
-<div class="col-sm-2 sub-item2-content" data-cols="2">
-<a class="a-mega-second-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92"><h4><strong>Jesmonite</strong></h4></a>
-<div class="sub_item3-content">
-<a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_95"><h5>Nile silt</h5></a>
-<a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_96"><h5>Petuntse</h5></a>
-<a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_93"><h5>Pitchers</h5></a>
-<a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_94"><h5>Pitchers</h5></a>
-</div>
-</div>
- </div>
-
-</li>
-<li class="li-top-item mega-menu">
-<a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25">
-<span>Jeans</span>
-</a>
-
-
-<div class="flyout-menu-container sub-menu-container">
-<ul class="ul-second-items">
-<li class="li-second-items">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_98" class="a-second-link a-item">
-<span class="a-second-title">Geopolymer</span>
-</a>
-</li>
-<li class="li-second-items">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_99" class="a-second-link a-item">
-<span class="a-second-title">Petuntse</span>
-<i class="material-icons chevron-right">chevron_right</i>
-</a>
-<div class="flyout-third-items">
-<ul class="ul-third-items">
-<li class="li-third-items">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_99_104" class="a-third-link"><span class="a-third-title">Bone china</span></a>
-</li>
-</ul>
-</div>
-</li>
-<li class="li-second-items">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_128" class="a-second-link a-item">
-<span class="a-second-title">Gilrs</span>
-</a>
-</li>
-<li class="li-second-items">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_129" class="a-second-link a-item">
-<span class="a-second-title">Kurti</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="li-top-item mega-menu">
-<a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67">
-<span>Dress</span>
-</a>
-
-
-<div class="flyout-menu-container sub-menu-container">
-<ul class="ul-second-items">
- <li class="li-second-items">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67_116" class="a-second-link a-item">
-<span class="a-second-title">jacket</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="li-top-item ">
-<a class="a-top-link" href="index.php?route=information/contact">
-<span>contact us</span>
-</a>
-</li>
-<li class="li-top-item mega-menu">
-<a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25">
-<span>Cenosphere</span>
-</a>
-
-
-<div class="flyout-menu-container sub-menu-container">
-<ul class="ul-second-items">
-<li class="li-second-items">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_99" class="a-second-link a-item">
-<span class="a-second-title">Petuntse</span>
-<i class="material-icons chevron-right">chevron_right</i>
-</a>
-<div class="flyout-third-items">
-<ul class="ul-third-items">
-<li class="li-third-items">
-<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_99_104" class="a-third-link"><span class="a-third-title">Bone china</span></a>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</li>
-<li class="li-top-item ">
-<a class="a-top-link" href="index.php?route=information/information&amp;information_id=4">
-<span>about us</span>
-</a>
-</li>
-<li class="li-top-item"> <a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/tt_blog/blogs">
-<span data-hover="Blogs">Blogs</span>
-</a></li>
-</ul>
-</div>
-</div>
-</aside>
+				 {{-- Dress --}}
+				 <li class="li-top-item">
+					<a class="a-top-link" href="{{route('client.product.carrier',['id'=>'all'])}}">
+					<span>Carrier Bag</span>
+					</a>
+				 </li>
+			  </ul>
+		   </div>
+		</div>
+	 </aside>
 </div>
 </div>
 </div>

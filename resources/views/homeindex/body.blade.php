@@ -12,52 +12,6 @@
        <div class="html-content">
           @include('block.html-content')
        </div>
-       {{-- <div class="html-content">
-          <div class="box-content">
-             <div id="ttcmsservices">
-                <div class="container">
-                   <div class="ttcmstopservice-content">
-                      <div class="ttsupport service">
-                         <div class="service-icon-background">
-                            <div class="ttsupport_img service-icon"></div>
-                         </div>
-                         <div class="service-content">
-                            <div class="service-title">Worldwide Delivery</div>
-                            <div class="service-desc">Lorem Ipsum Dolor Sit co.</div>
-                         </div>
-                      </div>
-                      <div class="ttshare service">
-                         <div class="service-icon-background">
-                            <div class="ttshare_img service-icon"></div>
-                         </div>
-                         <div class="service-content">
-                            <div class="service-title">Gift Vouchers</div>
-                            <div class="service-desc">Lorem Ipsum Dolor Sit co.</div>
-                         </div>
-                      </div>
-                      <div class="ttsaving service">
-                         <div class="service-icon-background">
-                            <div class="ttsaving_img service-icon"></div>
-                         </div>
-                         <div class="service-content">
-                            <div class="service-title">24*7 Support</div>
-                            <div class="service-desc">Lorem Ipsum Dolor Sit co.</div>
-                         </div>
-                      </div>
-                      <div class="ttsupport service">
-                         <div class="service-icon-background">
-                            <div class="ttgreat_img service-icon"></div>
-                         </div>
-                         <div class="service-content">
-                            <div class="service-title">Great Savings</div>
-                            <div class="service-desc">Lorem Ipsum Dolor Sit co.</div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div> --}}
        <div class="ttproduct-main bottom-to-top hb-animate-element">
           <div class="container">
              <div class="row main-tab">
