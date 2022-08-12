@@ -49,16 +49,7 @@
                 <aside id="header-top">
                     <div class="html-content">
                         <div class="box-content">
-<<<<<<< HEAD
-                            <div id="ttcmsheader">
-                                <div class="header-service">Exclusive Selling Sale, Up to 50% OFF</div>
-                                <div class="headerservice-close"></div>
-                            </div>
-=======
-                           <div id="ttcmsheader">
-                              <div class="headerservice-close"></div>
-                           </div>
->>>>>>> fe0c3d6d15b722a55bbf0f8b68e12632a8faf5e8
+
                         </div>
                     </div>
                 </aside>
@@ -67,7 +58,7 @@
                 <div class="header">
                     <div class="full-header">
                         <div class="header-left">
-<<<<<<< HEAD
+
                             <div id="logo">
                                 <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home">
                                     <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/logo.jpg" title="Your Store" alt="Your Store" class="img-responsive" />
@@ -418,7 +409,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-=======
+
                            <div id="logo"><a href="{{route('client.homeindex')}}"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/logo.jpg" title="Your Store" alt="Your Store" class="img-responsive" /></a> </div>
                         </div>
                         <div class="header-top-right">
@@ -559,12 +550,12 @@
                                              </a>
                                           </li>
                                        </ul>
->>>>>>> fe0c3d6d15b722a55bbf0f8b68e12632a8faf5e8
+
                                     </div>
                                 </aside>
                             </div>
                         </div>
-<<<<<<< HEAD
+
                     </div>
                 </div>
             </header>
@@ -612,7 +603,7 @@
                                         <div class="swiper-slide">
                                             <a href="#"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
                                         </div>
-=======
+
                      </div>
                   </div>
                </header>
@@ -676,7 +667,7 @@
                                              </button>
                                           </div>
                                        </div>
->>>>>>> fe0c3d6d15b722a55bbf0f8b68e12632a8faf5e8
+
                                     </div>
                                 </div>
                             </div>
