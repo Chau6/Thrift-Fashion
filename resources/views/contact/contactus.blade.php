@@ -74,7 +74,7 @@
             <div id="information-contact" class="container">
                 <ul class="breadcrumb">
                     <li>
-                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a>
+                        <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
                     <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/contact">Contact Us</a></li>
                 </ul>

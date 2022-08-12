@@ -33,9 +33,9 @@
             <div id="product-product" class="container product-product">
                 <ul class="breadcrumb">
                     <li>
-                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a>
+                        <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">aliquam quaerat voluptatem</a></li>
+                    <li><a href="">aliquam quaerat voluptatem</a></li>
                 </ul>
                 <div class="row">
                     <div id="content" class="col-sm-12">
@@ -342,7 +342,7 @@
                                     </button>
                                 </div>
 
-                                <div class="addthis_toolbox addthis_default_style" data-url="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">
+                                <div class="addthis_toolbox addthis_default_style" data-url="">
                                     <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a> <a class="addthis_button_tweet"></a> <a class="addthis_button_pinterest_pinit"></a>
                                     <a class="addthis_counter addthis_pill_style"></a>
                                 </div>
@@ -698,7 +698,7 @@
                             <div class="product-layouts">
                                 <div class="product-thumb transition">
                                     <div class="image">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">
+                                        <a href="">
                                             <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-371x482.jpg" title="voluptate velit esse" alt="voluptate velit esse" />
                                             <img
                                                 class="image_thumb_swap"
@@ -710,7 +710,7 @@
                                     </div>
                                     <div class="thumb-description">
                                         <div class="caption">
-                                            <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">voluptate velit esse</a></h4>
+                                            <h4><a href="">voluptate velit esse</a></h4>
                                             <div class="price">
                                                 $123.20
                                                 <span class="price-tax">Ex Tax: $101.00</span>
@@ -736,7 +736,7 @@
                                                         class="btn-quickview"
                                                         type="button"
                                                         title=""
-                                                        onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40')"
+                                                        onclick="tt_quickview.ajaxView('')"
                                                     >
                                                         <i class="material-icons quick_view_icon">visibility</i>
                                                         <span title=""></span>
@@ -816,7 +816,7 @@
                             <div class="product-layouts">
                                 <div class="product-thumb transition">
                                     <div class="image">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">
+                                        <a href="">
                                             <img
                                                 class="image_thumb"
                                                 src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-371x482.jpg"
@@ -840,7 +840,7 @@
                                     </div>
                                     <div class="thumb-description">
                                         <div class="caption">
-                                            <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">aliquam quaerat voluptatem</a></h4>
+                                            <h4><a href="">aliquam quaerat voluptatem</a></h4>
                                             <div class="price">
                                                 $122.00
                                                 <span class="price-tax">Ex Tax: $100.00</span>
@@ -866,7 +866,7 @@
                                                         class="btn-quickview"
                                                         type="button"
                                                         title=""
-                                                        onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42')"
+                                                        onclick="tt_quickview.ajaxView('')"
                                                     >
                                                         <i class="material-icons quick_view_icon">visibility</i>
                                                         <span title=""></span>

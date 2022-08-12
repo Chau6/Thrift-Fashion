@@ -56,7 +56,7 @@
                                     <div class="product-layouts">
                                         <div class="product-thumb transition">
                                             <div class="image">
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">
+                                                <a href="">
                                                     <img
                                                         class="image_thumb"
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09-70x91.jpg"
@@ -75,7 +75,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">perspiciatis unde omnis</a></h4>
+                                                    <h4><a href="">perspiciatis unde omnis</a></h4>
                                                     <div class="price">
                                                         <span class="price-new">$8.00</span>
                                                         <span class="price-old">$14.00</span>
@@ -92,7 +92,7 @@
                                                         class="btn-quickview"
                                                         type="button"
                                                         title=""
-                                                        onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43')"
+                                                        onclick="tt_quickview.ajaxView('')"
                                                     >
                                                         <i class="material-icons quick_view_icon">visibility</i>
                                                     </button>
@@ -103,7 +103,7 @@
                                     <div class="product-layouts">
                                         <div class="product-thumb transition">
                                             <div class="image">
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">
+                                                <a href="">
                                                     <img
                                                         class="image_thumb"
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-70x91.jpg"
@@ -120,7 +120,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">voluptate velit esse</a></h4>
+                                                    <h4><a href="">voluptate velit esse</a></h4>
                                                     <div class="price">
                                                         $123.20
                                                         <span class="price-tax">Ex Tax: $101.00</span>
@@ -136,7 +136,7 @@
                                                         class="btn-quickview"
                                                         type="button"
                                                         title=""
-                                                        onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40')"
+                                                        onclick="tt_quickview.ajaxView('')"
                                                     >
                                                         <i class="material-icons quick_view_icon">visibility</i>
                                                     </button>
@@ -147,7 +147,7 @@
                                     <div class="product-layouts">
                                         <div class="product-thumb transition">
                                             <div class="image">
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">
+                                                <a href="">
                                                     <img
                                                         class="image_thumb"
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-70x91.jpg"
@@ -164,7 +164,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">aliquam quaerat voluptatem</a></h4>
+                                                    <h4><a href="">aliquam quaerat voluptatem</a></h4>
                                                     <div class="rating">
                                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
@@ -187,7 +187,7 @@
                                                         class="btn-quickview"
                                                         type="button"
                                                         title=""
-                                                        onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42')"
+                                                        onclick="tt_quickview.ajaxView('')"
                                                     >
                                                         <i class="material-icons quick_view_icon">visibility</i>
                                                     </button>
@@ -208,7 +208,7 @@
 
                         <p class="text-empty">Your shopping cart is empty!</p>
                         <div class="buttons">
-                            <div class="pull-right"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home" class="btn btn-primary">Continue</a></div>
+                            <div class="pull-right"><a href="{{route('client.homeindex')}}" class="btn btn-primary">Continue</a></div>
                         </div>
                         <script>
                             var Tawk_API = {},
@@ -233,7 +233,7 @@
                 <div class="bottom-footer">
                     <div class="container bottom-to-top hb-animate-element">
                         <div class="footer-bottom col-sm-5">
-                            <p>Powered By <a href="https://www.opencart.com">OpenCart</a> Your Store &copy; 2022</p>
+                            <p>Powered By <a href="">OpenCart</a> Your Store &copy; 2022</p>
                         </div>
                         <div class="block-social col-sm-7">
                             <div class="footer-bottom-cms">

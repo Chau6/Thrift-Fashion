@@ -343,7 +343,7 @@
                                     </button>
                                 </div>
 
-                                <div class="addthis_toolbox addthis_default_style" data-url="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">
+                                <div class="addthis_toolbox addthis_default_style" data-url="">
                                     <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a> <a class="addthis_button_tweet"></a> <a class="addthis_button_pinterest_pinit"></a>
                                     <a class="addthis_counter addthis_pill_style"></a>
                                 </div>

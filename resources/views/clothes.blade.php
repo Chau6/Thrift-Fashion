@@ -88,7 +88,7 @@
                                  <div class="product-layouts">
                                     <div class="product-thumb transition">
                                        <div class="image">
-                                          <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">
+                                          <a href="">
                                           <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09-70x91.jpg" title="perspiciatis unde omnis" alt="perspiciatis unde omnis" />
                                           <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09--70x91.jpg" title="perspiciatis unde omnis" alt="perspiciatis unde omnis" />
                                           </a>
@@ -97,7 +97,7 @@
                                        </div>
                                        <div class="thumb-description">
                                           <div class="caption">
-                                             <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">perspiciatis unde omnis</a></h4>
+                                             <h4><a href="">perspiciatis unde omnis</a></h4>
                                              <div class="price">
                                                 <span class="price-new">$8.00</span>
                                                 <span class="price-old">$14.00</span>
@@ -110,7 +110,7 @@
                                              </span></button>
                                              <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('43');"><i class="material-icons icon-wishlist">favorite</i></button>
                                              <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('43');"><i class="material-icons icon-exchange">equalizer</i></button>
-                                             <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43')"><i class="material-icons quick_view_icon">visibility</i>
+                                             <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('')"><i class="material-icons quick_view_icon">visibility</i>
                                              </button>
                                           </div>
                                        </div>
@@ -119,14 +119,14 @@
                                  <div class="product-layouts">
                                     <div class="product-thumb transition">
                                        <div class="image">
-                                          <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">
+                                          <a href="">
                                           <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-70x91.jpg" title="voluptate velit esse" alt="voluptate velit esse" />
                                           <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19--70x91.jpg" title="voluptate velit esse" alt="voluptate velit esse" />
                                           </a>
                                        </div>
                                        <div class="thumb-description">
                                           <div class="caption">
-                                             <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">voluptate velit esse</a></h4>
+                                             <h4><a href="">voluptate velit esse</a></h4>
                                              <div class="price">
                                                 $123.20
                                                 <span class="price-tax">Ex Tax: $101.00</span>
@@ -138,7 +138,7 @@
                                              </span></button>
                                              <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('40');"><i class="material-icons icon-wishlist">favorite</i></button>
                                              <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('40');"><i class="material-icons icon-exchange">equalizer</i></button>
-                                             <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40')"><i class="material-icons quick_view_icon">visibility</i>
+                                             <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('')"><i class="material-icons quick_view_icon">visibility</i>
                                              </button>
                                           </div>
                                        </div>
@@ -147,14 +147,14 @@
                                  <div class="product-layouts">
                                     <div class="product-thumb transition">
                                        <div class="image">
-                                          <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">
+                                          <a href="">
                                           <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-70x91.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" />
                                           <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--70x91.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" />
                                           </a>
                                        </div>
                                        <div class="thumb-description">
                                           <div class="caption">
-                                             <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">aliquam quaerat voluptatem</a></h4>
+                                             <h4><a href="">aliquam quaerat voluptatem</a></h4>
                                              <div class="rating">
                                                 <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                                 <span class="fa-stack"><i class="material-icons star_on">star</i></span>
@@ -173,7 +173,7 @@
                                              </span></button>
                                              <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="material-icons icon-wishlist">favorite</i></button>
                                              <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('42');"><i class="material-icons icon-exchange">equalizer</i></button>
-                                             <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42')"><i class="material-icons quick_view_icon">visibility</i>
+                                             <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('')"><i class="material-icons quick_view_icon">visibility</i>
                                              </button>
                                           </div>
                                        </div>

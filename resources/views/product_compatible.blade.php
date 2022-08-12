@@ -81,7 +81,7 @@
                                 <tr>
                                     <td>Product</td>
                                     <td>
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42"><strong>aliquam quaerat voluptatem</strong></a>
+                                        <a href=""><strong>aliquam quaerat voluptatem</strong></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -180,7 +180,7 @@
                 <div class="bottom-footer">
                     <div class="container bottom-to-top hb-animate-element">
                         <div class="footer-bottom col-sm-5">
-                            <p>Powered By <a href="https://www.opencart.com">OpenCart</a> Your Store &copy; 2022</p>
+                            <p>Powered By <a href="">OpenCart</a> Your Store &copy; 2022</p>
                         </div>
                         <div class="block-social col-sm-7">
                             <div class="footer-bottom-cms">

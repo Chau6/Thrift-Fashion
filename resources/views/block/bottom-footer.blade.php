@@ -1,6 +1,6 @@
 <div class="container bottom-to-top hb-animate-element">
     <div class="footer-bottom col-sm-5">
-       <p>Powered By <a href="https://www.opencart.com/">OpenCart</a> Your Store &copy; 2022</p>
+       <p>Powered By <a href="/">OpenCart</a> Your Store &copy; 2022</p>
     </div>
     <div class="block-social col-sm-7">
        <div class="footer-bottom-cms">

@@ -85,11 +85,11 @@
                             <tbody>
                                 <tr>
                                     <td class="text-center">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">
+                                        <a href="">
                                             <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-70x91.jpg" alt="aliquam quaerat voluptatem" title="aliquam quaerat voluptatem" />
                                         </a>
                                     </td>
-                                    <td class="text-left"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">aliquam quaerat voluptatem</a></td>
+                                    <td class="text-left"><a href="">aliquam quaerat voluptatem</a></td>
                                     <td class="text-left">Product 15</td>
                                     <td class="text-right">In Stock</td>
                                     <td class="text-right"><div class="price">$100.00</div></td>
@@ -128,7 +128,7 @@
                 <div class="bottom-footer">
                     <div class="container bottom-to-top hb-animate-element">
                         <div class="footer-bottom col-sm-5">
-                            <p>Powered By <a href="https://www.opencart.com">OpenCart</a> Your Store &copy; 2022</p>
+                            <p>Powered By <a href="">OpenCart</a> Your Store &copy; 2022</p>
                         </div>
                         <div class="block-social col-sm-7">
                             <div class="footer-bottom-cms">
