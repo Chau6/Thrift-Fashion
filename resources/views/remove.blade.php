@@ -9,7 +9,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Sea pottery</title>
+        <title>Product Comparison</title>
         <base href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/" />
         <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
         <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
@@ -28,8 +28,6 @@
         <link href="catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/ttcountdown.css" rel="stylesheet" type="text/css" />
         <link href="catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/menu.css" rel="stylesheet" type="text/css" />
         <link href="catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/lightbox.css" rel="stylesheet" type="text/css" />
-        <link href="catalog/view/javascript/jquery/swiper/css/swiper.min.css" type="text/css" rel="stylesheet" media="screen" />
-        <link href="catalog/view/javascript/jquery/swiper/css/opencart.css" type="text/css" rel="stylesheet" media="screen" />
         <script src="catalog/view/javascript/common.js"></script>
 
         <script src="catalog/view/javascript/TemplateTrip/addonScript.js"></script>
@@ -46,13 +44,11 @@
         <script src="catalog/view/javascript/TemplateTrip/backgroundVideo.js"></script>
         <script src="catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js"></script>
 
-        <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=61" rel="canonical" />
         <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/cart.png" rel="icon" />
-        <script src="catalog/view/javascript/jquery/swiper/js/swiper.jquery.js"></script>
         <script src="catalog/view/javascript/TemplateTrip/jquery.bpopup.min.js"></script>
         <script src="catalog/view/javascript/TemplateTrip/jquery.cookie.js"></script>
     </head>
-    <body class="product-category-20_26_61">
+    <body class="product-compare">
         <div id="page">
             <div class="header-top-cms">
             </div>
@@ -75,14 +71,23 @@
                                         </a>
                                         <ul class="dropdown-menu dropdown-menu-right account-link-toggle">
                                             <li>
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/register"><i class="material-icons ma-user">perm_identity</i>Register</a>
+                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account"><i class="material-icons ma-user">perm_identity</i> Account</a>
                                             </li>
                                             <li>
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/login"><i class="material-icons">lock_outline</i>Login</a>
+                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/order"><i class="material-icons calendar-today">calendar_today</i> Order History</a>
                                             </li>
                                             <li>
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)">
-                                                    <i class="material-icons icon-wishlist">favorite_border</i><span class="hidden-sm hidden-md">Wish List (0)</span>
+                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/transaction"><i class="material-icons credit-card">credit_card</i> Transactions</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/download"><i class="material-icons save-alt">save_alt</i> Downloads</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/logout"><i class="material-icons">lock_open</i> Logout</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (1)">
+                                                    <i class="material-icons icon-wishlist">favorite_border</i> <span class="hidden-sm hidden-md">Wish List (1)</span>
                                                 </a>
                                             </li>
                                             <li class="ttlanguage">
@@ -105,7 +110,7 @@
                                                             </ul>
                                                         </div>
                                                         <input type="hidden" name="code" value="" />
-                                                        <input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_61" />
+                                                        <input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/compare" />
                                                     </form>
                                                 </div>
                                             </li>
@@ -127,7 +132,7 @@
                                                             </ul>
                                                         </div>
                                                         <input type="hidden" name="code" value="" />
-                                                        <input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_61" />
+                                                        <input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/compare" />
                                                     </form>
                                                 </div>
                                             </li>
@@ -151,14 +156,63 @@
                                         <div id="cart" class="btn-group">
                                             <button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="btn btn-inverse btn-block btn-lg dropdown-toggle">
                                                 <i class="material-icons shopping-cart">shopping_cart</i>
-                                                <span id="cart-total">0</span>
+                                                <span id="cart-total">2</span>
                                             </button>
                                             <ul class="dropdown-menu pull-right header-cart-toggle">
                                                 <li class="cart-btn">
                                                     <i class="material-icons">close</i>
                                                 </li>
+                                                <li class="cart-product">
+                                                    <table class="table table-striped">
+                                                        <tr>
+                                                            <td class="text-center image">
+                                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">
+                                                                    <img
+                                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-70x91.jpg"
+                                                                        alt="aliquam quaerat voluptatem"
+                                                                        title="aliquam quaerat voluptatem"
+                                                                        class="img-thumbnail"
+                                                                    />
+                                                                </a>
+                                                            </td>
+                                                            <td class="text-left name">
+                                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">aliquam quaerat voluptatem</a> <br />
+                                                                - <small>Radio Small</small> <br />
+                                                                - <small>Checkbox Checkbox 1</small> <br />
+                                                                - <small>Checkbox Checkbox 2</small> <br />
+                                                                - <small>Text test</small> <br />
+                                                                - <small>Select Red</small> <br />
+                                                                - <small>Textarea ưhrsjytdufiyogtétysr..</small> <br />
+                                                                - <small>File 1.jpg</small> <br />
+                                                                - <small>Date 2011-02-20</small> <br />
+                                                                - <small>Time 22:25</small> <br />
+                                                                - <small>Date &amp; Time 2011-02-20 22:25</small>
+                                                            </td>
+                                                            <td class="text-right">x 2</td>
+                                                            <td class="text-right amount">$288.00</td>
+                                                            <td class="text-center button">
+                                                                <button type="button" onclick="cart.remove('400');" title="Remove" class="btn btn-danger btn-xs"><i class="material-icons close-clear">clear</i></button>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </li>
                                                 <li>
-                                                    <p class="text-center">Your shopping cart is empty!</p>
+                                                    <div>
+                                                        <table class="table table-bordered">
+                                                            <tr>
+                                                                <td class="text-right"><strong>Sub-Total</strong></td>
+                                                                <td class="text-right price-total">$288.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-right"><strong>Total</strong></td>
+                                                                <td class="text-right price-total">$288.00</td>
+                                                            </tr>
+                                                        </table>
+                                                        <p class="text-right">
+                                                            <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=checkout/cart"><strong> View Cart</strong></a>
+                                                            <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=checkout/checkout"><strong>Checkout</strong></a>
+                                                        </p>
+                                                    </div>
                                                 </li>
                                             </ul>
                                         </div>
@@ -280,229 +334,23 @@
             <div class="header-content-title">
                 <div style="background-image: url('image/catalog/demo/banners/breadcrumb-parallax.jpg'); background-position: 50% 78.1106%;" data-source-url="image/catalog/demo/banners/breadcrumb-parallax.jpg" class="parallex"></div>
             </div>
-            <div id="product-category" class="container product-category">
+            <div id="product-compare" class="container">
                 <ul class="breadcrumb">
                     <li>
-                        <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
+                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a href="{{route('client.product.petuntse',['id'=>'petuntse_1'])}}">Petuntse</a></li>
-                    <li><a href="{{route('client.product.nilesilt',['id'=>'nilesilt_2'])}}">Nile silt</a></li>
-                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_61">Sea pottery</a></li>
+                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/compare">Product Comparison</a></li>
                 </ul>
+                <div class="alert alert-success alert-dismissible">
+                    <i class="material-icons check-circle">check_circle</i> Success: You have modified your product comparison!
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                </div>
                 <div class="row">
-                    <aside id="column-left" class="col-sm-3 hidden-xs">
-                        <div class="left-right-inner">
-                            <div class="panel panel-default category-treeview">
-                                <div class="panel-heading">Categories</div>
-                                <ul class="list-group">
-                                    <li class="category-li category-active">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20" class="list-group-item active">Petuntse</a>
-                                        <ul>
-                                            <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26" class="list-group-item current-child-item active">Nile silt</a></li>
-                                            <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92" class="list-group-item current-child-item">Jesmonite</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="category-li">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25" class="list-group-item">Jeans</a>
-                                    </li>
-                                    <li class="category-li">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=65" class="list-group-item">Petuntse</a>
-                                    </li>
-                                    <li class="category-li">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=66" class="list-group-item">Briquetage</a>
-                                    </li>
-                                    <li class="category-li">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67" class="list-group-item">clothes</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="swiper-viewport">
-                                <div id="banner0" class="swiper-container">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <a href="#"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <script>
-                                <!--
-                                $('#banner0').swiper({
-                                	effect: 'fade',
-                                	autoplay: 2500,
-                                    autoplayDisableOnInteraction: false
-                                });
-                                -->
-                            </script>
-                            <div class="featured-carousel products-list">
-                                <div class="box-heading"><h3>Featured</h3></div>
-                                <div class="featured-items products-carousel row">
-                                    <div class="product-layouts">
-                                        <div class="product-thumb transition">
-                                            <div class="image">
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">
-                                                    <img
-                                                        class="image_thumb"
-                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09-70x91.jpg"
-                                                        title="perspiciatis unde omnis"
-                                                        alt="perspiciatis unde omnis"
-                                                    />
-                                                    <img
-                                                        class="image_thumb_swap"
-                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09--70x91.jpg"
-                                                        title="perspiciatis unde omnis"
-                                                        alt="perspiciatis unde omnis"
-                                                    />
-                                                </a>
-                                                <div class="sale-icon">Sale</div>
-                                                <span class="percent">-50%</span>
-                                            </div>
-                                            <div class="thumb-description">
-                                                <div class="caption">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">perspiciatis unde omnis</a></h4>
-                                                    <div class="price">
-                                                        <span class="price-new">$8.00</span>
-                                                        <span class="price-old">$14.00</span>
-                                                        <span class="price-tax">Ex Tax: $5.00</span>
-                                                    </div>
-                                                </div>
-                                                <div class="button-group">
-                                                    <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('43')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span>
-                                                    </button>
-                                                    <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('43');"><i class="material-icons icon-wishlist">favorite</i></button>
-                                                    <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('43');"><i class="material-icons icon-exchange">equalizer</i></button>
-                                                    <button
-                                                        class="btn-quickview"
-                                                        type="button"
-                                                        title=""
-                                                        onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43')"
-                                                    >
-                                                        <i class="material-icons quick_view_icon">visibility</i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-layouts">
-                                        <div class="product-thumb transition">
-                                            <div class="image">
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">
-                                                    <img
-                                                        class="image_thumb"
-                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-70x91.jpg"
-                                                        title="voluptate velit esse"
-                                                        alt="voluptate velit esse"
-                                                    />
-                                                    <img
-                                                        class="image_thumb_swap"
-                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19--70x91.jpg"
-                                                        title="voluptate velit esse"
-                                                        alt="voluptate velit esse"
-                                                    />
-                                                </a>
-                                            </div>
-                                            <div class="thumb-description">
-                                                <div class="caption">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">voluptate velit esse</a></h4>
-                                                    <div class="price">
-                                                        $123.20
-                                                        <span class="price-tax">Ex Tax: $101.00</span>
-                                                    </div>
-                                                </div>
-                                                <div class="button-group">
-                                                    <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('40')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span>
-                                                    </button>
-                                                    <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('40');"><i class="material-icons icon-wishlist">favorite</i></button>
-                                                    <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('40');"><i class="material-icons icon-exchange">equalizer</i></button>
-                                                    <button
-                                                        class="btn-quickview"
-                                                        type="button"
-                                                        title=""
-                                                        onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40')"
-                                                    >
-                                                        <i class="material-icons quick_view_icon">visibility</i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-layouts">
-                                        <div class="product-thumb transition">
-                                            <div class="image">
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">
-                                                    <img
-                                                        class="image_thumb"
-                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-70x91.jpg"
-                                                        title="aliquam quaerat voluptatem"
-                                                        alt="aliquam quaerat voluptatem"
-                                                    />
-                                                    <img
-                                                        class="image_thumb_swap"
-                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--70x91.jpg"
-                                                        title="aliquam quaerat voluptatem"
-                                                        alt="aliquam quaerat voluptatem"
-                                                    />
-                                                </a>
-                                            </div>
-                                            <div class="thumb-description">
-                                                <div class="caption">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">aliquam quaerat voluptatem</a></h4>
-                                                    <div class="rating">
-                                                        <span class="fa-stack"><i class="material-icons star_on">star</i></span>
-                                                        <span class="fa-stack"><i class="material-icons star_on">star</i></span>
-                                                        <span class="fa-stack"><i class="material-icons star_on">star</i></span>
-                                                        <span class="fa-stack"><i class="material-icons star_on">star</i></span>
-                                                        <span class="fa-stack"><i class="material-icons star_off">star_border</i></span>
-                                                    </div>
-                                                    <div class="price">
-                                                        $122.00
-                                                        <span class="price-tax">Ex Tax: $100.00</span>
-                                                    </div>
-                                                </div>
-                                                <div class="button-group">
-                                                    <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('42')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span>
-                                                    </button>
-                                                    <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="material-icons icon-wishlist">favorite</i></button>
-                                                    <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('42');"><i class="material-icons icon-exchange">equalizer</i></button>
-                                                    <button
-                                                        class="btn-quickview"
-                                                        type="button"
-                                                        title=""
-                                                        onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42')"
-                                                    >
-                                                        <i class="material-icons quick_view_icon">visibility</i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sidebar panel panel-default information-list">
-                                <div class="panel-heading">Information</div>
-                                <div class="list-group">
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=4" class="list-group-item">About Us</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=6" class="list-group-item">Delivery Information</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=3" class="list-group-item">Privacy Policy</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=5" class="list-group-item">Terms &amp; Conditions</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/contact" class="list-group-item">Contact Us</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/sitemap" class="list-group-item">Site Map</a>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
-                    <div id="content" class="col-sm-9">
-                        <h1 class="category-name">Sea pottery</h1>
-                        <div class="category-description">
-                            <div class="row"></div>
-                        </div>
-
-                        <p class="text-empty">Your shopping cart is empty!</p>
+                    <div id="content" class="col-sm-12 print-bg-image no-compare-products">
+                        <h1>Product Comparison</h1>
+                        <p>Your shopping cart is empty!</p>
                         <div class="buttons">
-                            <div class="pull-right"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home" class="btn btn-primary">Continue</a></div>
+                            <div class="pull-right"><a href="{{route('client.homeindex')}}" class="btn btn-default">Continue</a></div>
                         </div>
                         <script>
                             var Tawk_API = {},
@@ -596,7 +444,7 @@
             <!--
             				var tt_live_search = {
             					selector: '#search input[name=\'search\']',
-            					text_no_matches: 'There are no products to list in this category.',
+            					text_no_matches: 'You have not chosen any products to compare.',
             					height: '50px'
             				}
 

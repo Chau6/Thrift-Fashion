@@ -66,9 +66,30 @@ class HomePageController extends Controller
      }
 
     public function petuntse ($id) {
-    return view('petuntse');
+        return view('petuntse');
     }
-
+    // public function petuntseSearch (Request $request) {
+    //     $idss = $request->only('filter');
+    //     $check ='';
+    //     $a=0;
+    //     foreach ($idss as $ids){
+           
+    //         foreach ($ids as $id){
+    //             $a=$a+1;
+    //             if($a==1){
+    //                 $check = $check.$id;
+    //             }
+    //             else{
+    //                 $check = $check.'+'.$id;
+    //             }
+               
+    //         }
+          
+    //     }
+    //     // dd($check);
+    // return redirect()->route('client.product.petuntse',['id'=>$check]);
+    // }
+  
     public function nilesilt ($id) {
         return view('nilesilt');
     }
@@ -77,36 +98,48 @@ class HomePageController extends Controller
         return view('jesmonite');
     }
 
-    public function clothes () {
+    public function clothes ($id) {
         return view('clothes');
     }
 
-    public function geopolymer () {
+    public function geopolymer ($id) {
         return view('geopolymer');
     }
 
-    public function lumicera () {
+    public function lumicera ($id) {
         return view('lumicera');
     }
 
-    public function sea_pottery () {
+    public function sea_pottery ($id) {
         return view('sea_pottery');
     }
 
-    public function pitchers () {
+    public function pitchers ($id) {
         return view('pitchers');
     }
 
-    public function details () {
+    public function details ($id) {
         return view('details');
     }
 
-    public function girl () {
+    public function girl ($id) {
         return view('girls');
     }
 
-    public function kurti () {
+    public function kurti ($id) {
         return view('kurti');
     }
 
+    public function product_compatible ($id) {
+        return view('product_compatible');
+    }
+
+    public function remove ($id) {
+        return view('remove');
+    }
+
+    public function back () {
+        return redirect()->back();
+    }
+    
 }

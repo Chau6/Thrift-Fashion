@@ -21,6 +21,9 @@ use App\Http\Controllers\Admin\CartController;
 // ================Client
 
 Route::name('client.')->group(function(){
+
+        Route::get('remove/{id}', [HomePageController::class, 'remove'])->name('remove');
+
     //==========index
         Route::get('homeindex', [HomePageController::class, 'homeindex'])->name('homeindex');
         // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');
@@ -47,6 +50,12 @@ Route::name('client.')->group(function(){
 
         Route::name('product.')->group(function(){
             Route::get('petuntse/{id}', [HomePageController::class, 'petuntse'])->name('petuntse');
+            Route::get('petuntse-filter/{id}', [HomePageController::class, 'petuntseFilter'])->name('petuntseFilter');
+            Route::post('petuntse', [HomePageController::class, 'petuntseSearch'])->name('petuntseSearch');
+
+
+
+
             Route::get('nilesilt/{id}', [HomePageController::class, 'nilesilt'])->name('nilesilt');
 
             Route::get('jeans/{id}', [HomePageController::class, 'jeans'])->name('jeans');
@@ -65,6 +74,8 @@ Route::name('client.')->group(function(){
             Route::get('kurti/{id}', [HomePageController::class, 'kurti'])->name('kurti');
 
             Route::get('girl/{id}', [HomePageController::class, 'girl'])->name('girl');
+
+            Route::get('product_compatible/{id}', [HomePageController::class, 'product_compatible'])->name('product_compatible');
         });
 
 
@@ -72,7 +83,8 @@ Route::name('client.')->group(function(){
             Route::get('cart/{id}', [HomePageController::class, 'cart'])->name('cart');
 
             Route::get('details/{id}', [HomePageController::class, 'details'])->name('details');
-
         });
+
+        Route::get('back',[HomePageController::class, 'back'])->name('back');
 });
 // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');
