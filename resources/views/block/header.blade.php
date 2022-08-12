@@ -1,5 +1,3 @@
-{{-- @yeild('master') --}}
-
 <div class="full-header">
     <div class="header-left">
        <div id="logo"><a href="{{route('client.homeindex')}}"><img src="" title="Your Store" alt="Your Store" class="img-responsive" /></a> </div>

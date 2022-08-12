@@ -1,10 +1,22 @@
 <style>
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset -5px 0 10px rgba(0,0,0,0.5); 
+    border-radius: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
    .swiper-button-prev .material-icons:hover{
       transform: translateX(-20%) !important;
       /* color: white !important; */
       color: white !important;
-      background: rgba(255, 255, 255,.5);
-      width: 50px;
    }
 
    .swiper-button-next .material-icons:hover{
@@ -12,6 +24,11 @@
       /* color: white !important; */
       color: white !important;
    }
+
+   .icon{
+      font-size: 60px !important;
+   }
+
 </style>
 
 <div class="slideshow-panel">
@@ -22,7 +39,7 @@
              <div class="swiper-slide text-center">
                 <a href="">
                 <img src="{{asset('images/breadcrumb-parallax.jpg')}}" alt="slider-01" class="img-responsive" style="background-size: cover; height: 1000px"/>
-                </a>
+               </a>
              </div>
              <div class="swiper-slide text-center">
                 <a href="">
@@ -32,8 +49,8 @@
           </div>
           <div class="swiper-pagination slideshow0"></div>
           <div class="swiper-pager">
-             <div class="swiper-button-prev" style="background: transparent"><i class="material-icons">chevron_left</i></div>
-             <div class="swiper-button-next" style="background: transparent"><i class="material-icons">chevron_right</i></div>
+             <div class="swiper-button-prev" style="background: transparent"><i class="material-icons icon">chevron_left</i></div>
+             <div class="swiper-button-next" style="background: transparent"><i class="material-icons icon">chevron_right</i></div>
           </div>
        </div>
     </div>
