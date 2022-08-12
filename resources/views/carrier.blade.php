@@ -21,7 +21,7 @@
                     <li>
                         <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67">Carrier Bag</a></li>
+                    <li><a href="">Carrier Bag</a></li>
                 </ul>
                 <div class="row">
                     <aside id="column-left" class="col-sm-3 hidden-xs">
@@ -43,9 +43,9 @@
                                         <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=66" class="list-group-item">Briquetage</a>
                                     </li>
                                     <li class="category-li category-active">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67" class="list-group-item active">clothes</a>
+                                        <a href="" class="list-group-item active">clothes</a>
                                         <ul>
-                                            <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67_116" class="list-group-item current-child-item">jacket</a></li>
+                                            <li><a href="_116" class="list-group-item current-child-item">jacket</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -77,7 +77,7 @@
                                     <div class="product-layouts">
                                         <div class="product-thumb transition">
                                             <div class="image">
-                                                <a href="">
+                                                <a>
                                                     <img
                                                         class="image_thumb"
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09-70x91.jpg"
@@ -96,7 +96,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a>perspiciatis unde omnis</a></h4>
+                                                    <h4><a>perspiciatis unde omnissepfijsemesf</a></h4>
                                                     <div class="price">
                                                         <span class="price-new">$8.00</span>
                                                         <span class="price-old">$14.00</span>
@@ -124,7 +124,7 @@
                                     <div class="product-layouts">
                                         <div class="product-thumb transition">
                                             <div class="image">
-                                                <a href="">
+                                                <a>
                                                     <img
                                                         class="image_thumb"
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-70x91.jpg"
@@ -168,7 +168,7 @@
                                     <div class="product-layouts">
                                         <div class="product-thumb transition">
                                             <div class="image">
-                                                <a href="">
+                                                <a>
                                                     <img
                                                         class="image_thumb"
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-70x91.jpg"
@@ -291,7 +291,7 @@
                                         <div class="thumb-description">
                                             <div class="caption">
                                                 <div class="product-description">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=67&amp;product_id=42">aliquam quaerat voluptatem</a></h4>
+                                                    <h4><a href="">aliquam quaerat voluptatem</a></h4>
                                                     <p class="description">Praesent ornare, ex a interdum consectetur, lectus diam sodales elit, vitae egestas est enim ornare ..</p>
                                                 </div>
                                                 <div class="product-price-and-shipping">
@@ -321,7 +321,7 @@
                                                             class="btn-quickview"
                                                             type="button"
                                                             title=""
-                                                            onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=67&amp;product_id=42')"
+                                                            onclick="tt_quickview.ajaxView('')"
                                                         >
                                                             <i class="material-icons quick_view_icon">visibility</i>
                                                             <span title=""></span>

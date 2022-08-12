@@ -51,18 +51,7 @@
     <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/cart.png" rel="icon" />
     <body class="information-contact">
         <div id="page">
-            <div class="header-top-cms">
-                <aside id="header-top">
-                    <div class="html-content">
-                        <div class="box-content">
-                            <div id="ttcmsheader">
-                                <div class="header-service">Exclusive Selling Sale, Up to 50% OFF</div>
-                                <div class="headerservice-close"></div>
-                            </div>
-                        </div>
-                    </div>
-                </aside>
-            </div>
+            
             <header>
                 <div class="header">
                     @include('block.header')

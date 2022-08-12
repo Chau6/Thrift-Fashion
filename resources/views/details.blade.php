@@ -10,18 +10,7 @@
     </head>
     <body class="product-product-42">
         <div id="page">
-            <div class="header-top-cms">
-                <aside id="header-top">
-                    <div class="html-content">
-                        <div class="box-content">
-                            <div id="ttcmsheader">
-                                <div class="header-service">Exclusive Selling Sale, Up to 50% OFF</div>
-                                <div class="headerservice-close"></div>
-                            </div>
-                        </div>
-                    </div>
-                </aside>
-            </div>
+            
             <header>
                 <div class="header">
                     @include('block.header')
@@ -45,8 +34,7 @@
                             <div class="col-xs-12 col-sm-5 col-md-5 product-images">
                                 <div class="thumbnails">
                                     <div class="product-image">
-                                        <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg" title="aliquam quaerat voluptatem">
-                                            <img
+<a class="thumbnail" href="{{asset('images/bag.jpg')}}" title="aliquam quaerat voluptatem">                                            <img
                                                 src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg"
                                                 title="aliquam quaerat voluptatem"
                                                 data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg"
@@ -57,8 +45,7 @@
                                     <div class="additional-images-container">
                                         <div class="additional-images">
                                             <div class="image-additional">
-                                                <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg" title="aliquam quaerat voluptatem">
-                                                    <img
+        <a class="thumbnail" href="{{asset('images/bag.jpg')}}" title="aliquam quaerat voluptatem">                                                    <img
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg"
                                                         title="aliquam quaerat voluptatem"
                                                         data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg"
@@ -68,8 +55,7 @@
                                                 </a>
                                             </div>
                                             <div class="image-additional">
-                                                <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--800x1040.jpg" title="aliquam quaerat voluptatem">
-                                                    <img
+<a class="thumbnail" href="{{asset('images/bag.jpg')}}" title="aliquam quaerat voluptatem">                                                    <img
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--371x482.jpg"
                                                         title="aliquam quaerat voluptatem"
                                                         data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--800x1040.jpg"
@@ -79,8 +65,7 @@
                                                 </a>
                                             </div>
                                             <div class="image-additional">
-                                                <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-800x1040.jpg" title="aliquam quaerat voluptatem">
-                                                    <img
+                                                                                                    <a class="thumbnail" href="{{asset('images/ao.jpg')}}" title="aliquam quaerat voluptatem">                                                    <img
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-371x482.jpg"
                                                         title="aliquam quaerat voluptatem"
                                                         data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-800x1040.jpg"
@@ -90,8 +75,7 @@
                                                 </a>
                                             </div>
                                             <div class="image-additional">
-                                                <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-800x1040.jpg" title="aliquam quaerat voluptatem">
-                                                    <img
+                                                    <a class="thumbnail" href="{{asset('images/quan.jpg')}}" title="aliquam quaerat voluptatem">                                                    <img
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-371x482.jpg"
                                                         title="aliquam quaerat voluptatem"
                                                         data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-800x1040.jpg"

@@ -58,9 +58,9 @@
                                     <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=66" class="list-group-item">Briquetage</a>
                                  </li>
                                  <li class="category-li category-active">
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67" class="list-group-item active">clothes</a>
+                                    <a href="" class="list-group-item active">clothes</a>
                                     <ul>
-                                       <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67_116" class="list-group-item current-child-item">jacket</a></li>
+                                       <li><a href="_116" class="list-group-item current-child-item">jacket</a></li>
                                     </ul>
                                  </li>
                               </ul>
@@ -215,11 +215,11 @@
                               </div>
                               <div class="col-md-8 text-right filter-selection">
                                  <select id="input-limit" class="form-control" onchange="location = this.value;">
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;limit=9" selected="selected">9</option>
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;limit=25">25</option>
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;limit=50">50</option>
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;limit=75">75</option>
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;limit=100">100</option>
+                                    <option value="&amp;limit=9" selected="selected">9</option>
+                                    <option value="&amp;limit=25">25</option>
+                                    <option value="&amp;limit=50">50</option>
+                                    <option value="&amp;limit=75">75</option>
+                                    <option value="&amp;limit=100">100</option>
                                  </select>
                               </div>
                            </div>
@@ -229,15 +229,15 @@
                               </div>
                               <div class="col-md-9 text-right filter-selection">
                                  <select id="input-sort" class="form-control" onchange="location = this.value;">
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
-                                    <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+                                    <option value="&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+                                    <option value="&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+                                    <option value="&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+                                    <option value="&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
+                                    <option value="&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
+                                    <option value="&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
+                                    <option value="&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
+                                    <option value="&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
+                                    <option value="&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
                                  </select>
                               </div>
                            </div>
@@ -247,7 +247,7 @@
                               <div class="product-layout product-list col-xs-12">
                                  <div class="product-thumb row">
                                     <div class="image">
-                                       <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=67&amp;product_id=42"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-371x482.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--371x482.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> </a>
+                                       <a href=""> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-371x482.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--371x482.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> </a>
                                        <div class="rating">
                                           <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                           <span class="fa-stack"><i class="material-icons star_on">star</i></span>
@@ -259,7 +259,7 @@
                                     <div class="thumb-description">
                                        <div class="caption">
                                           <div class="product-description">
-                                             <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=67&amp;product_id=42">aliquam quaerat voluptatem</a></h4>
+                                             <h4><a href="">aliquam quaerat voluptatem</a></h4>
                                              <p class="description">Praesent ornare, ex a interdum consectetur, lectus diam sodales elit, vitae egestas est enim ornare ..</p>
                                           </div>
                                           <div class="product-price-and-shipping">
@@ -282,7 +282,7 @@
                                                 <span title="Add to compare">Add to compare</span>
                                                 <span class="loading"><i class="material-icons">cached</i></span>
                                                 </button>
-                                                <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=67&amp;product_id=42')"><i class="material-icons quick_view_icon">visibility</i>
+                                                <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('')"><i class="material-icons quick_view_icon">visibility</i>
                                                 <span title=""></span>
                                                 <span class="loading"><i class="material-icons">cached</i></span>
                                                 </button>
