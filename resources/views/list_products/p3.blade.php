@@ -9,7 +9,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<title>aliquam quat voluptatem</title>
+		<title>Cool Fabric Wide Cheesecloth</title>
 		<base href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/" />
 		<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
 		<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
@@ -57,18 +57,6 @@
 	</head>
 	<body class="product-product-47">
 		<div id="page">
-			<div class="header-top-cms">
-				<aside id="header-top">
-					<div class="html-content">
-						<div class="box-content">
-							<div id="ttcmsheader">
-								<div class="header-service">Exclusive Selling Sale, Up to 50% OFF</div>
-								<div class="headerservice-close"></div>
-							</div>
-						</div>
-					</div>
-				</aside>
-			</div>
 			<header>
 				<div class="header">
 					<div class="full-header">
@@ -193,7 +181,7 @@
 																</a>
 															</td>
 															<td class="text-left name">
-																<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">aliquam quaerat voluptatem</a> <br />
+																<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">cool fabric wide cheesecloth</a> <br />
 																- <small>Radio Small</small> <br />
 																- <small>Checkbox Checkbox 1</small> <br />
 																- <small>Checkbox Checkbox 2</small> <br />
@@ -481,14 +469,14 @@
 			<div id="product-product" class="container product-product">
 				<ul class="breadcrumb">
 					<li>
-						<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a>
+						<a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
 					</li>
-					<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20">Petuntse</a></li>
-					<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=47">aliquam quat voluptatem</a></li>
+					<li><a href="{{route('client.product.petuntse',$id='all')}}">Petuntse</a></li>
+					<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=47">ool Fabric Wide Cheesecloth</a></li>
 				</ul>
 				<div class="row">
 					<div id="content" class="col-sm-12">
-						<h1 class="page-title">aliquam quat voluptatem</h1>
+						<h1 class="page-title">cool fabric wide cheesecloth</h1>
 
 						<div class="row">
 							<div class="col-xs-12 col-sm-5 col-md-5 product-images">
@@ -614,7 +602,7 @@
 									  })
 							</script>
 							<div class="col-xs-12 col-sm-7 col-md-7 product-details">
-								<h1 class="product-name">aliquam quat voluptatem</h1>
+								<h1 class="product-name">cool fabric wide cheesecloth</h1>
 
 								<div class="rating">
 									<div class="product-rating">

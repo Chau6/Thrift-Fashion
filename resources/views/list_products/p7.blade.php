@@ -9,7 +9,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<title>neque porro quisquamest</title>
+		<title>Gray Hoodie</title>
 		<base href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/" />
 		<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
 		<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
@@ -57,18 +57,6 @@
 	</head>
 	<body class="product-product-34">
 		<div id="page">
-			<div class="header-top-cms">
-				<aside id="header-top">
-					<div class="html-content">
-						<div class="box-content">
-							<div id="ttcmsheader">
-								<div class="header-service">Exclusive Selling Sale, Up to 50% OFF</div>
-								<div class="headerservice-close"></div>
-							</div>
-						</div>
-					</div>
-				</aside>
-			</div>
 			<header>
 				<div class="header">
 					<div class="full-header">
@@ -106,52 +94,6 @@
 												<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)">
 													<i class="material-icons icon-wishlist">favorite_border</i> <span class="hidden-sm hidden-md">Wish List (0)</span>
 												</a>
-											</li>
-											<li class="ttlanguage">
-												<div class="pull-left">
-													<form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="form-language">
-														<div class="btn-group">
-															<button class="btn btn-link">
-																<img src="catalog/language/en-gb/en-gb.png" alt="English" title="English" />
-																<span class="hidden-xs hidden-sm hidden-md">Language</span>
-															</button>
-															<ul>
-																<li>
-																	<button class="btn btn-link btn-block language-select" type="button" name="en-gb">
-																		<img src="catalog/language/en-gb/en-gb.png" alt="English" title="English" /> English
-																	</button>
-																</li>
-																<li>
-																	<button class="btn btn-link btn-block language-select" type="button" name="ar-lb"><img src="catalog/language/ar-lb/ar-lb.png" alt="Arabic" title="Arabic" /> Arabic</button>
-																</li>
-															</ul>
-														</div>
-														<input type="hidden" name="code" value="" />
-														<input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=34" />
-													</form>
-												</div>
-											</li>
-											<li class="ttcurrency">
-												<div class="pull-left">
-													<form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency">
-														<div class="btn-group">
-															<button class="btn btn-link"><strong>$</strong> <span class="hidden-xs hidden-sm hidden-md">Currency</span></button>
-															<ul>
-																<li>
-																	<button class="currency-select btn btn-link btn-block" type="button" name="EUR">€ Euro</button>
-																</li>
-																<li>
-																	<button class="currency-select btn btn-link btn-block" type="button" name="GBP">£ Pound Sterling</button>
-																</li>
-																<li>
-																	<button class="currency-select btn btn-link btn-block" type="button" name="USD">$ US Dollar</button>
-																</li>
-															</ul>
-														</div>
-														<input type="hidden" name="code" value="" />
-														<input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=34" />
-													</form>
-												</div>
 											</li>
 										</ul>
 									</li>
@@ -481,14 +423,14 @@
 			<div id="product-product" class="container product-product">
 				<ul class="breadcrumb">
 					<li>
-						<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a>
+						<a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
 					</li>
-					<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20">Petuntse</a></li>
-					<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=34">neque porro quisquamest</a></li>
+					<li><a href="{{route('client.product.petuntse',$id='all')}}">Petuntse</a></li>
+					<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=34">gray hoodie</a></li>
 				</ul>
 				<div class="row">
 					<div id="content" class="col-sm-12">
-						<h1 class="page-title">neque porro quisquamest</h1>
+						<h1 class="page-title">gray hoodie</h1>
 
 						<div class="row">
 							<div class="col-xs-12 col-sm-5 col-md-5 product-images">

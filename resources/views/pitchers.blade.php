@@ -24,37 +24,14 @@
                     <li>
                         <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20">Petuntse</a></li>
-                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92">Jesmonite</a></li>
+                    <li><a href="{{route('client.product.petuntse',$id='petuntse_1')}}">Petuntse</a></li>
+                    <li><a href="{{route('client.product.jesmonite',$id='jesmonite_2')}}">Jesmonite</a></li>
                     <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_93">Pitchers</a></li>
                 </ul>
                 <div class="row">
                     <aside id="column-left" class="col-sm-3 hidden-xs">
                         <div class="left-right-inner">
-                            <div class="panel panel-default category-treeview">
-                                <div class="panel-heading">Categories</div>
-                                <ul class="list-group">
-                                    <li class="category-li category-active">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20" class="list-group-item active">Petuntse</a>
-                                        <ul>
-                                            <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26" class="list-group-item current-child-item">Nile silt</a></li>
-                                            <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92" class="list-group-item current-child-item active">Jesmonite</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="category-li">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25" class="list-group-item">Jeans</a>
-                                    </li>
-                                    <li class="category-li">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=65" class="list-group-item">Petuntse</a>
-                                    </li>
-                                    <li class="category-li">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=66" class="list-group-item">Briquetage</a>
-                                    </li>
-                                    <li class="category-li">
-                                        <a href="" class="list-group-item">clothes</a>
-                                    </li>
-                                </ul>
-                            </div>
+
                             <div class="swiper-viewport">
                                 <div id="banner0" class="swiper-container">
                                     <div class="swiper-wrapper">
@@ -218,17 +195,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="sidebar panel panel-default information-list">
-                                <div class="panel-heading">Information</div>
-                                <div class="list-group">
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=4" class="list-group-item">About Us</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=6" class="list-group-item">Delivery Information</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=3" class="list-group-item">Privacy Policy</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=5" class="list-group-item">Terms &amp; Conditions</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/contact" class="list-group-item">Contact Us</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/sitemap" class="list-group-item">Site Map</a>
                                 </div>
                             </div>
                         </div>

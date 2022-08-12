@@ -168,7 +168,7 @@
                                     <div class="product-layouts">
                                         <div class="product-thumb transition">
                                             <div class="image">
-                                                <a>
+                                                <a href="{{route('client.shopping_cart.details',$id='aliquam+quaerat+voluptatem')}}">aliquam quaerat voluptatem
                                                     <img
                                                         class="image_thumb"
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-70x91.jpg"
@@ -185,7 +185,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a>aliquam quaerat voluptatem</a></h4>
+                                                    <h4><a href="{{route('client.shopping_cart.details',$id='aliquam+quaerat+voluptatem')}}">aliquam quaerat voluptatem</a></h4>
                                                     <div class="rating">
                                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
@@ -271,7 +271,7 @@
                                 <div class="product-layout product-list col-xs-12">
                                     <div class="product-thumb row">
                                         <div class="image">
-                                            <a href="{{route('client.shopping_cart.details',['id'=>'detail_products'])}}">
+                                            <a href="{{route('client.shopping_cart.details',['id'=>'aliquam+quaerat+voluptatem'])}}">
                                                 <img class="image_thumb" src="{{asset('images/bag.jpg')}}" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" />
                                                 <img
                                                     class="image_thumb_swap"

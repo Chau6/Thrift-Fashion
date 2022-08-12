@@ -34,7 +34,7 @@
                 <div class="row">
                     <aside id="column-left" class="col-sm-3 hidden-xs">
                         <div class="left-right-inner">
-                            <div class="panel panel-default option-filter">
+                            {{-- <div class="panel panel-default option-filter">
                                 <div class="panel-heading">Refine Search</div>
                                 <div class="list-group option-filter-box">
                                     <div class="list-group">
@@ -118,7 +118,7 @@
                                         <button type="button" id="button-filter" class="btn btn-primary">Refine Search</button>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                             <script>
                                 $("#button-filter").on("click", function () {
                                     //				$('#content .category-description .option-filter-box').appendTo('#column-left .option-filter');

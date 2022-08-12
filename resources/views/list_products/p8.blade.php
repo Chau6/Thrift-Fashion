@@ -57,18 +57,6 @@
 	</head>
 	<body class="product-product-32">
 		<div id="page">
-			<div class="header-top-cms">
-				<aside id="header-top">
-					<div class="html-content">
-						<div class="box-content">
-							<div id="ttcmsheader">
-								<div class="header-service">Exclusive Selling Sale, Up to 50% OFF</div>
-								<div class="headerservice-close"></div>
-							</div>
-						</div>
-					</div>
-				</aside>
-			</div>
 			<header>
 				<div class="header">
 					<div class="full-header">

@@ -37,7 +37,8 @@
                     <li>
                         <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_128">Jeans</a></li>
+                    <li><a href="{{route('client.product.jeans',$id='all')}}">Jeans</a></li>
+                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_128">Kurti</a></li>
                 </ul>
                 <div class="row">
                     <aside id="column-left" class="col-sm-3 hidden-xs">
