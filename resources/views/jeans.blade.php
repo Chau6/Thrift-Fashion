@@ -248,9 +248,7 @@
                 </div>
             </div>
             <footer>
-                <div class="footer-container">
-                    @include('block.footer-container')
-                </div>
+                @include('block.footer')
             </footer>
         </div>
         <script>
