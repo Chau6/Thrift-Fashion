@@ -230,7 +230,7 @@
             <div id="product-category" class="container product-category">
                 <ul class="breadcrumb">
                     <li>
-                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a>
+                        <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
                     <li><a href="{{route('client.product.petuntse',['id'=>'all'])}}">Petuntse</a></li>
                     <li><a href="{{route('client.product.nilesilt',['id'=>'nilesilt_1'])}}">Nile silt</a></li>
@@ -239,30 +239,6 @@
                 <div class="row">
                     <aside id="column-left" class="col-sm-3 hidden-xs">
                         <div class="left-right-inner">
-                            {{-- <div class="panel panel-default category-treeview">
-                                <div class="panel-heading">Categories</div>
-                                <ul class="list-group">
-                                    <li class="category-li category-active">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20" class="list-group-item active">Petuntse</a>
-                                        <ul>
-                                            <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26" class="list-group-item current-child-item active">Nile silt</a></li>
-                                            <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92" class="list-group-item current-child-item">Jesmonite</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="category-li">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25" class="list-group-item">Jeans</a>
-                                    </li>
-                                    <li class="category-li">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=65" class="list-group-item">Petuntse</a>
-                                    </li>
-                                    <li class="category-li">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=66" class="list-group-item">Briquetage</a>
-                                    </li>
-                                    <li class="category-li">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67" class="list-group-item">clothes</a>
-                                    </li>
-                                </ul>
-                            </div> --}}
                             <div class="swiper-viewport">
                                 <div id="banner0" class="swiper-container">
                                     <div class="swiper-wrapper">
@@ -438,7 +414,7 @@
 
                         <p class="text-empty">Your shopping cart is empty!</p>
                         <div class="buttons">
-                            <div class="pull-right"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home" class="btn btn-primary">Continue</a></div>
+                            <div class="pull-right"><a href="{{route('client.homeindex')}}" class="btn btn-primary">Continue</a></div>
                         </div>
                         <script>
                             var Tawk_API = {},

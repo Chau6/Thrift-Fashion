@@ -9,7 +9,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Product Comparison</title>
+        <title>My Wish List</title>
         <base href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/" />
         <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
         <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
@@ -48,7 +48,7 @@
         <script src="catalog/view/javascript/TemplateTrip/jquery.bpopup.min.js"></script>
         <script src="catalog/view/javascript/TemplateTrip/jquery.cookie.js"></script>
     </head>
-    <body class="product-compare">
+    <body class="account-wishlist">
         <div id="page">
             <div class="header-top-cms">
             </div>
@@ -89,6 +89,52 @@
                                                 <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (1)">
                                                     <i class="material-icons icon-wishlist">favorite_border</i> <span class="hidden-sm hidden-md">Wish List (1)</span>
                                                 </a>
+                                            </li>
+                                            <li class="ttlanguage">
+                                                <div class="pull-left">
+                                                    <form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="form-language">
+                                                        <div class="btn-group">
+                                                            <button class="btn btn-link">
+                                                                <img src="catalog/language/en-gb/en-gb.png" alt="English" title="English" />
+                                                                <span class="hidden-xs hidden-sm hidden-md">Language</span>
+                                                            </button>
+                                                            <ul>
+                                                                <li>
+                                                                    <button class="btn btn-link btn-block language-select" type="button" name="en-gb">
+                                                                        <img src="catalog/language/en-gb/en-gb.png" alt="English" title="English" /> English
+                                                                    </button>
+                                                                </li>
+                                                                <li>
+                                                                    <button class="btn btn-link btn-block language-select" type="button" name="ar-lb"><img src="catalog/language/ar-lb/ar-lb.png" alt="Arabic" title="Arabic" /> Arabic</button>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <input type="hidden" name="code" value="" />
+                                                        <input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" />
+                                                    </form>
+                                                </div>
+                                            </li>
+                                            <li class="ttcurrency">
+                                                <div class="pull-left">
+                                                    <form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency">
+                                                        <div class="btn-group">
+                                                            <button class="btn btn-link"><strong>$</strong> <span class="hidden-xs hidden-sm hidden-md">Currency</span></button>
+                                                            <ul>
+                                                                <li>
+                                                                    <button class="currency-select btn btn-link btn-block" type="button" name="EUR">€ Euro</button>
+                                                                </li>
+                                                                <li>
+                                                                    <button class="currency-select btn btn-link btn-block" type="button" name="GBP">£ Pound Sterling</button>
+                                                                </li>
+                                                                <li>
+                                                                    <button class="currency-select btn btn-link btn-block" type="button" name="USD">$ US Dollar</button>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <input type="hidden" name="code" value="" />
+                                                        <input type="hidden" name="redirect" value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" />
+                                                    </form>
+                                                </div>
                                             </li>
                                         </ul>
                                     </li>
@@ -288,24 +334,51 @@
             <div class="header-content-title">
                 <div style="background-image: url('image/catalog/demo/banners/breadcrumb-parallax.jpg'); background-position: 50% 78.1106%;" data-source-url="image/catalog/demo/banners/breadcrumb-parallax.jpg" class="parallex"></div>
             </div>
-            <div id="product-compare" class="container">
+            <div id="account-wishlist" class="container">
                 <ul class="breadcrumb">
                     <li>
-                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a>
+                        <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/compare">Product Comparison</a></li>
+                    <li><a href="{{route('client.account')}}">Account</a></li>
+                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist">My Wish List</a></li>
                 </ul>
-                <div class="alert alert-success alert-dismissible">
-                    <i class="material-icons check-circle">check_circle</i> Success: You have modified your product comparison!
-                    <button type="button" class="close" data-dismiss="alert">&times;</button>
-                </div>
                 <div class="row">
-                    <div id="content" class="col-sm-12 print-bg-image no-compare-products">
-                        <h1>Product Comparison</h1>
-                        <p>Your shopping cart is empty!</p>
-                        <div class="buttons">
-                            <div class="pull-right"><a href="{{route('client.homeindex')}}" class="btn btn-default">Continue</a></div>
-                        </div>
+                    <div id="content" class="col-sm-12">
+                        <h2>My Wish List</h2>
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <td class="text-center">Image</td>
+                                    <td class="text-left">Product Name</td>
+                                    <td class="text-left">Model</td>
+                                    <td class="text-right">Stock</td>
+                                    <td class="text-right">Unit Price</td>
+                                    <td class="text-right">Action</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-center">
+                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">
+                                            <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-70x91.jpg" alt="aliquam quaerat voluptatem" title="aliquam quaerat voluptatem" />
+                                        </a>
+                                    </td>
+                                    <td class="text-left"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">aliquam quaerat voluptatem</a></td>
+                                    <td class="text-left">Product 15</td>
+                                    <td class="text-right">In Stock</td>
+                                    <td class="text-right"><div class="price">$100.00</div></td>
+                                    <td class="text-right">
+                                        <button type="button" onclick="cart.add('42');" data-toggle="tooltip" title="Add to Cart" class="btn btn-primary"><i class="material-icons shopping-cart">shopping_cart</i></button>
+                                        <a href="{{route('client.remove',['id'=>'product_compatible'])}}" data-toggle="tooltip" title="Remove" class="btn btn-danger">
+                                            <i class="material-icons close-clear">clear</i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        {{-- <div class="buttons clearfix">
+                            <div class="pull-right"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account" class="btn btn-primary">Continue</a></div>
+                        </div> --}}
                         <script>
                             var Tawk_API = {},
                                 $_Tawk_LoadStart = new Date();
@@ -398,7 +471,7 @@
             <!--
             				var tt_live_search = {
             					selector: '#search input[name=\'search\']',
-            					text_no_matches: 'You have not chosen any products to compare.',
+            					text_no_matches: 'Your wish list is empty.',
             					height: '50px'
             				}
 

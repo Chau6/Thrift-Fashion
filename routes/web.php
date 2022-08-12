@@ -24,6 +24,8 @@ Route::name('client.')->group(function(){
 
         Route::get('remove/{id}', [HomePageController::class, 'remove'])->name('remove');
 
+        Route::get('wishlist/{id}', [HomePageController::class, 'wishlist'])->name('wishlist');
+
     //==========index
         Route::get('homeindex', [HomePageController::class, 'homeindex'])->name('homeindex');
         // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');
@@ -52,9 +54,6 @@ Route::name('client.')->group(function(){
             Route::get('petuntse/{id}', [HomePageController::class, 'petuntse'])->name('petuntse');
             Route::get('petuntse-filter/{id}', [HomePageController::class, 'petuntseFilter'])->name('petuntseFilter');
             Route::post('petuntse', [HomePageController::class, 'petuntseSearch'])->name('petuntseSearch');
-
-
-
 
             Route::get('nilesilt/{id}', [HomePageController::class, 'nilesilt'])->name('nilesilt');
 

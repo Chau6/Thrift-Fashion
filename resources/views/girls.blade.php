@@ -471,7 +471,7 @@
 
                         <p class="text-empty">Your shopping cart is empty!</p>
                         <div class="buttons">
-                            <div class="pull-right"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home" class="btn btn-primary">Continue</a></div>
+                            <div class="pull-right"><a href="{{route('client.homeindex')}}" class="btn btn-primary">Continue</a></div>
                         </div>
                         <script>
                             var Tawk_API = {},

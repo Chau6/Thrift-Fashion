@@ -198,15 +198,7 @@
                                                      <li class="li-second-items">
                                                        <a href="{{route('client.product.jeans',['id'=>"petuntse"])}}" class="a-second-link a-item">
                                                         <span class="a-second-title">Petuntse</span>
-                                                        <i class="material-icons chevron-right">chevron_right</i>
                                                         </a>
-                                                        <div class="flyout-third-items">
-                                                           <ul class="ul-third-items">
-                                                              <li class="li-third-items">
-                                                                <a href="{{route('client.product.jeans',['id'=>"bonechina"])}}" class="a-third-link">  <span class="a-third-title">Bone china</span></a>
-                                                              </li>
-                                                           </ul>
-                                                        </div>
                                                      </li>
                                                      <li class="li-second-items">
                                                        <a href="{{route('client.product.jeans',['id'=>"gilrs"])}}" class="a-second-link a-item">
@@ -222,7 +214,7 @@
                                                </div>
                                             </li>
                        
-                                             {{-- Dress --}}
+                                             {{-- Dress --}}Wish
                                              <li class="li-top-item">
                                                 <a class="a-top-link" href="{{route('client.product.carrier',['id'=>'all'])}}">
                                                 <span>Carrier Bag</span>
@@ -243,7 +235,7 @@
             <div id="product-category" class="container product-category">
                 <ul class="breadcrumb">
                     <li>
-                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a>
+                        <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
                     <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20">Petuntse</a></li>
                 </ul>

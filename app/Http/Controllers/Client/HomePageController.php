@@ -141,5 +141,9 @@ class HomePageController extends Controller
     public function back () {
         return redirect()->back();
     }
-    
+
+    public function wishlist ($id) {
+        return view('wishlist');
+    }
+
 }
