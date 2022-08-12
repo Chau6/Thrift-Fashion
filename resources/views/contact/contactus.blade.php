@@ -80,9 +80,10 @@
                                     <div class="col-sm-3 store-address">
                                         <div class="location-title"><i class="material-icons home-icon">home</i> Your Store</div>
                                         <address class="location-detail">
-                                            Webzeel Services,<br />
-                                            4030, Central Bazar,<br />
-                                            Varachha Road,Surat
+                                            35/6,<br />
+                                            Street D5, Ward 25,<br />
+                                            District Binh Thanh,<br /> 
+                                            HCMC
                                         </address>
                                         <a href="https://maps.google.com/maps?q=21.227628%2C72.8631923&hl=en-gb&t=m&z=15" target="_blank" class="btn btn-info"> <i class="material-icons location-on">location_on</i> View Google Map</a>
                                     </div>
@@ -99,7 +100,7 @@
                                             9:00AM to 7:00PM
                                         </div>
                                         <div class="location-title"><i class="material-icons mode-comment">mode_comment</i> Comments</div>
-                                        <div class="location-detail">Demo Comment Description from Store Owners.</div>
+                                        <div class="location-detail">Demo</div>
                                     </div>
                                 </div>
                             </div>

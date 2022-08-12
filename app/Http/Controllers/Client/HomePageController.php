@@ -23,7 +23,7 @@ class HomePageController extends Controller
         return view('contact.contactus');
     }
 
-    public function notification(){
+    public function register(){
         return view('register');
     }
 

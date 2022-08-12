@@ -1045,7 +1045,7 @@
 						<div class="col-sm-3 footer-column footer-my-account">
 							<h5>My Account</h5>
 							<ul class="list-unstyled">
-								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account">My Account</a></li>
+								<li><a >My Account</a></li>
 								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist">Wish List</a></li>
 								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/voucher">Gift Certificates</a></li>
 								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/return/add">Returns</a></li>

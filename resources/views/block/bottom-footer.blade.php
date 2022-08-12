@@ -13,11 +13,11 @@
                          <div class="payment_logo_block">
                             <div class="payment-title">Accepted Payment Methods</div>
                             <ul class="payment-list list-unstyled">
-                               <li class="google"><a href="#"> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/google.png" alt="google"></a></li>
-                               <li class="maestro"><a href="#"> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/maestro.png" alt="maestro"></a></li>
-                               <li class="mastercard"><a href="#"> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/mastercard.png" alt="mastercard"></a></li>
-                               <li class="paypal"><a href="#"> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/paypal.png" alt="paypal"></a></li>
-                               <li class="visa"><a href="#"> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/visa.png" alt="visa"></a></li>
+                               <li class="google"><a href=""> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/google.png" alt="google"></a></li>
+                               <li class="maestro"><a href=""> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/maestro.png" alt="maestro"></a></li>
+                               <li class="mastercard"><a href=""> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/mastercard.png" alt="mastercard"></a></li>
+                               <li class="paypal"><a href=""> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/paypal.png" alt="paypal"></a></li>
+                               <li class="visa"><a href=""> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/visa.png" alt="visa"></a></li>
                             </ul>
                          </div>
                       </div>
@@ -30,27 +30,27 @@
                       <h5>Follow us</h5>
                       <ul class="list-unstyled">
                          <li class="facebook">
-                            <a href="#">
+                            <a >
                                <p>Facebook</p>
                             </a>
                          </li>
                          <li class="twitter">
-                            <a href="#">
+                            <a >
                                <p>Twitter</p>
                             </a>
                          </li>
                          <li class="youtube">
-                            <a href="#">
+                            <a >
                                <p>YouTube</p>
                             </a>
                          </li>
                          <li class="googleplus">
-                            <a href="#">
+                            <a >
                                <p>Google +</p>
                             </a>
                          </li>
                          <li class="pinterest">
-                            <a href="#">
+                            <a >
                                <p>Pinterest</p>
                             </a>
                          </li>

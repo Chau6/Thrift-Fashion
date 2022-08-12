@@ -6,11 +6,11 @@
        <div id="top-links" class="nav pull-right">
           <ul class="list-inline">
              <li class="account-nav dropdown header_user_info">
-                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account" title="Account" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons user">perm_identity</i><span class="ttuserheading">Account</span><i class="material-icons expand-more">expand_more</i></a>
+                <a title="Account" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons user">perm_identity</i><span class="ttuserheading">Account</span><i class="material-icons expand-more">expand_more</i></a>
                 <ul class="dropdown-menu dropdown-menu-right account-link-toggle">
-                   <li><a href="{{route('client.notification')}}"><i class='material-icons ma-user'>perm_identity</i>Register</a></li>
-                   <li><a href="{{route('client.news')}}"><i class="material-icons">lock_outline</i>Login</a></li>
-                   <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><i class="material-icons icon-wishlist">favorite_border</i><span class="hidden-sm hidden-md">Wish List (0)</span></a></li>
+                   <li><a href="{{route('client.register')}}"><i class='material-icons ma-user'>perm_identity</i>Register</a></li>
+                   <li><a href="{{route('client.login')}}"><i class="material-icons">lock_outline</i>Login</a></li>
+                   <li><a href="{{route('client.wishlist',$id='all')}}" id="wishlist-total" title="Wish List (0)"><i class="material-icons icon-wishlist">favorite_border</i><span class="hidden-sm hidden-md">Wish List (0)</span></a></li>
                 </ul>
              </li>
              <li class="ttsearch">

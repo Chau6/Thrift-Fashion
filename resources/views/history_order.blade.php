@@ -13,7 +13,7 @@
         <li>
             <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
         </li>
-        <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account">Account</a></li>
+        <li><a >Account</a></li>
         <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/newsletter">Newsletter</a></li>
     </ul>
     <div class="row">
@@ -37,7 +37,7 @@
                     </div>
                 </fieldset>
                 <div class="buttons clearfix">
-                    <div class="pull-left"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account" class="btn btn-default">Back</a></div>
+                    <div class="pull-left"><a  class="btn btn-default">Back</a></div>
                     <div class="pull-right">
                         <input type="submit" value="Continue" class="btn btn-primary" />
                     </div>

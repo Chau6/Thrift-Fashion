@@ -4,7 +4,7 @@
           <div class="html-content">
              <div class="box-content">
                 <div id="ttcmsfooter">
-                   <div class="ttfooter-logo"><a href="#"><img src="{{asset('images/logo.png')}}" alt="footer-logo"></a></div>
+                   <div class="ttfooter-logo"><a href="{{route('client.homeindex')}}"><img src="{{asset('images/logo.png')}}" alt="footer-logo"></a></div>
                    <div class="ttfooter-desc">
                      The website will provide a facility for easy shopping of second-hand apparel
                      Used in new condition, convenient for customers to shop from any
@@ -17,15 +17,15 @@
     <div class="col-sm-3 footer-column footer-my-account">
        <h5>My Account</h5>
        <ul class="list-unstyled">
-          <li><a href="">My Account</a></li>
-          <li><a href="">Wish List</a></li>
+          <li><a href="{{route('client.account')}}">My Account</a></li>
+          <li><a href="{{route('client.wishlist',$id='all')}}">Wish List</a></li>
        </ul>
     </div>
     <div class="col-xs-3 footer-column footer-extras">
        <h5>Extras</h5>
        <ul class="list-unstyled">
-          <li><a href="">About Us</a></li>
-          <li><a href="">Contact Us</a></li>
+          {{-- <li><a href="{{route('client.wishlist',$id='all')}}">About Us</a></li> --}}
+          <li><a href="{{route('client.contact')}}">Contact Us</a></li>
        </ul>
     </div>
     <div class="footer-column footer-right-cms col-sm-3">

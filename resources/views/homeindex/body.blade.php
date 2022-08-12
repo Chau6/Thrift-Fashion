@@ -44,7 +44,7 @@
                             <div class="product-layouts">
                                <div class="product-thumb transition">
                                   <div class="image">
-                                     <a href=""> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-380x494.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--380x494.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> </a>
+                                     <a href="{{route('client.shopping_cart.details',$id='aliquam+quaerat+voluptatem')}}"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-380x494.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--380x494.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> </a>
                                      <div class="rating">
                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
@@ -55,7 +55,7 @@
                                   </div>
                                   <div class="thumb-description">
                                      <div class="caption">
-                                        <h4><a>aliquam quaerat voluptatem</a></h4>
+                                        <h4><a href="{{route('client.shopping_cart.details',$id='aliquam+quaerat+voluptatem')}}">aliquam quaerat voluptatem</a></h4>
                                         <div class="price"> $122.00
                                            <span class="price-tax">Without tax: $100.00</span> 
                                         </div>
@@ -87,13 +87,13 @@
                             <div class="product-layouts">
                                <div class="product-thumb transition">
                                   <div class="image">
-                                     <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=28"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-380x494.jpg" title="aspetur autodit autfugit" alt="aspetur autodit autfugit" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04--380x494.jpg" title="aspetur autodit autfugit" alt="aspetur autodit autfugit" /> </a> 
+                                     <a href="{{route('client.shopping_cart.details',$id='aspetur+autodit+autfugit')}}"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-380x494.jpg" title="aspetur autodit autfugit" alt="aspetur autodit autfugit" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04--380x494.jpg" title="aspetur autodit autfugit" alt="aspetur autodit autfugit" /> </a> 
                                      <div class="sale-icon">Sale</div>
                                      <span class="percent">-80%</span>
                                   </div>
                                   <div class="thumb-description">
                                      <div class="caption">
-                                        <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=28">aspetur autodit autfugit</a></h4>
+                                        <h4><a href="{{route('client.shopping_cart.details',$id='aspetur+autodit+autfugit')}}">aspetur autodit autfugit</a></h4>
                                         <div class="price"> <span class="price-new">$26.00</span> <span class="price-old">$122.00</span>
                                            <span class="price-tax">Without tax: $20.00</span> 
                                         </div>
@@ -125,7 +125,7 @@
                             <div class="product-layouts">
                                <div class="product-thumb transition">
                                   <div class="image">
-                                     <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=41"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-380x494.jpg" title="magni dolores eosquies" alt="magni dolores eosquies" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05--380x494.jpg" title="magni dolores eosquies" alt="magni dolores eosquies" /> </a>
+                                     <a href="{{route('client.shopping_cart.details',$id='magni+dolores+eosquies')}}"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-380x494.jpg" title="magni dolores eosquies" alt="magni dolores eosquies" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05--380x494.jpg" title="magni dolores eosquies" alt="magni dolores eosquies" /> </a>
                                      <div class="rating">
                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
@@ -136,7 +136,7 @@
                                   </div>
                                   <div class="thumb-description">
                                      <div class="caption">
-                                        <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=41">magni dolores eosquies</a></h4>
+                                        <h4><a href="{{route('client.shopping_cart.details',$id='magni+dolores+eosquies')}}">magni dolores eosquies</a></h4>
                                         <div class="price"> $122.00
                                            <span class="price-tax">Without tax: $100.00</span> 
                                         </div>
@@ -168,13 +168,13 @@
                             <div class="product-layouts">
                                <div class="product-thumb transition">
                                   <div class="image">
-                                     <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=46"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/17-380x494.jpg" title="voluptas nulla pariatur" alt="voluptas nulla pariatur" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/17--380x494.jpg" title="voluptas nulla pariatur" alt="voluptas nulla pariatur" /> </a> 
+                                     <a href="{{route('client.shopping_cart.details',$id='voluptas+nulla+pariatur')}}"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/17-380x494.jpg" title="voluptas nulla pariatur" alt="voluptas nulla pariatur" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/17--380x494.jpg" title="voluptas nulla pariatur" alt="voluptas nulla pariatur" /> </a> 
                                      <div class="sale-icon">Sale</div>
                                      <span class="percent">-98%</span>
                                   </div>
                                   <div class="thumb-description">
                                      <div class="caption">
-                                        <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=46">voluptas nulla pariatur</a></h4>
+                                        <h4><a href="{{route('client.shopping_cart.details',$id='voluptas+nulla+pariatur')}}">voluptas nulla pariatur</a></h4>
                                         <div class="price"> <span class="price-new">$26.00</span> <span class="price-old">$1,202.00</span>
                                            <span class="price-tax">Without tax: $20.00</span> 
                                         </div>

@@ -103,7 +103,7 @@
                             </tbody>
                         </table>
                         {{-- <div class="buttons clearfix">
-                            <div class="pull-right"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account" class="btn btn-primary">Continue</a></div>
+                            <div class="pull-right"><a  class="btn btn-primary">Continue</a></div>
                         </div> --}}
                         <script>
                             var Tawk_API = {},

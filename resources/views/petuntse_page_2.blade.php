@@ -56,18 +56,6 @@
 	</head>
 	<body class="product-category-20">
 		<div id="page">
-			<div class="header-top-cms">
-				<aside id="header-top">
-					<div class="html-content">
-						<div class="box-content">
-							<div id="ttcmsheader">
-								<div class="header-service">Exclusive Selling Sale, Up to 50% OFF</div>
-								<div class="headerservice-close"></div>
-							</div>
-						</div>
-					</div>
-				</aside>
-			</div>
 			<header>
 				<div class="header">
 					@include('block.header')
@@ -86,115 +74,6 @@
 				<div class="row">
 					<aside id="column-left" class="col-sm-3 hidden-xs">
 						<div class="left-right-inner">
-							<div class="panel panel-default category-treeview">
-								<div class="panel-heading">Categories</div>
-								<ul class="list-group">
-									<li class="category-li category-active">
-										<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20" class="list-group-item active">Petuntse</a>
-										<ul>
-											<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26" class="list-group-item current-child-item">Nile silt</a></li>
-											<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92" class="list-group-item current-child-item">Jesmonite</a></li>
-										</ul>
-									</li>
-									<li class="category-li">
-										<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25" class="list-group-item">Jeans</a>
-									</li>
-									<li class="category-li">
-										<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=65" class="list-group-item">Petuntse</a>
-									</li>
-									<li class="category-li">
-										<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=66" class="list-group-item">Briquetage</a>
-									</li>
-									<li class="category-li">
-										<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67" class="list-group-item">clothes</a>
-									</li>
-								</ul>
-							</div>
-							<div class="panel panel-default option-filter">
-								<div class="panel-heading">Refine Search</div>
-								<div class="list-group option-filter-box">
-									<div class="list-group">
-										<div class="list-group-items">
-											<a class="list-group-item">Colors</a>
-											<div class="list-group-item">
-												<div id="filter-group1">
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" name="filter[]" value="1" />
-															Black
-														</label>
-													</div>
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" name="filter[]" value="2" />
-															White
-														</label>
-													</div>
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" name="filter[]" value="3" />
-															Silver
-														</label>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="list-group-items">
-											<a class="list-group-item">Price</a>
-											<div class="list-group-item">
-												<div id="filter-group2">
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" name="filter[]" value="4" />
-															$100 and belov
-														</label>
-													</div>
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" name="filter[]" value="5" />
-															$100 to $200
-														</label>
-													</div>
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" name="filter[]" value="6" />
-															$200 and more
-														</label>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="list-group-items">
-											<a class="list-group-item">Size</a>
-											<div class="list-group-item">
-												<div id="filter-group3">
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" name="filter[]" value="7" />
-															Large
-														</label>
-													</div>
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" name="filter[]" value="8" />
-															Medium
-														</label>
-													</div>
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" name="filter[]" value="9" />
-															Small
-														</label>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="panel-footer text-right">
-										<button type="button" id="button-filter" class="btn btn-primary">Refine Search</button>
-									</div>
-								</div>
-							</div>
 							<script>
 												$('#button-filter').on('click', function() {
 
@@ -493,17 +372,6 @@
 									</div>
 								</div>
 							</div>
-							<div class="sidebar panel panel-default information-list">
-								<div class="panel-heading">Information</div>
-								<div class="list-group">
-									<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=4" class="list-group-item">About Us</a>
-									<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=6" class="list-group-item">Delivery Information</a>
-									<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=3" class="list-group-item">Privacy Policy</a>
-									<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=5" class="list-group-item">Terms &amp; Conditions</a>
-									<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/contact" class="list-group-item">Contact Us</a>
-									<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/sitemap" class="list-group-item">Site Map</a>
-								</div>
-							</div>
 						</div>
 					</aside>
 					<div id="content" class="col-sm-9">
@@ -537,7 +405,7 @@
 																<img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/category-image-129x40.jpg" alt="" />
 															</a>
 														</div>
-														<h5><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26">Nile silt</a></h5>
+														<h5><a href="{{route('client.product.nilesilt',$id='nilesilt_1')}}">Nile silt</a></h5>
 													</li>
 													<li>
 														<div class="subcategory-image">
@@ -545,14 +413,14 @@
 																<img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/category-image-129x40.jpg" alt="" />
 															</a>
 														</div>
-														<h5><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92">Jesmonite</a></h5>
+														<h5><a href="{{route('client.product.jesmonite',$id='jesmonite_2')}}">Jesmonite</a></h5>
 													</li>
 												</ul>
 											</div>
 										</div>
 									</div>
 
-									<p class="category-compare"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/compare" id="compare-total">Product Compare (0)</a></p>
+									<p class="category-compare"><a href="{{route('client.product.product_compatible',$id='all')}}" id="compare-total">Product Compare (0)</a></p>
 								</div>
 							</div>
 						</div>
@@ -1128,178 +996,8 @@
 				</div>
 			</div>
 			<footer>
-				<div class="footer-container">
-					<div class="container bottom-to-top hb-animate-element">
-						<div class="footer-column footer-left-cms col-xs-3">
-							<aside id="footer-left">
-								<div class="html-content">
-									<div class="box-content">
-										<div id="ttcmsfooter">
-											<div class="ttfooter-logo">
-												<a href="#"><img src="image/catalog/demo/banners/footer-logo.png" alt="footer-logo" /></a>
-											</div>
-											<div class="ttfooter-desc">At vero eos et accusamus et iusto odio dignissimos ducimus, duis faucibus enim vitae</div>
-										</div>
-									</div>
-								</div>
-							</aside>
-						</div>
-						<div class="col-sm-3 footer-column footer-my-account">
-							<h5>My Account</h5>
-							<ul class="list-unstyled">
-								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account">My Account</a></li>
-								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist">Wish List</a></li>
-								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/voucher">Gift Certificates</a></li>
-								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/return/add">Returns</a></li>
-								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/special">Specials</a></li>
-							</ul>
-						</div>
-						<div class="col-xs-3 footer-column footer-extras">
-							<h5>Extras</h5>
-							<ul class="list-unstyled">
-								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=4">About Us</a></li>
-								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=6">Delivery Information</a></li>
-								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=3">Privacy Policy</a></li>
-								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=5">Terms &amp; Conditions</a></li>
-								<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/contact">Contact Us</a></li>
-							</ul>
-						</div>
-						<div class="footer-column footer-right-cms col-sm-3">
-							<aside id="footer-right">
-								<div class="html-content">
-									<div class="box-content">
-										<div class="contact-us">
-											<h5 class="">Store Information</h5>
-											<ul class="list-unstyled" style="display: block;">
-												<li class="contact-detail col-sm-4">
-													<div class="data address">
-														<i class="material-icons">location_on</i>
-														<div class="contact-title"><span>our location</span></div>
-														<span class="contact-address">
-															Demo Store <br />
-															United States
-														</span>
-													</div>
-												</li>
-												<li class="contact col-sm-4">
-													<div class="data contact">
-														<i class="material-icons">local_phone</i>
-														<div class="contact-title"><span>call us</span></div>
-														<span class="phone">
-															<a href="#">0123456789</a>
-														</span>
-													</div>
-												</li>
-												<li class="fax">
-													<div class="data fax">
-														<i class="material-icons">present_to_all</i>
-														<span class="fax-address">
-															<a href="#">0123-456-7890</a>
-														</span>
-													</div>
-												</li>
-												<li class="email col-sm-4">
-													<div class="data email">
-														<i class="material-icons">mail_outline</i>
-														<div class="contact-title"><span>e-mail</span></div>
-														<span class="email-address">
-															<a href="/cdn-cgi/l/email-protection#d9b4b0b7b099adbcb4a9b5b8adbcadabb0a9f7bab6b4">
-																<span class="__cf_email__" data-cfemail="aecacbc3c1eec9c3cfc7c280cdc1c3">[email&#160;protected]</span>
-															</a>
-														</span>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</aside>
-						</div>
-						<div class="footer-top-cms">
-							<aside id="footer-top">
-								<div class="newletter-subscribe col-sm-12 hb-animate-element right-to-left hb-in-viewport">
-									<div id="newletter-boxes" class="newletter-container">
-										<div id="dialog-normal" class="window">
-											<div class="box">
-												<div class="newletter-title col-sm-6">
-													<h2 class="tt-title">Sign Up For Newsletter</h2>
-													<span class="newletter-desc">Sign up with us and get latest deals, offers & updates about store.</span>
-												</div>
-												<div class="box-content newleter-content col-sm-6">
-													<label></label>
-													<div id="form_subscribe">
-														<form name="subscribe" id="subscribe">
-															<input type="text" placeholder="Your email address" value="" name="subscribe_email" id="subscribe_email" />
-															<input type="hidden" value="" name="subscribe_name" id="subscribe_name" />
-															<a class="button btn btn-primary" onclick="email_subscribe()"><span>subscribe</span><i class="material-icons">send</i></a>
-														</form>
-													</div>
-													<div id="notification-normal"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-									<script>
-										function email_subscribe(){
-											$.ajax({
-													type: 'post',
-													url: 'index.php?route=extension/module/ttnewslettersubscribe/subscribe',
-													dataType: 'html',
-										            data:$("#subscribe").serialize(),
-													success: function (html) {
-													try {
-
-														eval(html);
-
-													} catch (e) {
-													}
-
-													}});
-
-
-										}
-										function email_unsubscribe(){
-											$.ajax({
-													type: 'post',
-													url: 'index.php?route=extension/module/ttnewslettersubscribe/unsubscribe',
-													dataType: 'html',
-										            data:$("#subscribe").serialize(),
-													success: function (html) {
-															try {
-
-																eval(html);
-
-															} catch (e) {
-															}
-													}});
-											$('html, body').delay( 1500 ).animate({ scrollTop: 0 }, 'slow');
-
-										}
-									</script>
-									<script>
-										  $(document).ready(function() {
-										$('#subscribe_email').keypress(function(e) {
-										          if(e.which == 13) {
-										              e.preventDefault();
-										              email_subscribe();
-										          }
-											var name= $(this).val();
-										  	$('#subscribe_name').val(name);
-										      });
-										$('#subscribe_email').change(function() {
-										 var name= $(this).val();
-										  		$('#subscribe_name').val(name);
-										});
-
-										  });
-									</script>
-								</div>
-							</aside>
-						</div>
-					</div>
-				</div>
-				<div class="bottom-footer">
+				@include('block.footer')
+				{{-- <div class="bottom-footer">
 					<div class="container bottom-to-top hb-animate-element">
 						<div class="footer-bottom col-sm-5">
 							<p>Powered By <a href="https://www.opencart.com">OpenCart</a> Your Store &copy; 2022</p>
@@ -1364,7 +1062,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> --}}
 			</footer>
 		</div>
 		<script>

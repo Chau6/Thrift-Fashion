@@ -445,7 +445,7 @@
                                                                 <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/category-image-129x40.jpg" alt="" />
                                                             </a>
                                                         </div>
-                                                        <h5><a href="{{route('client.product.nilesilt',['id'=>'nilesilt_2'])}}">Nile silt</a></h5>
+                                                        <h5><a href="{{route('client.product.nilesilt',['id'=>'nilesilt_1'])}}">Nile silt</a></h5>
                                                     </li>
                                                     <li>
                                                         <div class="subcategory-image">

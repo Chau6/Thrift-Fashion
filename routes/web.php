@@ -32,8 +32,10 @@ Route::name('client.')->group(function(){
         Route::get('about', [HomePageController::class, 'about'])->name('about');
 
         Route::get('news', [HomePageController::class, 'news'])->name('news');
+
         Route::get('contact', [HomePageController::class, 'contact'])->name('contact');
-        Route::get('notification', [HomePageController::class, 'notification'])->name('notification');
+        
+        Route::get('register', [HomePageController::class, 'register'])->name('register');
 
         Route::post('login', [HomePageController::class, 'login'])->name('login');
 
@@ -44,6 +46,7 @@ Route::name('client.')->group(function(){
         Route::get('changePassword', [HomePageController::class, 'changePassword'])->name('changePassword');
 
         Route::get('history_order', [HomePageController::class, 'history_order'])->name('history_order');
+
         Route::get('account', [HomePageController::class, 'account'])->name('account');
 
         Route::get('clothes', [HomePageController::class, 'clothes'])->name('clothes');
@@ -83,7 +86,5 @@ Route::name('client.')->group(function(){
 
             Route::get('details/{id}', [HomePageController::class, 'details'])->name('details');
         });
-
-        Route::get('back',[HomePageController::class, 'back'])->name('back');
 });
 // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');

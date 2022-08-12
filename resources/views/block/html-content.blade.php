@@ -17,7 +17,7 @@
                 </div>
                 <div class="ttcmsabout-content">
                    <div class="ttcmsabout-title">La Fashion est le tbeatre de notre intinite.</div>
-                   <div class="ttcmsabout-btn"><a href="#" title="show more">show more</a></div>
+                   <div class="ttcmsabout-btn"><a href="{{route('client.homeindex')}}" title="show more">show more</a></div>
                 </div>
              </div>
           </div>

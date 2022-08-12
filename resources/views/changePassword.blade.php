@@ -64,7 +64,7 @@
             </fieldset>
             --}}
             <div class="buttons clearfix">
-                <div class="pull-left"><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account" class="btn btn-default">Back</a></div>
+                <div class="pull-left"><a  class="btn btn-default">Back</a></div>
                 <div class="pull-right">
                     <input type="submit" value="Continue" class="btn btn-primary input" />
                 </div>
