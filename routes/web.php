@@ -20,12 +20,12 @@ use App\Http\Controllers\Admin\CartController;
 */
 // ================Client
 
+
 Route::name('client.')->group(function(){
 
         Route::get('remove/{id}', [HomePageController::class, 'remove'])->name('remove');
 
         Route::get('wishlist/{id}', [HomePageController::class, 'wishlist'])->name('wishlist');
-
     //==========index
         Route::get('homeindex', [HomePageController::class, 'homeindex'])->name('homeindex');
         // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');

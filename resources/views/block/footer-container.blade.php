@@ -4,7 +4,7 @@
           <div class="html-content">
              <div class="box-content">
                 <div id="ttcmsfooter">
-                   <div class="ttfooter-logo"><a href="#"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/footer-logo.png" alt="footer-logo"></a></div>
+                   <div class="ttfooter-logo"><a href="#"><img src="{{asset('images/logo.png')}}" alt="footer-logo"></a></div>
                    <div class="ttfooter-desc">
                      The website will provide a facility for easy shopping of second-hand apparel
                      Used in new condition, convenient for customers to shop from any
