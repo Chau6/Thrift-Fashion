@@ -104,7 +104,7 @@
                                 </div>
                             </div>
                         </div>
-                        <form action="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/contact" method="post" enctype="multipart/form-data" class="form-horizontal">
+                        <form action="{{route('client.contact')}}" id="checkform" enctype="multipart/form-data" class="form-horizontal">
                             <fieldset>
                                 <legend>Contact Us</legend>
                                 <div class="form-group required">
