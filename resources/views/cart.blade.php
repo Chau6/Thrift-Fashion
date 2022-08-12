@@ -554,7 +554,7 @@
                                             <div class="ttproducthover">
                                                 <div class="ttcart">
                                                     <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('28')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span><span class="loading"><i class="material-icons">cached</i></span>
                                                     </button>
                                                 </div>
                                                 <div class="button-group">
@@ -612,7 +612,7 @@
                                             <div class="ttproducthover">
                                                 <div class="ttcart">
                                                     <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('30')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span><span class="loading"><i class="material-icons">cached</i></span>
                                                     </button>
                                                 </div>
                                                 <div class="button-group">
@@ -665,7 +665,7 @@
                                             <div class="ttproducthover">
                                                 <div class="ttcart">
                                                     <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('36')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span><span class="loading"><i class="material-icons">cached</i></span>
                                                     </button>
                                                 </div>
                                                 <div class="button-group">
@@ -710,7 +710,7 @@
                                     </div>
                                     <div class="thumb-description">
                                         <div class="caption">
-                                            <h4><a href="">voluptate velit esse</a></h4>
+                                            <h4><a>voluptate velit esse</a></h4>
                                             <div class="price">
                                                 $123.20
                                                 <span class="price-tax">Ex Tax: $101.00</span>
@@ -718,7 +718,7 @@
                                             <div class="ttproducthover">
                                                 <div class="ttcart">
                                                     <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('40')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span><span class="loading"><i class="material-icons">cached</i></span>
                                                     </button>
                                                 </div>
                                                 <div class="button-group">
@@ -783,7 +783,7 @@
                                             <div class="ttproducthover">
                                                 <div class="ttcart">
                                                     <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('41')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span><span class="loading"><i class="material-icons">cached</i></span>
                                                     </button>
                                                 </div>
                                                 <div class="button-group">
@@ -840,7 +840,7 @@
                                     </div>
                                     <div class="thumb-description">
                                         <div class="caption">
-                                            <h4><a href="">aliquam quaerat voluptatem</a></h4>
+                                            <h4><a>aliquam quaerat voluptatem</a></h4>
                                             <div class="price">
                                                 $122.00
                                                 <span class="price-tax">Ex Tax: $100.00</span>
@@ -848,7 +848,7 @@
                                             <div class="ttproducthover">
                                                 <div class="ttcart">
                                                     <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('42')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span><span class="loading"><i class="material-icons">cached</i></span>
                                                     </button>
                                                 </div>
                                                 <div class="button-group">

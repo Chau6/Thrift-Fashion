@@ -55,7 +55,7 @@
                                   </div>
                                   <div class="thumb-description">
                                      <div class="caption">
-                                        <h4><a href="">aliquam quaerat voluptatem</a></h4>
+                                        <h4><a>aliquam quaerat voluptatem</a></h4>
                                         <div class="price"> $122.00
                                            <span class="price-tax">Without tax: $100.00</span> 
                                         </div>
@@ -208,7 +208,7 @@
                                   <div class="image"> <a href=""> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-380x494.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19--380x494.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> </a></div>
                                   <div class="thumb-description">
                                      <div class="caption">
-                                        <h4><a href="">voluptate velit esse</a></h4>
+                                        <h4><a>voluptate velit esse</a></h4>
                                         <div class="price"> $123.20
                                            <span class="price-tax">Without tax: $101.00</span> 
                                         </div>
@@ -471,7 +471,7 @@
                                   <div class="image"> <a href=""> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-380x494.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19--380x494.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> </a></div>
                                   <div class="thumb-description">
                                      <div class="caption">
-                                        <h4><a href="">voluptate velit esse</a></h4>
+                                        <h4><a>voluptate velit esse</a></h4>
                                         <div class="price"> $123.20
                                            <span class="price-tax">Without tax: $101.00</span> 
                                         </div>
@@ -550,7 +550,7 @@
                                   </div>
                                   <div class="thumb-description">
                                      <div class="caption">
-                                        <h4><a href="">aliquam quaerat voluptatem</a></h4>
+                                        <h4><a>aliquam quaerat voluptatem</a></h4>
                                         <div class="price"> $122.00
                                            <span class="price-tax">Without tax: $100.00</span> 
                                         </div>
@@ -772,7 +772,7 @@
                          </div>
                          <div class="thumb-description">
                             <div class="caption">
-                               <h4><a href="">perspiciatis unde omnis</a></h4>
+                               <h4><a>perspiciatis unde omnis</a></h4>
                                <div class="price"> <span class="price-new">$8.00</span> <span class="price-old">$14.00</span>
                                   <span class="price-tax">Ex Tax: $5.00</span> 
                                </div>

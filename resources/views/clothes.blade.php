@@ -97,7 +97,7 @@
                                        </div>
                                        <div class="thumb-description">
                                           <div class="caption">
-                                             <h4><a href="">perspiciatis unde omnis</a></h4>
+                                             <h4><a>perspiciatis unde omnis</a></h4>
                                              <div class="price">
                                                 <span class="price-new">$8.00</span>
                                                 <span class="price-old">$14.00</span>
@@ -126,7 +126,7 @@
                                        </div>
                                        <div class="thumb-description">
                                           <div class="caption">
-                                             <h4><a href="">voluptate velit esse</a></h4>
+                                             <h4><a>voluptate velit esse</a></h4>
                                              <div class="price">
                                                 $123.20
                                                 <span class="price-tax">Ex Tax: $101.00</span>
@@ -154,7 +154,7 @@
                                        </div>
                                        <div class="thumb-description">
                                           <div class="caption">
-                                             <h4><a href="">aliquam quaerat voluptatem</a></h4>
+                                             <h4><a>aliquam quaerat voluptatem</a></h4>
                                              <div class="rating">
                                                 <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                                 <span class="fa-stack"><i class="material-icons star_on">star</i></span>

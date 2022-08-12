@@ -290,7 +290,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a href="">perspiciatis unde omnis</a></h4>
+                                                    <h4><a>perspiciatis unde omnis</a></h4>
                                                     <div class="price">
                                                         <span class="price-new">$8.00</span>
                                                         <span class="price-old">$14.00</span>
@@ -299,7 +299,7 @@
                                                 </div>
                                                 <div class="button-group">
                                                     <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('43')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span>
+                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
                                                     </button>
                                                     <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('43');"><i class="material-icons icon-wishlist">favorite</i></button>
                                                     <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('43');"><i class="material-icons icon-exchange">equalizer</i></button>
@@ -335,7 +335,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a href="">voluptate velit esse</a></h4>
+                                                    <h4><a>voluptate velit esse</a></h4>
                                                     <div class="price">
                                                         $123.20
                                                         <span class="price-tax">Ex Tax: $101.00</span>
@@ -343,7 +343,7 @@
                                                 </div>
                                                 <div class="button-group">
                                                     <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('40')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span>
+                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
                                                     </button>
                                                     <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('40');"><i class="material-icons icon-wishlist">favorite</i></button>
                                                     <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('40');"><i class="material-icons icon-exchange">equalizer</i></button>
@@ -379,7 +379,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a href="">aliquam quaerat voluptatem</a></h4>
+                                                    <h4><a>aliquam quaerat voluptatem</a></h4>
                                                     <div class="rating">
                                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
@@ -394,7 +394,7 @@
                                                 </div>
                                                 <div class="button-group">
                                                     <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('42')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span>
+                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
                                                     </button>
                                                     <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="material-icons icon-wishlist">favorite</i></button>
                                                     <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('42');"><i class="material-icons icon-exchange">equalizer</i></button>
@@ -548,7 +548,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('42')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -608,7 +608,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('30')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -670,7 +670,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('47')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -732,7 +732,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('28')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -799,7 +799,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('41')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -859,7 +859,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('36')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -919,7 +919,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('34')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -979,7 +979,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('32')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -1041,7 +1041,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('43')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
