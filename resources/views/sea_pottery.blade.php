@@ -238,6 +238,7 @@
                                                      <li class="li-second-items">
                                                        <a href="{{route('client.product.jeans',['id'=>"petuntse"])}}" class="a-second-link a-item">
                                                         <span class="a-second-title">Petuntse</span>
+
                                                         </a>
                                                      </li>
                                                      <li class="li-second-items">

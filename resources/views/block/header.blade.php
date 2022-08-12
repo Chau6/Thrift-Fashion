@@ -1,6 +1,6 @@
 <div class="full-header">
     <div class="header-left">
-       <div id="logo"><a href="{{route('client.homeindex')}}"><img src="" title="Your Store" alt="Your Store" class="img-responsive" /></a> </div>
+       <div id="logo"><a href="{{route('client.homeindex')}}"><img src="{{asset('images/logo.png')}}" title="Your Store" alt="Your Store" class="img-responsive" style="height: 500px; width:200px; object-fit: cover" /></a> </div>
     </div>
     <div class="header-top-right">
        <div id="top-links" class="nav pull-right">

@@ -214,7 +214,7 @@
                                                </div>
                                             </li>
                        
-                                             {{-- Dress --}}Wish
+                                             {{-- Dress --}}
                                              <li class="li-top-item">
                                                 <a class="a-top-link" href="{{route('client.product.carrier',['id'=>'all'])}}">
                                                 <span>Carrier Bag</span>
