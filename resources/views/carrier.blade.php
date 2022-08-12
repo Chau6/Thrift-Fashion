@@ -46,19 +46,12 @@
     <body class="product-category-67">
         <div id="page">
             <div class="header-top-cms">
-                <aside id="header-top">
-                    <div class="html-content">
-                        <div class="box-content">
 
-                        </div>
-                    </div>
-                </aside>
             </div>
             <header>
                 <div class="header">
                     <div class="full-header">
                         <div class="header-left">
-
                             <div id="logo">
                                 <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home">
                                     <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/logo.jpg" title="Your Store" alt="Your Store" class="img-responsive" />
@@ -169,294 +162,6 @@
                         </div>
                         <div class="header-top-left">
                             <div class="header-left-cms">
-                                <aside id="header-left">
-                                    <div class="main-category-list">
-                                        <div class="TT-panel-heading">
-                                            <span>menu</span>
-                                            <span class="icon"><i class="material-icons icon-menu">menu</i></span>
-                                        </div>
-                                        <div class="tt-menu horizontal-menu tt-menu-bar" id="tt-menu-3471">
-                                            <ul class="ul-top-items">
-                                                <li class="li-top-item mega-menu">
-                                                    <a class="a-top-link" href="#">
-                                                        <span>home</span>
-                                                    </a>
-                                                    <div class="mega-menu-container sub-menu-container">
-                                                        <div class="col-sm-12 sub-item2-content" data-cols="12">
-                                                            <h4><strong></strong></h4>
-                                                            <p></p>
-                                                            <div class="banner-static static-menu">
-                                                                <div class="column layout-1">
-                                                                    <div class="menu-title">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/">Peter Fashion</a>
-                                                                    </div>
-                                                                    <div class="image">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/"><img src="image/catalog/demo/banners/demo-1.png" alt="image" width="180" height="100" /></a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="column layout-2">
-                                                                    <div class="menu-title">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC02/"> #10 Bestselling</a>
-                                                                    </div>
-                                                                    <div class="image">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC02/"><img src="image/catalog/demo/banners/demo-2.png" alt="image" width="180" height="100" /></a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="column layout-3">
-                                                                    <div class="menu-title">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC03/">Goggles</a>
-                                                                    </div>
-                                                                    <div class="image">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC03/"><img src="image/catalog/demo/banners/demo-3.png" alt="image" width="180" height="100" /></a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="column layout-4">
-                                                                    <div class="menu-title">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC04/">instagram shop</a>
-                                                                    </div>
-                                                                    <div class="image">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC04/"><img src="image/catalog/demo/banners/demo-4.png" alt="image" width="180" height="100" /></a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="column layout-5">
-                                                                    <div class="menu-title">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC05/">Banners</a>
-                                                                    </div>
-                                                                    <div class="image">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC05/"><img src="image/catalog/demo/banners/demo-5.png" alt="image" width="180" height="100" /></a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="column layout-6">
-                                                                    <div class="menu-title">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC06/">Market shop</a>
-                                                                    </div>
-                                                                    <div class="image">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC06/"><img src="image/catalog/demo/banners/demo-6.png" alt="image" width="180" height="100" /></a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="column layout-7">
-                                                                    <div class="menu-title">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC07/">catalogue</a>
-                                                                    </div>
-                                                                    <div class="image">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC07/"><img src="image/catalog/demo/banners/demo-7.png" alt="image" width="180" height="100" /></a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="column layout-8">
-                                                                    <div class="menu-title">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC08/">box view</a>
-                                                                    </div>
-                                                                    <div class="image">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC08/"><img src="image/catalog/demo/banners/demo-8.png" alt="image" width="180" height="100" /></a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="column layout-9">
-                                                                    <div class="menu-title">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC09/">catalogue v2</a>
-                                                                    </div>
-                                                                    <div class="image">
-                                                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC09/"><img src="image/catalog/demo/banners/demo-9.png" alt="image" width="180" height="100" /></a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="column layout-10">
-                                                                    <div class="menu-title">
-                                                                        <a href="#">coming soon</a>
-                                                                    </div>
-                                                                    <div class="image">
-                                                                        <a href="#"><img src="image/catalog/demo/banners/demo-10.png" alt="image" width="180" height="100" /></a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="li-top-item mega-menu">
-                                                    <a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20">
-                                                        <span>Petuntse</span>
-                                                    </a>
-                                                    <div class="mega-menu-container sub-menu-container">
-                                                        <div class="col-sm-2 sub-item2-content" data-cols="2">
-                                                            <a class="a-mega-second-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26">
-                                                                <h4><strong>Nile silt</strong></h4>
-                                                            </a>
-                                                            <div class="sub_item3-content">
-                                                                <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_85">
-                                                                    <h5>Geopolymer</h5>
-                                                                </a>
-                                                                <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_60">
-                                                                    <h5>Lumicera</h5>
-                                                                </a>
-                                                                <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_59">
-                                                                    <h5>Petuntse</h5>
-                                                                </a>
-                                                                <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26_61">
-                                                                    <h5>Sea pottery</h5>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-2 sub-item2-content" data-cols="2">
-                                                            <a class="a-mega-second-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92">
-                                                                <h4><strong>Jesmonite</strong></h4>
-                                                            </a>
-                                                            <div class="sub_item3-content">
-                                                                <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_95">
-                                                                    <h5>Nile silt</h5>
-                                                                </a>
-                                                                <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_96">
-                                                                    <h5>Petuntse</h5>
-                                                                </a>
-                                                                <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_93">
-                                                                    <h5>Pitchers</h5>
-                                                                </a>
-                                                                <a class="a-mega-third-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92_94">
-                                                                    <h5>Pitchers</h5>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="li-top-item mega-menu">
-                                                    <a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25">
-                                                        <span>Jeans</span>
-                                                    </a>
-                                                    <div class="flyout-menu-container sub-menu-container">
-                                                        <ul class="ul-second-items">
-                                                            <li class="li-second-items">
-                                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_98" class="a-second-link a-item">
-                                                                    <span class="a-second-title">Geopolymer</span>
-                                                                </a>
-                                                            </li>
-                                                            <li class="li-second-items">
-                                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_99" class="a-second-link a-item">
-                                                                    <span class="a-second-title">Petuntse</span>
-                                                                    <i class="material-icons chevron-right">chevron_right</i>
-                                                                </a>
-                                                                <div class="flyout-third-items">
-                                                                    <ul class="ul-third-items">
-                                                                        <li class="li-third-items">
-                                                                            <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_99_104" class="a-third-link">
-                                                                                <span class="a-third-title">Bone china</span>
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <li class="li-second-items">
-                                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_128" class="a-second-link a-item">
-                                                                    <span class="a-second-title">Gilrs</span>
-                                                                </a>
-                                                            </li>
-                                                            <li class="li-second-items">
-                                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_129" class="a-second-link a-item">
-                                                                    <span class="a-second-title">Kurti</span>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="li-top-item mega-menu">
-                                                    <a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67">
-                                                        <span>Dress</span>
-                                                    </a>
-                                                    <div class="flyout-menu-container sub-menu-container">
-                                                        <ul class="ul-second-items">
-                                                            <li class="li-second-items">
-                                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67_116" class="a-second-link a-item">
-                                                                    <span class="a-second-title">jacket</span>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="li-top-item">
-                                                    <a class="a-top-link" href="index.php?route=information/contact">
-                                                        <span>contact us</span>
-                                                    </a>
-                                                </li>
-                                                <li class="li-top-item mega-menu">
-                                                    <a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25">
-                                                        <span>Cenosphere</span>
-                                                    </a>
-                                                    <div class="flyout-menu-container sub-menu-container">
-                                                        <ul class="ul-second-items">
-                                                            <li class="li-second-items">
-                                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_99" class="a-second-link a-item">
-                                                                    <span class="a-second-title">Petuntse</span>
-                                                                    <i class="material-icons chevron-right">chevron_right</i>
-                                                                </a>
-                                                                <div class="flyout-third-items">
-                                                                    <ul class="ul-third-items">
-                                                                        <li class="li-third-items">
-                                                                            <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25_99_104" class="a-third-link">
-                                                                                <span class="a-third-title">Bone china</span>
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="li-top-item">
-                                                    <a class="a-top-link" href="index.php?route=information/information&amp;information_id=4">
-                                                        <span>about us</span>
-                                                    </a>
-                                                </li>
-                                                <li class="li-top-item">
-                                                    <a class="a-top-link" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/tt_blog/blogs">
-                                                        <span data-hover="Blogs">Blogs</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                           <div id="logo"><a href="{{route('client.homeindex')}}"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/logo.jpg" title="Your Store" alt="Your Store" class="img-responsive" /></a> </div>
-                        </div>
-                        <div class="header-top-right">
-                           <div id="top-links" class="nav pull-right">
-                              <ul class="list-inline">
-                                 <li class="account-nav dropdown header_user_info">
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/account" title="Account" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons user">perm_identity</i><span class="ttuserheading">Account</span><i class="material-icons expand-more">expand_more</i></a>
-                                    <ul class="dropdown-menu dropdown-menu-right account-link-toggle">
-                                       <li><a href="{{route('client.notification')}}"><i class='material-icons ma-user'>perm_identity</i>Register</a></li>
-                                       <li><a href="{{route('client.news')}}"><i class="material-icons">lock_outline</i>Login</a></li>
-                                       <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><i class="material-icons icon-wishlist">favorite_border</i><span class="hidden-sm hidden-md">Wish List (0)</span></a></li>
-                                    </ul>
-                                 </li>
-                                 <li class="ttsearch">
-                                    <div id="search" class="input-group">
-                                       <span class="ttsearch_button">
-                                       <i class="material-icons icon-search">search</i>
-                                       <i class="material-icons icon-close">clear</i>
-                                       </span>
-                                       <div class="ttsearchtoggle">
-                                          <input type="text" name="search" value="" placeholder="Search" class="form-control input-lg" />
-                                          <span class="input-group-btn">
-                                          <button type="button" class="btn btn-default btn-lg"><i class="material-icons icon-search">search</i></button>
-                                          </span>
-                                       </div>
-                                    </div>
-                                 </li>
-                                 <li class="ttcart">
-                                    <div id="cart" class="btn-group">
-                                       <button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="btn btn-inverse btn-block btn-lg dropdown-toggle"><i class="material-icons shopping-cart">shopping_cart</i>
-                                       <span id="cart-total">0</span>
-                                       </button>
-                                       <ul class="dropdown-menu pull-right header-cart-toggle">
-                                          <li class="cart-btn">
-                                             <i class="material-icons">close</i>
-                                          </li>
-                                          <li>
-                                             <p class="text-center">Your shopping cart is empty!</p>
-                                          </li>
-                                       </ul>
-                                    </div>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="header-top-left">
-                           <div class="header-left-cms">
                               <aside id="header-left">
                                  <div class="main-category-list">
                                     <div class="TT-panel-heading">
@@ -550,12 +255,11 @@
                                              </a>
                                           </li>
                                        </ul>
-
                                     </div>
-                                </aside>
+                                 </div>
+                              </aside>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </header>
@@ -603,71 +307,6 @@
                                         <div class="swiper-slide">
                                             <a href="#"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
                                         </div>
-
-                     </div>
-                  </div>
-               </header>
-               <div class="header-content-title">
-                  <div style="background-image: url('image/catalog/demo/banners/breadcrumb-parallax.jpg'); background-position: 50% 78.1106%;" data-source-url="image/catalog/demo/banners/breadcrumb-parallax.jpg" class="parallex"></div>
-               </div>
-               <div id="product-category" class="container product-category">
-                  <ul class="breadcrumb">
-                     <li><a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a></li>
-                     <li><a href="">Carrier Bag</a></li>
-                  </ul>
-                  <div class="row">
-                     <aside id="column-left" class="col-sm-3 hidden-xs">
-                        <div class="left-right-inner">
-                           <div class="swiper-viewport">
-                              <div id="banner0" class="swiper-container">
-                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide"><a href="#"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <script><!--
-                              $('#banner0').swiper({
-                              	effect: 'fade',
-                              	autoplay: 2500,
-                                  autoplayDisableOnInteraction: false
-                              });
-                              -->
-                           </script>
-                           <div class="featured-carousel products-list">
-                              <div class="box-heading">
-                                 <h3>Featured</h3>
-                              </div>
-                              <div class="featured-items products-carousel row">
-                                 <div class="product-layouts">
-                                    <div class="product-thumb transition">
-                                       <div class="image">
-                                          <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">
-                                          <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09-70x91.jpg" title="perspiciatis unde omnis" alt="perspiciatis unde omnis" />
-                                          <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09--70x91.jpg" title="perspiciatis unde omnis" alt="perspiciatis unde omnis" />
-                                          </a>
-                                          <div class="sale-icon">Sale</div>
-                                          <span class="percent">-50%</span>
-                                       </div>
-                                       <div class="thumb-description">
-                                          <div class="caption">
-                                             <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">perspiciatis unde omnis</a></h4>
-                                             <div class="price">
-                                                <span class="price-new">$8.00</span>
-                                                <span class="price-old">$14.00</span>
-                                                <span class="price-tax">Ex Tax: $5.00</span>
-                                             </div>
-                                          </div>
-                                          <div class="button-group">
-                                             <button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('43')">
-                                             <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-                                             </span></button>
-                                             <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('43');"><i class="material-icons icon-wishlist">favorite</i></button>
-                                             <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('43');"><i class="material-icons icon-exchange">equalizer</i></button>
-                                             <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43')"><i class="material-icons quick_view_icon">visibility</i>
-                                             </button>
-                                          </div>
-                                       </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -829,7 +468,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="sidebar panel panel-default information-list">
+                            {{-- <div class="sidebar panel panel-default information-list">
                                 <div class="panel-heading">Information</div>
                                 <div class="list-group">
                                     <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=4" class="list-group-item">About Us</a>
@@ -839,7 +478,7 @@
                                     <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/contact" class="list-group-item">Contact Us</a>
                                     <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/sitemap" class="list-group-item">Site Map</a>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </aside>
                     <div id="content" class="col-sm-9">
@@ -861,11 +500,11 @@
                                 </div>
                                 <div class="col-md-8 text-right filter-selection">
                                     <select id="input-limit" class="form-control" onchange="location = this.value;">
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;limit=9" selected="selected">9</option>
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;limit=25">25</option>
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;limit=50">50</option>
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;limit=75">75</option>
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;limit=100">100</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'limit=9'])}}" selected="selected">9</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'limit=25'])}}">25</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'limit=50'])}}">50</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'limit=75'])}}">75</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'limit=100'])}}">100</option>
                                     </select>
                                 </div>
                             </div>
@@ -875,15 +514,15 @@
                                 </div>
                                 <div class="col-md-9 text-right filter-selection">
                                     <select id="input-sort" class="form-control" onchange="location = this.value;">
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
-                                        <option value="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=67&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'all'])}}" selected="selected">Default</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'a-z'])}}">Name (A - Z)</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'z-a'])}}">Name (Z - A)</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'price_from_high_to_low'])}}">Price (Low &gt; High)</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'price_from_low_to_high'])}}">Price (High &gt; Low)</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'rating_highest'])}}">Rating (Highest)</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'rating_lowest'])}}">Rating (Lowest)</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'model_a-z'])}}">Model (A - Z)</option>
+                                        <option value="{{route('client.product.carrier',['id'=>'model_z-a'])}}">Model (Z - A)</option>
                                     </select>
                                 </div>
                             </div>
@@ -989,7 +628,85 @@
                 </div>
             </div>
             <footer>
-                @include('block.footer')
+                <div class="footer-container">
+                    @include('block.footer-container')
+                </div>
+                <div class="bottom-footer">
+                    <div class="container bottom-to-top hb-animate-element">
+                        <div class="footer-bottom col-sm-5">
+                            <p>Powered By <a href="https://www.opencart.com">OpenCart</a> Your Store &copy; 2022</p>
+                        </div>
+                        <div class="block-social col-sm-7">
+                            <div class="footer-bottom-cms">
+                                <aside id="footer-bottom">
+                                    <div class="html-content">
+                                        <div class="box-content">
+                                            <div id="ttcmspaymentlogo" class="col-sm-3">
+                                                <h5 class="toggle">Payment Methods</h5>
+                                                <div id="ttpayment">
+                                                    <div class="payment_logo_block">
+                                                        <div class="payment-title">Accepted Payment Methods</div>
+                                                        <ul class="payment-list list-unstyled">
+                                                            <li class="google">
+                                                                <a href="#"> <img src="image/catalog/demo/banners/google.png" alt="google" /></a>
+                                                            </li>
+                                                            <li class="maestro">
+                                                                <a href="#"> <img src="image/catalog/demo/banners/maestro.png" alt="maestro" /></a>
+                                                            </li>
+                                                            <li class="mastercard">
+                                                                <a href="#"> <img src="image/catalog/demo/banners/mastercard.png" alt="mastercard" /></a>
+                                                            </li>
+                                                            <li class="paypal">
+                                                                <a href="#"> <img src="image/catalog/demo/banners/paypal.png" alt="paypal" /></a>
+                                                            </li>
+                                                            <li class="visa">
+                                                                <a href="#"> <img src="image/catalog/demo/banners/visa.png" alt="visa" /></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="html-content">
+                                        <div class="box-content">
+                                            <div class="follow-us col-sm-3">
+                                                <h5>Follow us</h5>
+                                                <ul class="list-unstyled">
+                                                    <li class="facebook">
+                                                        <a href="#">
+                                                            <p>Facebook</p>
+                                                        </a>
+                                                    </li>
+                                                    <li class="twitter">
+                                                        <a href="#">
+                                                            <p>Twitter</p>
+                                                        </a>
+                                                    </li>
+                                                    <li class="youtube">
+                                                        <a href="#">
+                                                            <p>YouTube</p>
+                                                        </a>
+                                                    </li>
+                                                    <li class="googleplus">
+                                                        <a href="#">
+                                                            <p>Google +</p>
+                                                        </a>
+                                                    </li>
+                                                    <li class="pinterest">
+                                                        <a href="#">
+                                                            <p>Pinterest</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </footer>
         </div>
         <script>
