@@ -66,6 +66,9 @@ class HomePageController extends Controller
      }
 
     public function petuntse ($id) {
+        if($id=='page=2'){
+            return view('petuntse_page_2');
+        }
         return view('petuntse');
     }
     // public function petuntseSearch (Request $request) {
@@ -119,7 +122,57 @@ class HomePageController extends Controller
     }
 
     public function details ($id) {
-        return view('details');
+        if($id=='aliquam+quaerat+voluptatem'){
+            return view('list_products.p1');
+        }
+        if($id=='south+vietnamese+pajama'){
+            return view('list_products.p2');
+        }
+        if($id=='cool+fabric+wide+cheesecloth'){
+            return view('list_products.p3');
+        }
+        if($id=='aspetur+autodit+autfugit'){
+            return view('list_products.p4');
+        }
+        if($id=='magni+dolores+eosquies'){
+            return view('list_products.p5');
+        }
+        if($id=='neque+porro+quisquam'){
+            return view('list_products.p6');
+        }
+        if($id=='gray+hoodie'){
+            return view('list_products.p7');
+        }
+        if($id=='nostrum+exercitationem'){
+            return view('list_products.p8');
+        }
+        if($id=='perspiciatis+unde+omnis'){
+            return view('list_products.p9');
+        }
+        if($id=='quaerat+outt+voluptatem'){
+            return view('list_products.p10');
+        }
+        if($id=='similique+suntin+culpaqui'){
+            return view('list_products.p11');
+        }
+        if($id=='sint+incidunt+utlabore'){
+            return view('list_products.p12');
+        }
+        if($id=='tempora+incidunt+utlabore'){
+            return view('list_products.p13');
+        }
+        if($id=='voluptas+nulla+pariatur'){
+            return view('list_products.p14');
+        }
+        if($id=='voluptas+sit+aspernatur'){
+            return view('list_products.p15');
+        }
+        if($id=='voluptate+velit+esse'){
+            return view('list_products.p16');
+        }
+        if($id=='suscipit+laboriosam+nisi'){
+            return view('list_products.p17');
+        }
     }
 
     public function girl ($id) {

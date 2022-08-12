@@ -514,7 +514,7 @@
                                 <div class="product-layout product-list col-xs-12">
                                     <div class="product-thumb row">
                                         <div class="image">
-                                            <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=42">
+                                            <a href="{{route('client.shopping_cart.details',['id'=>"aliquam+quaerat+voluptatem"])}}">
                                                 <img
                                                     class="image_thumb"
                                                     src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-371x482.jpg"
@@ -539,7 +539,7 @@
                                         <div class="thumb-description">
                                             <div class="caption">
                                                 <div class="product-description">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=42">aliquam quaerat voluptatem</a></h4>
+                                                    <h4><a href="{{route('client.shopping_cart.details',['id'=>"aliquam+quaerat+voluptatem"])}}">aliquam quaerat voluptatem</a></h4>
                                                     <p class="description">Praesent ornare, ex a interdum consectetur, lectus diam sodales elit, vitae egestas est enim ornare ..</p>
                                                 </div>
                                                 <div class="product-price-and-shipping">
@@ -548,7 +548,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('42')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',['id'=>"aliquam+quaerat+voluptatem"])}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -581,7 +581,7 @@
                                 <div class="product-layout product-list col-xs-12">
                                     <div class="product-thumb row">
                                         <div class="image">
-                                            <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=30">
+                                            <a href="{{route('client.shopping_cart.details',['id'=>"south+vietnamese+pajama"])}}">
                                                 <img
                                                     class="image_thumb"
                                                     src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/02-371x482.jpg"
@@ -599,7 +599,7 @@
                                         <div class="thumb-description">
                                             <div class="caption">
                                                 <div class="product-description">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=30">aliquam quaerat voluptem</a></h4>
+                                                    <h4><a href="{{route('client.shopping_cart.details',['id'=>"south+vietnamese+pajama"])}}">South vietnamese pajama</a></h4>
                                                     <p class="description">Canon's press material for the EOS 5D states that it 'defines (a) new D-SLR category', while we're n..</p>
                                                 </div>
                                                 <div class="product-price-and-shipping">
@@ -608,7 +608,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('30')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',['id'=>"south+vietnamese+pajama"])}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -641,7 +641,7 @@
                                 <div class="product-layout product-list col-xs-12">
                                     <div class="product-thumb row">
                                         <div class="image">
-                                            <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=47">
+                                            <a href="{{route('client.shopping_cart.details',['id'=>"cool+fabric+wide+cheesecloth"])}}">
                                                 <img
                                                     class="image_thumb"
                                                     src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/03-371x482.jpg"
@@ -661,7 +661,7 @@
                                         <div class="thumb-description">
                                             <div class="caption">
                                                 <div class="product-description">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=47">aliquam quat voluptatem</a></h4>
+                                                    <h4><a href="{{route('client.shopping_cart.details',['id'=>"cool+fabric+wide+cheesecloth"])}}">Cool fabric wide cheesecloth</a></h4>
                                                     <p class="description">Stop your co-workers in their tracks with the stunning new 30-inch diagonal HP LP3065 Flat Panel Mon..</p>
                                                 </div>
                                                 <div class="product-price-and-shipping">
@@ -670,7 +670,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('47')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><a href="{{route('client.shopping_cart.details',['id'=>"cool+fabric+wide+cheesecloth"])}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -703,7 +703,7 @@
                                 <div class="product-layout product-list col-xs-12">
                                     <div class="product-thumb row">
                                         <div class="image">
-                                            <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=28">
+                                            <a href="{{route('client.shopping_cart.details',['id'=>"aspetur+autodit+autfugit"])}}">
                                                 <img
                                                     class="image_thumb"
                                                     src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-371x482.jpg"
@@ -723,7 +723,7 @@
                                         <div class="thumb-description">
                                             <div class="caption">
                                                 <div class="product-description">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=28">aspetur autodit autfugit</a></h4>
+                                                    <h4><a href="{{route('client.shopping_cart.details',['id'=>"aspetur+autodit+autfugit"])}}">aspetur autodit autfugit</a></h4>
                                                     <p class="description">HTC Touch - in High Definition. Watch music videos and streaming content in awe-inspiring high defin..</p>
                                                 </div>
                                                 <div class="product-price-and-shipping">
@@ -732,7 +732,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('28')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"> <a href="{{route('client.shopping_cart.details',['id'=>"aspetur+autodit+autfugit"])}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -765,7 +765,7 @@
                                 <div class="product-layout product-list col-xs-12">
                                     <div class="product-thumb row">
                                         <div class="image">
-                                            <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=41">
+                                            <a href="{{route('client.shopping_cart.details',['id'=>"magni+dolores+eosquies"])}}">
                                                 <img
                                                     class="image_thumb"
                                                     src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-371x482.jpg"
@@ -790,7 +790,7 @@
                                         <div class="thumb-description">
                                             <div class="caption">
                                                 <div class="product-description">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=41">magni dolores eosquies</a></h4>
+                                                    <h4><a href="{{route('client.shopping_cart.details',['id'=>"magni+dolores+eosquies"])}}">magni dolores eosquies</a></h4>
                                                     <p class="description">Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo pro..</p>
                                                 </div>
                                                 <div class="product-price-and-shipping">
@@ -799,7 +799,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('41')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',['id'=>"magni+dolores+eosquies"])}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -832,7 +832,7 @@
                                 <div class="product-layout product-list col-xs-12">
                                     <div class="product-thumb row">
                                         <div class="image">
-                                            <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=36">
+                                            <a href="{{route('client.shopping_cart.details',['id'=>"neque+porro+quisquam"])}}">
                                                 <img
                                                     class="image_thumb"
                                                     src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/06-371x482.jpg"
@@ -850,7 +850,7 @@
                                         <div class="thumb-description">
                                             <div class="caption">
                                                 <div class="product-description">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=36">neque porro quisquam</a></h4>
+                                                    <h4><a href="{{route('client.shopping_cart.details',['id'=>"neque+porro+quisquam"])}}">neque porro quisquam</a></h4>
                                                     <p class="description">Video in your pocket. Its the small iPod with one very big idea: video. The worlds most popula..</p>
                                                 </div>
                                                 <div class="product-price-and-shipping">
@@ -859,7 +859,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('36')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',['id'=>"neque+porro+quisquam"])}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -892,7 +892,7 @@
                                 <div class="product-layout product-list col-xs-12">
                                     <div class="product-thumb row">
                                         <div class="image">
-                                            <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=34">
+                                            <a href="{{route('client.shopping_cart.details',['id'=>"gray+hoodie"])}}">
                                                 <img
                                                     class="image_thumb"
                                                     src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/07-371x482.jpg"
@@ -910,7 +910,7 @@
                                         <div class="thumb-description">
                                             <div class="caption">
                                                 <div class="product-description">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=34">neque porro quisquamest</a></h4>
+                                                    <h4><a href="{{route('client.shopping_cart.details',['id'=>"gray+hoodie"])}}">gray hoodie</a></h4>
                                                     <p class="description">Born to be worn. Clip on the worlds most wearable music player and take up to 240 songs with y..</p>
                                                 </div>
                                                 <div class="product-price-and-shipping">
@@ -919,7 +919,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('34')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',['id'=>"gray+hoodie"])}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -952,7 +952,7 @@
                                 <div class="product-layout product-list col-xs-12">
                                     <div class="product-thumb row">
                                         <div class="image">
-                                            <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=32">
+                                            <a href="{{route('client.shopping_cart.details',['id'=>"nostrum+exercitationem"])}}">
                                                 <img
                                                     class="image_thumb"
                                                     src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/08-371x482.jpg"
@@ -970,7 +970,7 @@
                                         <div class="thumb-description">
                                             <div class="caption">
                                                 <div class="product-description">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=32">nostrum exercitationem</a></h4>
+                                                    <h4><a href="{{route('client.shopping_cart.details',['id'=>"nostrum+exercitationem"])}}">nostrum exercitationem</a></h4>
                                                     <p class="description">Revolutionary multi-touch interface. iPod touch features the same multi-touch screen technology as..</p>
                                                 </div>
                                                 <div class="product-price-and-shipping">
@@ -979,7 +979,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('32')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',['id'=>"nostrum+exercitationem"])}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -1012,7 +1012,7 @@
                                 <div class="product-layout product-list col-xs-12">
                                     <div class="product-thumb row">
                                         <div class="image">
-                                            <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=43">
+                                            <a href="{{route('client.shopping_cart.details',['id'=>"perspiciatis+unde+omnis"])}}">
                                                 <img
                                                     class="image_thumb"
                                                     src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09-371x482.jpg"
@@ -1032,7 +1032,7 @@
                                         <div class="thumb-description">
                                             <div class="caption">
                                                 <div class="product-description">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;path=20&amp;product_id=43">perspiciatis unde omnis</a></h4>
+                                                    <h4><a href="{{route('client.shopping_cart.details',['id'=>"perspiciatis+unde+omnis"])}}">perspiciatis unde omnis</a></h4>
                                                     <p class="description">Intel Core 2 Duo processor Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz, t..</p>
                                                 </div>
                                                 <div class="product-price-and-shipping">
@@ -1041,7 +1041,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('43')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',['id'=>"perspiciatis+unde+omnis"])}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -1090,9 +1090,9 @@
                             <div class="col-xs-6 text-right">
                                 <ul class="pagination">
                                     <li class="active"><span>1</span></li>
-                                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20&amp;page=2">2</a></li>
-                                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20&amp;page=2">&gt;</a></li>
-                                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20&amp;page=2">&gt;|</a></li>
+                                    <li><a href="{{route('client.product.petuntse',['id'=>'page=2'])}}">2</a></li>
+                                    <li><a href="{{route('client.product.petuntse',['id'=>'page=2'])}}">&gt;</a></li>
+                                
                                 </ul>
                             </div>
                         </div>
