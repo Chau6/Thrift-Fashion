@@ -43,7 +43,7 @@
                         <h2>New Customer</h2>
                         <p><strong>Register</strong></p>
                         <p>By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.</p>
-                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/register" class="btn btn-primary a">Continue</a>
+                        <a href="{{route('client.register')}}" class="btn btn-primary a">Continue</a>
                     </div>
                 </div>
                 <div class="col-sm-6">
