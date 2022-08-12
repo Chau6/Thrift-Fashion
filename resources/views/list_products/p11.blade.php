@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE]> <![endif]-->
-<!--[if IE 8]><html dir="ltr" lang="en" class="ie8"><![endif]-->
-<!--[if IE 9]><html dir="ltr" lang="en" class="ie9"><![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
+
 <html dir="ltr" lang="en">
 	<!--<![endif]-->
 	<head>
@@ -164,8 +161,7 @@
 							</div>
 							<script>
 								  var ttadditionalcontent = $('.additional-images').owlCarousel({
-												items : 4, //1 items above 1000px browser width
-												nav : true,
+												items : 4, 												nav : true,
 												dots : false,
 												loop: false,
 												autoplay:false,
@@ -189,8 +185,7 @@
 												}
 											});
 
-								// Custom Navigation Events
-
+								
 								     $(".additional-next").click(function(){
 											ttadditionalcontent.trigger('next.owl.carousel',[700]);
 									  })
@@ -511,8 +506,7 @@
 						}
 
 						  var ttrelatedcontent = $('.related-items').owlCarousel({
-										items : 4, //1 items above 1000px browser width
-										nav : true,
+										items : 4, 										nav : true,
 										dots : false,
 										loop: false,
 										autoplay:false,
@@ -673,8 +667,7 @@
 								     	'</div>'
 								     });
 
-									 // Need to set timeout otherwise it wont update the total
-									setTimeout(function () {
+									 									setTimeout(function () {
 										$('#cart > button').html('<i class="material-icons shopping-cart">shopping_cart</i><span id="cart-total"> ' + json['total'] + '</span>');
 									}, 100);
 
@@ -840,8 +833,7 @@
 								html += '<div class="result-text"></div>';
 								html += '</div>';
 
-								//$(tt_live_search.selector).parent().closest('div').after(html);
-								$(tt_live_search.selector).after(html);
+																$(tt_live_search.selector).after(html);
 
 								$(tt_live_search.selector).autocomplete({
 									'source': function(request, response) {

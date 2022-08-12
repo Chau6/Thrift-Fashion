@@ -4,7 +4,8 @@
     }
 </style>
 
-@extends('master') @section('content')
+@extends('master') 
+@section('content')
 <div class="header-content-title">
     <div style="background-image: url('image/catalog/demo/banners/breadcrumb-parallax.jpg'); background-position: 50% 78.1106%;" data-source-url="image/catalog/demo/banners/breadcrumb-parallax.jpg" class="parallex"></div>
 </div>

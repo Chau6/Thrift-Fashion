@@ -16,7 +16,6 @@
 </style>
 
 <h1 class="h1"></h1>
-<p>If you already have an account with us, please login at the <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/login">login page</a>.</p>
 <form action="{{route('client.login')}}" method="post" enctype="multipart/form-data" class="form-horizontal">
     @csrf
     <fieldset id="account">
@@ -72,28 +71,6 @@
             </div>
         </div>
     </fieldset>
-    {{--
-    <fieldset>
-        <legend>Newsletter</legend>
-        <div class="form-group">
-            <label class="col-sm-2 control-label">Subscribe</label>
-            <div class="col-sm-10">
-                <label class="radio-inline">
-                    <input type="radio" name="newsletter" value="1" />
-                    Yes
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="newsletter" value="0" checked="checked" />
-                    No
-                </label>
-            </div>
-        </div>
-    </fieldset>
-    <div class="buttons">
-        <div class="pull-right">
-            I have read and agree to the <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information/agree&amp;information_id=3" class="agree"><b>Privacy Policy</b></a>
-            <input type="checkbox" name="agree" value="1" />
-            &nbsp; --}}
             <input type="submit" value="Continue" class="btn btn-primary input" />
         </div>
     </div>

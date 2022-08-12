@@ -1,8 +1,24 @@
+
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <head>
         @include('block.head_css_script')
+        <style>
+            ::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+        </style>
     </head>
 
     <body class="common-home">

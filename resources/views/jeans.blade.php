@@ -1,12 +1,23 @@
 <!DOCTYPE html>
-<!--[if IE]> <![endif]-->
-<!--[if IE 8]><html dir="ltr" lang="en" class="ie8"><![endif]-->
-<!--[if IE 9]><html dir="ltr" lang="en" class="ie9"><![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
+
 <html dir="ltr" lang="en">
-    <!--<![endif]-->
     <head>
         @include('block.head-extra')
+        <style>
+            ::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+        </style>
     </head>
     <body class="product-category-25_128">
         <div id="page">
@@ -47,7 +58,7 @@
                                 <div id="banner0" class="swiper-container">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <a href="#"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
+                                                                                        <a><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -267,8 +278,7 @@
             					html += '<div class="result-text"></div>';
             					html += '</div>';
 
-            					//$(tt_live_search.selector).parent().closest('div').after(html);
-            					$(tt_live_search.selector).after(html);
+            					            					$(tt_live_search.selector).after(html);
 
             					$(tt_live_search.selector).autocomplete({
             						'source': function(request, response) {

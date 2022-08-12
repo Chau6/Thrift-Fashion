@@ -38,7 +38,8 @@
         margin: auto;
     }
 </style>
-@extends('master') @section('content')
+@extends('master') 
+@section('content')
 
 <div class="row">
     <div id="content" class="col-sm-12">

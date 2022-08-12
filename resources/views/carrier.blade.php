@@ -2,6 +2,21 @@
 <html dir="ltr" lang="en">
     <head>
         @include('block.head-extra')
+        <style>
+            ::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+        </style>
     </head>
     <body class="product-category-67">
         <div id="page">
@@ -55,7 +70,7 @@
                                 <div id="banner0" class="swiper-container">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <a href="#"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
+                                                                                        <a><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -303,7 +318,7 @@
                                                 <div class="ttproducthover">
                                                     <div class="ttcart">
                                                         <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('42')">
-                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='product_1')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
+                                                            <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md"><a href="{{route('client.shopping_cart.details',$id='aliquam+quaerat+voluptatem')}}">Add to Cart</a></span><span class="loading"><i class="material-icons">cached</i></span>
                                                         </button>
                                                     </div>
                                                     <div class="button-group">
@@ -386,8 +401,7 @@
                            	html += '<div class="result-text"></div>';
                            	html += '</div>';
 
-                           	//$(tt_live_search.selector).parent().closest('div').after(html);
-                           	$(tt_live_search.selector).after(html);
+                           	                           	$(tt_live_search.selector).after(html);
 
                            	$(tt_live_search.selector).autocomplete({
                            		'source': function(request, response) {

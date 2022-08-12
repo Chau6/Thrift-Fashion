@@ -337,8 +337,7 @@ $('.headerservice-close').on("click", function(){
 /* -----------End Js TT-HeaderService ----------- */
 /* -----------Start carousel For TT-Service logo ----------- */
 		   	var ttservice = $('.ttcmstopservice-content').owlCarousel({
-				items : 4, //1 items above 1000px browser width
-				nav : false,
+				items : 4, 				nav : false,
 				dots : false,
 				loop: false,
 				autoplay:false,	
@@ -364,8 +363,7 @@ $('.headerservice-close').on("click", function(){
     /* -----------End carousel For TT-Service logo ----------- */
 		/* ----------- Start Smart Blog JS ----------- */
 	  var ttblog = $('#ttsmartblog-carousel').owlCarousel({
-				items : 2, //1 items above 1000px browser width
-				nav : false,
+				items : 2, 				nav : false,
 				dots : false,
 				loop: false,
 				autoplay:false,	
@@ -388,8 +386,7 @@ $('.headerservice-close').on("click", function(){
 					}
 				}
 			});
-		// Custom Navigation Events
-      $(".ttblog_next").click(function(){
+		      $(".ttblog_next").click(function(){
 			ttblog.trigger('next.owl.carousel',[700]);
 	  })
 	  $(".ttblog_prev").click(function(){
@@ -563,8 +560,7 @@ $(".product-layout.product-grid .product-thumb .thumb-description .caption .prod
 
 function initialize_owl(el) {
     el.owlCarousel({
-        items : 4, //1 items above 1000px browser width
-		nav : false,
+        items : 4, 		nav : false,
 		dots : false,
 		loop: false,
 		autoplay:false,	
@@ -588,8 +584,7 @@ function initialize_owl(el) {
 		}
     });
 
-	// Custom Navigation Events
-
+	
 $(".customNavigation .next").click(function(){
 	$(this).parent().parent().find(".products-carousel").trigger('next.owl.carousel',[700]);
 })

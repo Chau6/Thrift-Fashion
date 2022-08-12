@@ -19,6 +19,21 @@
             <header>
                 <div class="header">
                     @include('block.header')
+                    <style>
+                        ::-webkit-scrollbar {
+                width: 12px;
+            }
+             
+            ::-webkit-scrollbar-track {
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+                border-radius: 10px;
+            }
+             
+            ::-webkit-scrollbar-thumb {
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+            }
+                    </style>
                 </div>
             </header>
             <div class="header-content-title">
@@ -34,95 +49,9 @@
                 <div class="row">
                     <aside id="column-left" class="col-sm-3 hidden-xs">
                         <div class="left-right-inner">
-                            {{-- <div class="panel panel-default option-filter">
-                                <div class="panel-heading">Refine Search</div>
-                                <div class="list-group option-filter-box">
-                                    <div class="list-group">
-                                        <div class="list-group-items">
-                                            <a class="list-group-item">Colors</a>
-                                            <div class="list-group-item">
-                                                <div id="filter-group1">
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="filter[]" value="1" />
-                                                            Black
-                                                        </label>
-                                                    </div>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="filter[]" value="2" />
-                                                            White
-                                                        </label>
-                                                    </div>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="filter[]" value="3" />
-                                                            Silver
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="list-group-items">
-                                            <a class="list-group-item">Price</a>
-                                            <div class="list-group-item">
-                                                <div id="filter-group2">
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="filter[]" value="4" />
-                                                            $100 and belov
-                                                        </label>
-                                                    </div>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="filter[]" value="5" />
-                                                            $100 to $200
-                                                        </label>
-                                                    </div>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="filter[]" value="6" />
-                                                            $200 and more
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="list-group-items">
-                                            <a class="list-group-item">Size</a>
-                                            <div class="list-group-item">
-                                                <div id="filter-group3">
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="filter[]" value="7" />
-                                                            Large
-                                                        </label>
-                                                    </div>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="filter[]" value="8" />
-                                                            Medium
-                                                        </label>
-                                                    </div>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="filter[]" value="9" />
-                                                            Small
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel-footer text-right">
-                                        <button type="button" id="button-filter" class="btn btn-primary">Refine Search</button>
-                                    </div>
-                                </div>
-                            </div> --}}
                             <script>
                                 $("#button-filter").on("click", function () {
-                                    //				$('#content .category-description .option-filter-box').appendTo('#column-left .option-filter');
-                                    //				$('#content .category-description .option-filter-box').appendTo('#column-right .option-filter');
+
 
                                     filter = [];
                                     $("input[name^='filter']:checked").each(function (element) {
@@ -251,7 +180,7 @@
                                 <div id="banner0" class="swiper-container">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <a href="#"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
+                                            <a><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1133,8 +1062,7 @@
             					html += '<div class="result-text"></div>';
             					html += '</div>';
 
-            					//$(tt_live_search.selector).parent().closest('div').after(html);
-            					$(tt_live_search.selector).after(html);
+            					            					$(tt_live_search.selector).after(html);
 
             					$(tt_live_search.selector).autocomplete({
             						'source': function(request, response) {

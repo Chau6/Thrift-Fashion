@@ -36,7 +36,8 @@
         right: 100px;
     }
 </style>
-@extends('master') @section('content')
+@extends('master') 
+@section('content')
 <div class="row">
     <div id="content" class="col-sm-12">
         <h1 class="h1"></h1>

@@ -34,10 +34,10 @@ Route::name('client.')->group(function(){
         Route::get('news', [HomePageController::class, 'news'])->name('news');
 
         Route::get('contact', [HomePageController::class, 'contact'])->name('contact');
-        
+
         Route::get('register', [HomePageController::class, 'register'])->name('register');
 
-        Route::post('login', [HomePageController::class, 'login'])->name('login');
+        Route::get('login', [HomePageController::class, 'login'])->name('login');
 
         Route::post('logined', [HomePageController::class, 'logined'])->name('logined');
 

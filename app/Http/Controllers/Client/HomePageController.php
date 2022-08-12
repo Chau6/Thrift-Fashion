@@ -11,13 +11,9 @@ class HomePageController extends Controller
         return view('homeindex.body');
     }
 
-    public function about(){
-        return view('logined');
-    }
-
-    public function news(){
-        return view('login');
-    }
+    // public function logined(){
+    //     return view('logined');
+    // }
 
     public function contact(){
         return view('contact.contactus');
@@ -27,8 +23,8 @@ class HomePageController extends Controller
         return view('register');
     }
 
-    public function login(Request $request){
-        return redirect()->route('client.homeindex');
+    public function login(){
+        return view('login');
     }
 
     public function logined(Request $request){

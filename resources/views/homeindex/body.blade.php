@@ -205,7 +205,7 @@
                             </div>
                             <div class="product-layouts">
                                <div class="product-thumb transition">
-                                  <div class="image"> <a href=""> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-380x494.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19--380x494.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> </a></div>
+                                  <div class="image"> <a href="{{route('client.shopping_cart.details',$id='voluptate+velit+esse')}}"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-380x494.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19--380x494.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> </a></div>
                                   <div class="thumb-description">
                                      <div class="caption">
                                         <h4><a>voluptate velit esse</a></h4>
@@ -468,7 +468,7 @@
                             </div>
                             <div class="product-layouts">
                                <div class="product-thumb transition">
-                                  <div class="image"> <a href=""> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-380x494.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19--380x494.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> </a></div>
+                                  <div class="image"> <a href="{{route('client.shopping_cart.details',$id='voluptate+velit+esse')}}"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-380x494.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19--380x494.jpg" title="voluptate velit esse" alt="voluptate velit esse" /> </a></div>
                                   <div class="thumb-description">
                                      <div class="caption">
                                         <h4><a>voluptate velit esse</a></h4>
@@ -885,8 +885,7 @@
           // product Carousel
           
             var ttspecialproduct = $('.special-items.products-carousel').owlCarousel({
-                          items : 5, //1 items above 1000px browser width
-                          nav :true,
+                          items : 5,                           nav :true,
                           dots : false,
                           loop: false,
                           autoplay:false,	

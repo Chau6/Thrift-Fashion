@@ -13,8 +13,7 @@
         html += '<div class="result-text"></div>';
         html += '</div>';
     
-        //$(tt_live_search.selector).parent().closest('div').after(html);
-        $(tt_live_search.selector).after(html);
+                $(tt_live_search.selector).after(html);
     
         $(tt_live_search.selector).autocomplete({
             'source': function(request, response) {

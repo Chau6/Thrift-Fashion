@@ -226,8 +226,7 @@ var cart = {
 				     	'</div>' 
 				     });
 					 
-					 // Need to set timeout otherwise it wont update the total
-					setTimeout(function () {
+					 					setTimeout(function () {
 						$('#cart > button').html('<i class="material-icons shopping-cart">shopping_cart</i><span id="cart-total"> ' + json['total'] + ' </span>');
 					}, 100);
 
@@ -264,8 +263,7 @@ var cart = {
 			data: 'key=' + key,
 			dataType: 'json',			
 			success: function(json) {
-				// Need to set timeout otherwise it wont update the total
-				setTimeout(function () {
+								setTimeout(function () {
 					$('#cart > button').html('<i class="material-icons shopping-cart">shopping_cart</i><span id="cart-total"> ' + json['total'] + '</span>');
 				}, 100);
 				
@@ -297,8 +295,7 @@ var voucher = {
 				$('#cart > button').button('reset');
 			},
 			success: function(json) {
-				// Need to set timeout otherwise it wont update the total
-				setTimeout(function () {
+								setTimeout(function () {
 					$('#cart > button').html('<span id="cart-total"><i class="material-icons shopping-cart">shopping_cart</i> ' + json['total'] + '</span>');
 				}, 100);
 

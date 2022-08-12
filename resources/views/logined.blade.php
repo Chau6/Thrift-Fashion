@@ -1,4 +1,5 @@
-@extends('master') @section('content')
+@extends('master') 
+@section('content')
 <style>
     .target {
         position: relative;
