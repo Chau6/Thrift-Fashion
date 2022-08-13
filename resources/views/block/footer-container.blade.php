@@ -40,8 +40,8 @@
                                    <i class="material-icons">location_on</i>
                                    <div class="contact-title"><span>our location</span></div>
                                    <span class="contact-address">
-                                       Demo Store <br />
-                                       United States
+                                       CTTL Store <br />
+                                       -HCMC-
                                    </span>
                                </div>
                            </li>
