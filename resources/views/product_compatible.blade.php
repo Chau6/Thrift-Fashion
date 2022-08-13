@@ -92,7 +92,7 @@
                                 <tr>
                                     <td>Product</td>
                                     <td>
-                                        <a href=""><strong>aliquam quaerat voluptatem</strong></a>
+                                        <a><strong>aliquam quaerat voluptatem</strong></a>
                                     </td>
                                 </tr>
                                 <tr>

@@ -28,7 +28,7 @@
         <li>
             <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
         </li>
-        <li><a href="">Account</a></li>
+        <li><a>Account</a></li>
         <li><a href="{{route('client.about')}}">Login</a></li>
     </ul>
     <div class="row">

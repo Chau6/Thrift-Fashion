@@ -37,30 +37,30 @@
        <div id="slideshow0" class="slideshow-main swiper-container">
           <div class="swiper-wrapper">
              <div class="swiper-slide text-center">
-                <a href="">
+                <a>
                 <img src="{{asset('images/breadcrumb-parallax.jpg')}}" alt="slider-01" class="img-responsive" style="background-size: cover; height: 1000px"/>
                </a>
              </div>
              <div class="swiper-slide text-center">
-                <a href="">
+                <a>
                 <img src="{{asset('images/summer.jpg')}}" alt="slider-02" class="img-responsive" style="background-size: cover; height: 1000px"/>
                 </a>
              </div>
 
              <div class="swiper-slide text-center">
-               <a href="">
+               <a>
                <img src="{{asset('images/p1.jpg')}}" alt="slider-02" class="img-responsive" style="background-size: cover; height: 1000px; object-fit: center"/>
                </a>
             </div>
 
             <div class="swiper-slide text-center">
-               <a href="">
+               <a>
                <img src="{{asset('images/p2.jpg')}}" alt="slider-02" class="img-responsive" style="background-size: cover; height: 1000px"/>
                </a>
             </div>
 
             <div class="swiper-slide text-center">
-               <a href="">
+               <a>
                <img src="{{asset('images/p3.jpg')}}" alt="slider-02" class="img-responsive" style="background-size: cover; height: 1000px"/>
                </a>
             </div>

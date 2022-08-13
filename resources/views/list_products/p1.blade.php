@@ -20,7 +20,7 @@
                     <li>
                         <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a href="">aliquam quaerat voluptatem</a></li>
+                    <li><a>aliquam quaerat voluptatem</a></li>
                 </ul>
                 <div class="row">
                     <div id="content" class="col-sm-12">
@@ -151,8 +151,8 @@
                                         <span class="fa fa-stack"><i class="material-icons star_on">star</i></span>
                                         <span class="fa fa-stack"><i class="material-icons star_off">star_border</i></span>
                                     </div>
-                                    <a class="product-total-review" href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-comment">mode_comment</i>1 reviews</a>
-                                    <a class="product-write-review" href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-edit">edit</i>Write a review</a>
+                                    <a class="product-total-review" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-comment">mode_comment</i>1 reviews</a>
+                                    <a class="product-write-review" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-edit">edit</i>Write a review</a>
                                 </div>
 
                                 <table class="product-info">

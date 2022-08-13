@@ -96,11 +96,11 @@
                             <tbody>
                                 <tr>
                                     <td class="text-center">
-                                        <a href="">
+                                        <a>
                                             <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-70x91.jpg" alt="aliquam quaerat voluptatem" title="aliquam quaerat voluptatem" />
                                         </a>
                                     </td>
-                                    <td class="text-left"><a href="">aliquam quaerat voluptatem</a></td>
+                                    <td class="text-left"><a>aliquam quaerat voluptatem</a></td>
                                     <td class="text-left">Product 15</td>
                                     <td class="text-right">In Stock</td>
                                     <td class="text-right"><div class="price">$100.00</div></td>

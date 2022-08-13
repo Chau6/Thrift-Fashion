@@ -34,8 +34,8 @@
                     <li>
                         <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a href="">clothes</a></li>
-                    <li><a href="">aliquam quaerat voluptatem</a></li>
+                    <li><a>clothes</a></li>
+                    <li><a>aliquam quaerat voluptatem</a></li>
                 </ul>
                 <div class="row">
                     <div id="content" class="col-sm-12">
@@ -166,8 +166,8 @@
                                         <span class="fa fa-stack"><i class="material-icons star_on">star</i></span>
                                         <span class="fa fa-stack"><i class="material-icons star_off">star_border</i></span>
                                     </div>
-                                    <a class="product-total-review" href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-comment">mode_comment</i>1 reviews</a>
-                                    <a class="product-write-review" href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-edit">edit</i>Write a review</a>
+                                    <a class="product-total-review" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-comment">mode_comment</i>1 reviews</a>
+                                    <a class="product-write-review" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-edit">edit</i>Write a review</a>
                                 </div>
 
                                 <table class="product-info">
@@ -688,7 +688,7 @@
                             <div class="product-layouts">
                                 <div class="product-thumb transition">
                                     <div class="image">
-                                        <a href="">
+                                        <a>
                                             <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-371x482.jpg" title="voluptate velit esse" alt="voluptate velit esse" />
                                             <img
                                                 class="image_thumb_swap"
@@ -806,7 +806,7 @@
                             <div class="product-layouts">
                                 <div class="product-thumb transition">
                                     <div class="image">
-                                        <a href="">
+                                        <a>
                                             <img
                                                 class="image_thumb"
                                                 src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-371x482.jpg"

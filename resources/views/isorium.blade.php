@@ -59,10 +59,9 @@
             <div id="module-ttblog-details" class="container blog-blog">
                 <ul class="breadcrumb">
                     <li>
-                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a>
+                        <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/tt_blog">Latest Blog</a></li>
-                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/tt_blog&amp;tt_blog_id=4">Lorem ipsum dolor sit...</a></li>
+                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/tt_blog&amp;tt_blog_id=4">Isorium Banglades</a></li>
                 </ul>
                 <div class="row">
                     <aside id="column-left" class="col-sm-3 hidden-xs">
@@ -235,7 +234,7 @@
                         </div>
                     </aside>
                     <div id="content" class="col-sm-9 blog-detail">
-                        <h1>Lorem ipsum dolor sit...</h1>
+                        <h1>Isorium Banglades</h1>
                         <div class="blog-post">
                             <div class="blog_image_holder">
                                 <img
@@ -247,9 +246,9 @@
                                 />
                             </div>
                             <div class="blog-detail-content">
-                                <div class="page-item-title"><h1>Lorem ipsum dolor sit...</h1></div>
+                                <div class="page-item-title"><h1>Isorium Banglades</h1></div>
                                 <div class="blog-tool">
-                                    <span class="date-time"><i class="material-icons calendar-today">calendar_today</i>19/06/2021</span>
+                                    <span class="date-time"><i class="material-icons calendar-today">calendar_today</i>19/08/2022</span>
                                 </div>
                                 <div class="article-desc">
                                     <p></p>
@@ -262,8 +261,8 @@
                                 <h4 id="reply-title" class="comment-reply-title">Add Comment</h4>
                                 <div id="add-comment">
                                     <div class="login-required alert alert-info">
-                                        <i class="material-icons info-circle">info</i> You must <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/login">login</a> to add a comment. If you do not
-                                        have an account, you may free to <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/register">register</a> for one.
+                                        <i class="material-icons info-circle">info</i> You must <a href="{{route('client.login')}}">login</a> to add a comment. If you do not
+                                        have an account, you may free to <a href="{{route('client.register')}}">register</a> for one.
                                     </div>
                                 </div>
                             </div>

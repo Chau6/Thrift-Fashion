@@ -539,7 +539,7 @@
                             <div class="product-layouts">
                                <div class="product-thumb transition">
                                   <div class="image">
-                                     <a href=""> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-380x494.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--380x494.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> </a>
+                                     <a> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-380x494.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--380x494.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> </a>
                                      <div class="rating">
                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>

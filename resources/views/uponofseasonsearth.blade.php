@@ -59,7 +59,7 @@
             <div id="module-ttblog-details" class="container blog-blog">
                 <ul class="breadcrumb">
                     <li>
-                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a>
+                        <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
                     <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/tt_blog">Latest Blog</a></li>
                     <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/tt_blog&amp;tt_blog_id=3">Upon of seasons earth...</a></li>
@@ -262,8 +262,8 @@
                                 <h4 id="reply-title" class="comment-reply-title">Add Comment</h4>
                                 <div id="add-comment">
                                     <div class="login-required alert alert-info">
-                                        <i class="material-icons info-circle">info</i> You must <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/login">login</a> to add a comment. If you do not
-                                        have an account, you may free to <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/register">register</a> for one.
+                                        <i class="material-icons info-circle">info</i> You must <a href="{{route('client.login')}}">login</a> to add a comment. If you do not
+                                        have an account, you may free to <a href="{{route('client.register')}}">register</a> for one.
                                     </div>
                                 </div>
                             </div>

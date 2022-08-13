@@ -45,7 +45,7 @@
 		<script src="catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js"></script>
 
 		<link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20&amp;page=2" rel="canonical" />
-		<link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20" rel="prev" />
+		<link rel="prev" />
 		<link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/cart.png" rel="icon" />
 		<script src="catalog/view/javascript/jquery/swiper/js/swiper.jquery.js"></script>
 		<script src="catalog/view/javascript/TemplateTrip/jquery.bpopup.min.js"></script>
@@ -79,9 +79,9 @@
 			<div id="product-category" class="container product-category">
 				<ul class="breadcrumb">
 					<li>
-						<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=common/home"><i class="material-icons">home</i></a>
+						<a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
 					</li>
-					<li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20">Petuntse</a></li>
+					<li><a>Petuntse</a></li>
 				</ul>
 				<div class="row">
 					<aside id="column-left" class="col-sm-3 hidden-xs">

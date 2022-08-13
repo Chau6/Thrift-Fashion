@@ -36,7 +36,7 @@
                     <li>
                         <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a href="">Carrier Bag</a></li>
+                    <li><a>Carrier Bag</a></li>
                 </ul>
                 <div class="row">
                     <aside id="column-left" class="col-sm-3 hidden-xs">
@@ -46,7 +46,7 @@
                                 <div class="panel-heading">Categories</div>
                                 <ul class="list-group">
                                     <li class="category-li">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20" class="list-group-item">Petuntse</a>
+                                        <a class="list-group-item">Petuntse</a>
                                     </li>
                                     <li class="category-li">
                                         <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25" class="list-group-item">Jeans</a>
@@ -58,7 +58,7 @@
                                         <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=66" class="list-group-item">Briquetage</a>
                                     </li>
                                     <li class="category-li category-active">
-                                        <a href="" class="list-group-item active">clothes</a>
+                                        <a class="list-group-item active">clothes</a>
                                         <ul>
                                             <li><a href="_116" class="list-group-item current-child-item">jacket</a></li>
                                         </ul>
@@ -306,7 +306,7 @@
                                         <div class="thumb-description">
                                             <div class="caption">
                                                 <div class="product-description">
-                                                    <h4><a href="">aliquam quaerat voluptatem</a></h4>
+                                                    <h4><a>aliquam quaerat voluptatem</a></h4>
                                                     <p class="description">Praesent ornare, ex a interdum consectetur, lectus diam sodales elit, vitae egestas est enim ornare ..</p>
                                                 </div>
                                                 <div class="product-price-and-shipping">

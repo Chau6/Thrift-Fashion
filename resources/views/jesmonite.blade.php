@@ -37,7 +37,7 @@
                     <li>
                         <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
-                    {{-- <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20">Petuntse</a></li> --}}
+                    {{-- <li><a>Petuntse</a></li> --}}
                     <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92">Jesmonite</a></li>
                 </ul>
                 <div class="row">
@@ -47,7 +47,7 @@
                                 <div class="panel-heading">Categories</div>
                                 <ul class="list-group">
                                     <li class="category-li category-active">
-                                        <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20" class="list-group-item active">Petuntse</a>
+                                        <a class="list-group-item active">Petuntse</a>
                                         <ul>
                                             <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_26" class="list-group-item current-child-item">Nile silt</a></li>
                                             <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20_92" class="list-group-item current-child-item active">Jesmonite</a></li>
@@ -63,7 +63,7 @@
                                         <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=66" class="list-group-item">Briquetage</a>
                                     </li>
                                     <li class="category-li">
-                                        <a href="" class="list-group-item">clothes</a>
+                                        <a class="list-group-item">clothes</a>
                                     </li>
                                 </ul>
                             </div> --}}

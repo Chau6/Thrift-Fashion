@@ -13,11 +13,11 @@
                          <div class="payment_logo_block">
                             <div class="payment-title">Accepted Payment Methods</div>
                             <ul class="payment-list list-unstyled">
-                               <li class="google"><a href=""> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/google.png" alt="google"></a></li>
-                               <li class="maestro"><a href=""> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/maestro.png" alt="maestro"></a></li>
-                               <li class="mastercard"><a href=""> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/mastercard.png" alt="mastercard"></a></li>
-                               <li class="paypal"><a href=""> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/paypal.png" alt="paypal"></a></li>
-                               <li class="visa"><a href=""> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/visa.png" alt="visa"></a></li>
+                               <li class="google"><a> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/google.png" alt="google"></a></li>
+                               <li class="maestro"><a> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/maestro.png" alt="maestro"></a></li>
+                               <li class="mastercard"><a> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/mastercard.png" alt="mastercard"></a></li>
+                               <li class="paypal"><a> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/paypal.png" alt="paypal"></a></li>
+                               <li class="visa"><a> <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/visa.png" alt="visa"></a></li>
                             </ul>
                          </div>
                       </div>

@@ -44,7 +44,7 @@
                <div id="product-category" class="container product-category">
                   <ul class="breadcrumb">
                      <li><a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a></li>
-                     <li><a href="">clothes</a></li>
+                     <li><a>clothes</a></li>
                   </ul>
                   <div class="row">
                      <aside id="column-left" class="col-sm-3 hidden-xs">
@@ -53,7 +53,7 @@
                               <div class="panel-heading">Categories</div>
                               <ul class="list-group">
                                  <li class="category-li">
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=20" class="list-group-item">Petuntse</a>
+                                    <a class="list-group-item">Petuntse</a>
                                  </li>
                                  <li class="category-li">
                                     <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=25" class="list-group-item">Jeans</a>
@@ -65,7 +65,7 @@
                                     <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/category&amp;path=66" class="list-group-item">Briquetage</a>
                                  </li>
                                  <li class="category-li category-active">
-                                    <a href="" class="list-group-item active">clothes</a>
+                                    <a class="list-group-item active">clothes</a>
                                     <ul>
                                        <li><a href="_116" class="list-group-item current-child-item">jacket</a></li>
                                     </ul>
@@ -95,7 +95,7 @@
                                  <div class="product-layouts">
                                     <div class="product-thumb transition">
                                        <div class="image">
-                                          <a href="">
+                                          <a>
                                           <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09-70x91.jpg" title="perspiciatis unde omnis" alt="perspiciatis unde omnis" />
                                           <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09--70x91.jpg" title="perspiciatis unde omnis" alt="perspiciatis unde omnis" />
                                           </a>
@@ -126,7 +126,7 @@
                                  <div class="product-layouts">
                                     <div class="product-thumb transition">
                                        <div class="image">
-                                          <a href="">
+                                          <a>
                                           <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-70x91.jpg" title="voluptate velit esse" alt="voluptate velit esse" />
                                           <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19--70x91.jpg" title="voluptate velit esse" alt="voluptate velit esse" />
                                           </a>
@@ -154,7 +154,7 @@
                                  <div class="product-layouts">
                                     <div class="product-thumb transition">
                                        <div class="image">
-                                          <a href="">
+                                          <a>
                                           <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-70x91.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" />
                                           <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--70x91.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" />
                                           </a>
@@ -254,7 +254,7 @@
                               <div class="product-layout product-list col-xs-12">
                                  <div class="product-thumb row">
                                     <div class="image">
-                                       <a href=""> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-371x482.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--371x482.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> </a>
+                                       <a> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-371x482.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--371x482.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> </a>
                                        <div class="rating">
                                           <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                           <span class="fa-stack"><i class="material-icons star_on">star</i></span>
@@ -266,7 +266,7 @@
                                     <div class="thumb-description">
                                        <div class="caption">
                                           <div class="product-description">
-                                             <h4><a href="">aliquam quaerat voluptatem</a></h4>
+                                             <h4><a>aliquam quaerat voluptatem</a></h4>
                                              <p class="description">Praesent ornare, ex a interdum consectetur, lectus diam sodales elit, vitae egestas est enim ornare ..</p>
                                           </div>
                                           <div class="product-price-and-shipping">

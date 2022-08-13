@@ -204,8 +204,8 @@
 										<span class="fa fa-stack"><i class="material-icons star_off">star_border</i></span>
 										<span class="fa fa-stack"><i class="material-icons star_off">star_border</i></span>
 									</div>
-									<a class="product-total-review" href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-comment">mode_comment</i>0 reviews</a>
-									<a class="product-write-review" href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-edit">edit</i>Write a review</a>
+									<a class="product-total-review" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-comment">mode_comment</i>0 reviews</a>
+									<a class="product-write-review" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-edit">edit</i>Write a review</a>
 								</div>
 
 								<table class="product-info">
