@@ -61,7 +61,7 @@
                             <div class="form-group">
                                 <label class="control-label" for="input-password">Password</label>
                                 <input type="password" name="password" value="" placeholder="Password" id="input-password" class="form-control" />
-                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=account/forgotten">Forgotten Password</a>
+                                <a href="{{route('client.forgottenpassword')}}">Forgotten Password</a>
                             </div>
                             <input type="submit" value="Login" class="btn btn-primary" />
                         </form>

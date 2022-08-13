@@ -46,6 +46,24 @@
                 <img src="{{asset('images/summer.jpg')}}" alt="slider-02" class="img-responsive" style="background-size: cover; height: 1000px"/>
                 </a>
              </div>
+
+             <div class="swiper-slide text-center">
+               <a href="">
+               <img src="{{asset('images/p1.jpg')}}" alt="slider-02" class="img-responsive" style="background-size: cover; height: 1000px; object-fit: center"/>
+               </a>
+            </div>
+
+            <div class="swiper-slide text-center">
+               <a href="">
+               <img src="{{asset('images/p2.jpg')}}" alt="slider-02" class="img-responsive" style="background-size: cover; height: 1000px"/>
+               </a>
+            </div>
+
+            <div class="swiper-slide text-center">
+               <a href="">
+               <img src="{{asset('images/p3.jpg')}}" alt="slider-02" class="img-responsive" style="background-size: cover; height: 1000px"/>
+               </a>
+            </div>
           </div>
           <div class="swiper-pagination slideshow0"></div>
           <div class="swiper-pager">

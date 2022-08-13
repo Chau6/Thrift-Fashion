@@ -195,4 +195,16 @@ class HomePageController extends Controller
         return view('wishlist');
     }
 
+    public function forgottenpassword () {
+        return view('forgottenpassword');
+    }
+
+    public function comingsoon ($id) {
+        if($id=='isorium+banglades'){
+           return view('isorium');
+        }
+        if($id=='uponofseasonsearth'){
+           return view('uponofseasonsearth');
+        }
+    }
 }

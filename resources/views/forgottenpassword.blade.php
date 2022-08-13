@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-
 <html dir="ltr" lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Product Comparison</title>
+        <title>Forgot Your Password?</title>
         <base href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/" />
         <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
         <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
@@ -43,7 +42,6 @@
         <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/cart.png" rel="icon" />
         <script src="catalog/view/javascript/TemplateTrip/jquery.bpopup.min.js"></script>
         <script src="catalog/view/javascript/TemplateTrip/jquery.cookie.js"></script>
-
         <style>
             ::-webkit-scrollbar {
     width: 12px;
@@ -60,10 +58,8 @@
 }
         </style>
     </head>
-    <body class="product-compare">
+    <body class="account-forgotten">
         <div id="page">
-            <div class="header-top-cms">
-            </div>
             <header>
                 <div class="header">
                     @include('block.header')
@@ -72,24 +68,35 @@
             <div class="header-content-title">
                 <div style="background-image: url('image/catalog/demo/banners/breadcrumb-parallax.jpg'); background-position: 50% 78.1106%;" data-source-url="image/catalog/demo/banners/breadcrumb-parallax.jpg" class="parallex"></div>
             </div>
-            <div id="product-compare" class="container">
+            <div id="account-forgotten" class="container">
                 <ul class="breadcrumb">
                     <li>
                         <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/compare">Product Comparison</a></li>
+                    <li><a href="{{route('client.account')}}">Account</a></li>
+                    <li><a href="{{route('client.forgottenpassword')}}">Forgotten Password</a></li>
                 </ul>
-                <div class="alert alert-success alert-dismissible">
-                    <i class="material-icons check-circle">check_circle</i> Success: You have modified your product comparison!
-                    <button type="button" class="close" data-dismiss="alert">&times;</button>
-                </div>
                 <div class="row">
-                    <div id="content" class="col-sm-12 print-bg-image no-compare-products">
-                        <h1>Product Comparison</h1>
-                        <p>Your shopping cart is empty!</p>
-                        <div class="buttons">
-                            <div class="pull-right"><a href="{{route('client.homeindex')}}" class="btn btn-default">Continue</a></div>
-                        </div>
+                    <div id="content" class="col-sm-12">
+                        <h1>Forgot Your Password?</h1>
+                        <p>Enter the e-mail address associated with your account. Click submit to have a password reset link e-mailed to you.</p>
+                        <form action="{{route('client.login')}}" method="get" enctype="multipart/form-data" class="form-horizontal">
+                            <fieldset>
+                                <legend>Your E-Mail Address</legend>
+                                <div class="form-group required">
+                                    <label class="col-sm-2 control-label" for="input-email">Your email address</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name="email" value="" placeholder="Your email address" id="input-email" class="form-control" />
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="buttons clearfix">
+                                <div class="pull-left"><a href="{{route('client.login')}}" class="btn btn-default">Back</a></div>
+                                <div class="pull-right">
+                                    <input type="submit" value="Continue" class="btn btn-primary" />
+                                </div>
+                            </div>
+                        </form>
                         <script>
                             var Tawk_API = {},
                                 $_Tawk_LoadStart = new Date();
@@ -114,7 +121,7 @@
             <!--
             				var tt_live_search = {
             					selector: '#search input[name=\'search\']',
-            					text_no_matches: 'You have not chosen any products to compare.',
+            					text_no_matches: '',
             					height: '50px'
             				}
 
@@ -126,7 +133,8 @@
             					html += '<div class="result-text"></div>';
             					html += '</div>';
 
-            					            					$(tt_live_search.selector).after(html);
+            					//$(tt_live_search.selector).parent().closest('div').after(html);
+            					$(tt_live_search.selector).after(html);
 
             					$(tt_live_search.selector).autocomplete({
             						'source': function(request, response) {

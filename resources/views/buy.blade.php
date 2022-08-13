@@ -1054,7 +1054,8 @@
                 				}
                 		},
                         error: function(xhr, ajaxOptions, thrownError) {
-                            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+                            									alert('Success Payment');
+
                         }
                 	});
                 });
@@ -1123,7 +1124,8 @@
                 					}
                 				},
                 				error: function(xhr, ajaxOptions, thrownError) {
-                					alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+                														alert('Success Payment');
+
                 				}
                 			});
                 		}

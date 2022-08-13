@@ -22,10 +22,6 @@ use App\Http\Controllers\Admin\CartController;
 
 
 Route::name('client.')->group(function(){
-
-        Route::get('remove/{id}', [HomePageController::class, 'remove'])->name('remove');
-
-        Route::get('wishlist/{id}', [HomePageController::class, 'wishlist'])->name('wishlist');
     //==========index
         Route::get('homeindex', [HomePageController::class, 'homeindex'])->name('homeindex');
         // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');
@@ -86,5 +82,13 @@ Route::name('client.')->group(function(){
 
             Route::get('details/{id}', [HomePageController::class, 'details'])->name('details');
         });
+
+        Route::get('remove/{id}', [HomePageController::class, 'remove'])->name('remove');
+
+        Route::get('wishlist/{id}', [HomePageController::class, 'wishlist'])->name('wishlist');
+
+        Route::get('forgottenpassword', [HomePageController::class, 'forgottenpassword'])->name('forgottenpassword');
+
+        Route::get('comingsoon/{id}', [HomePageController::class, 'comingsoon'])->name('comingsoon');
 });
 // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');
