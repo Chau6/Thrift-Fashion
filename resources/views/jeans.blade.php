@@ -5,35 +5,23 @@
         @include('block.head-extra')
         <style>
             ::-webkit-scrollbar {
-    width: 12px;
-}
- 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-    border-radius: 10px;
-}
- 
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-}
+                width: 12px;
+            }
+            
+            ::-webkit-scrollbar-track {
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+                border-radius: 10px;
+            }
+            
+            ::-webkit-scrollbar-thumb {
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+            }
         </style>
     </head>
     <body class="product-category-25_128">
         <div id="page">
             <div class="header-top-cms">
-                {{--
-                <aside id="header-top">
-                    <div class="html-content">
-                        <div class="box-content">
-                            <div id="ttcmsheader">
-                                <div class="header-service">Exclusive Selling Sale, Up to 50% OFF</div>
-                                <div class="headerservice-close"></div>
-                            </div>
-                        </div>
-                    </div>
-                </aside>
-                --}}
             </div>
             <header>
                 <div class="header">
@@ -219,17 +207,6 @@
                                     </div>
                                 </div>
                             </div>
-                            {{-- <div class="sidebar panel panel-default information-list">
-                                <div class="panel-heading">Information</div>
-                                <div class="list-group">
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=4" class="list-group-item">About Us</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=6" class="list-group-item">Delivery Information</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=3" class="list-group-item">Privacy Policy</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/information&amp;information_id=5" class="list-group-item">Terms &amp; Conditions</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/contact" class="list-group-item">Contact Us</a>
-                                    <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/sitemap" class="list-group-item">Site Map</a>
-                                </div>
-                            </div> --}}
                         </div>
                     </aside>
                     <div id="content" class="col-sm-9">

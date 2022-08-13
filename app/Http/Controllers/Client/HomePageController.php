@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 
 class HomePageController extends Controller
 {
-    public function homeindex(){
+    public function homeindex()
+    {
         return view('homeindex.body');
     }
 
@@ -15,54 +16,64 @@ class HomePageController extends Controller
     //     return view('logined');
     // }
 
-    public function contact(){
+    public function contact()
+    {
         return view('contact.contactus');
     }
 
-    public function register(){
+    public function register()
+    {
         return view('register');
     }
 
-    public function login(){
+    public function login()
+    {
         return view('login');
     }
 
-    public function logined(Request $request){
+    public function logined(Request $request)
+    {
         return redirect()->route('client.account');
     }
 
-    public function account () {
+    public function account()
+    {
         return view('logined');
     }
-    
 
-    public function editAccout () {
+    public function editAccout()
+    {
         return view('editAccount');
     }
 
-    public function changePassword () {
+    public function changePassword()
+    {
         return view('changePassword');
     }
 
-    public function history_order() {
+    public function history_order()
+    {
         return view('history_order');
     }
 
-    public function nilestill () {
+    public function nilestill()
+    {
         return view('nilestill');
     }
 
-    public function jeans ($id) {
-       return view('jeans');
+    public function jeans($id)
+    {
+        return view('jeans');
     }
 
-    
-    public function carrier ($id) {
+    public function carrier($id)
+    {
         return view('carrier');
-     }
+    }
 
-    public function petuntse ($id) {
-        if($id=='page=2'){
+    public function petuntse($id)
+    {
+        if ($id == 'page=2') {
             return view('petuntse_page_2');
         }
         return view('petuntse');
@@ -72,7 +83,7 @@ class HomePageController extends Controller
     //     $check ='';
     //     $a=0;
     //     foreach ($idss as $ids){
-           
+
     //         foreach ($ids as $id){
     //             $a=$a+1;
     //             if($a==1){
@@ -81,133 +92,149 @@ class HomePageController extends Controller
     //             else{
     //                 $check = $check.'+'.$id;
     //             }
-               
+
     //         }
-          
+
     //     }
     //     // dd($check);
     // return redirect()->route('client.product.petuntse',['id'=>$check]);
     // }
-  
-    public function nilesilt ($id) {
+
+    public function nilesilt($id)
+    {
         return view('nilesilt');
     }
 
-    public function jesmonite ($id) {
+    public function jesmonite($id)
+    {
         return view('jesmonite');
     }
 
-    public function clothes ($id) {
+    public function clothes($id)
+    {
         return view('clothes');
     }
 
-    public function geopolymer ($id) {
+    public function geopolymer($id)
+    {
         return view('geopolymer');
     }
 
-    public function lumicera ($id) {
+    public function lumicera($id)
+    {
         return view('lumicera');
     }
 
-    public function sea_pottery ($id) {
+    public function sea_pottery($id)
+    {
         return view('sea_pottery');
     }
 
-    public function pitchers ($id) {
+    public function pitchers($id)
+    {
         return view('pitchers');
     }
 
-    public function details ($id) {
-        if($id=='aliquam+quaerat+voluptatem'){
+    public function details($id)
+    {
+        if ($id == 'aliquam+quaerat+voluptatem') {
             return view('list_products.p1');
         }
-        if($id=='south+vietnamese+pajama'){
+        if ($id == 'south+vietnamese+pajama') {
             return view('list_products.p2');
         }
-        if($id=='cool+fabric+wide+cheesecloth'){
+        if ($id == 'cool+fabric+wide+cheesecloth') {
             return view('list_products.p3');
         }
-        if($id=='aspetur+autodit+autfugit'){
+        if ($id == 'aspetur+autodit+autfugit') {
             return view('list_products.p4');
         }
-        if($id=='magni+dolores+eosquies'){
+        if ($id == 'magni+dolores+eosquies') {
             return view('list_products.p5');
         }
-        if($id=='neque+porro+quisquam'){
+        if ($id == 'neque+porro+quisquam') {
             return view('list_products.p6');
         }
-        if($id=='gray+hoodie'){
+        if ($id == 'gray+hoodie') {
             return view('list_products.p7');
         }
-        if($id=='nostrum+exercitationem'){
+        if ($id == 'nostrum+exercitationem') {
             return view('list_products.p8');
         }
-        if($id=='perspiciatis+unde+omnis'){
+        if ($id == 'perspiciatis+unde+omnis') {
             return view('list_products.p9');
         }
-        if($id=='quaerat+outt+voluptatem'){
+        if ($id == 'quaerat+outt+voluptatem') {
             return view('list_products.p10');
         }
-        if($id=='similique+suntin+culpaqui'){
+        if ($id == 'similique+suntin+culpaqui') {
             return view('list_products.p11');
         }
-        if($id=='sint+incidunt+utlabore'){
+        if ($id == 'sint+incidunt+utlabore') {
             return view('list_products.p12');
         }
-        if($id=='tempora+incidunt+utlabore'){
+        if ($id == 'tempora+incidunt+utlabore') {
             return view('list_products.p13');
         }
-        if($id=='voluptas+nulla+pariatur'){
+        if ($id == 'voluptas+nulla+pariatur') {
             return view('list_products.p14');
         }
-        if($id=='voluptas+sit+aspernatur'){
+        if ($id == 'voluptas+sit+aspernatur') {
             return view('list_products.p15');
         }
-        if($id=='voluptate+velit+esse'){
+        if ($id == 'voluptate+velit+esse') {
             return view('list_products.p16');
         }
-        if($id=='suscipit+laboriosam+nisi'){
+        if ($id == 'suscipit+laboriosam+nisi') {
             return view('list_products.p17');
         }
-        if($id=='quis+autem+veleuminium'){
+        if ($id == 'quis+autem+veleuminium') {
             return view('list_products.p18');
         }
     }
 
-    public function girl ($id) {
+    public function girl($id)
+    {
         return view('girls');
     }
 
-    public function kurti ($id) {
+    public function kurti($id)
+    {
         return view('kurti');
     }
 
-    public function product_compatible ($id) {
+    public function product_compatible($id)
+    {
         return view('product_compatible');
     }
 
-    public function remove ($id) {
+    public function remove($id)
+    {
         return view('remove');
     }
 
-    public function back () {
+    public function back()
+    {
         return redirect()->back();
     }
 
-    public function wishlist ($id) {
+    public function wishlist($id)
+    {
         return view('wishlist');
     }
 
-    public function forgottenpassword () {
+    public function forgottenpassword()
+    {
         return view('forgottenpassword');
     }
 
-    public function comingsoon ($id) {
-        if($id=='isorium+banglades'){
-           return view('isorium');
+    public function comingsoon($id)
+    {
+        if ($id == 'isorium+banglades') {
+            return view('isorium');
         }
-        if($id=='uponofseasonsearth'){
-           return view('uponofseasonsearth');
+        if ($id == 'uponofseasonsearth') {
+            return view('uponofseasonsearth');
         }
     }
 }

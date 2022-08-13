@@ -20,75 +20,73 @@ use App\Http\Controllers\Admin\CartController;
 */
 // ================Client
 
-
-Route::name('client.')->group(function(){
+Route::name('client.')->group(function () {
     //==========index
-        Route::get('homeindex', [HomePageController::class, 'homeindex'])->name('homeindex');
-        // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');
-        Route::get('about', [HomePageController::class, 'about'])->name('about');
+    Route::get('homeindex', [HomePageController::class, 'homeindex'])->name('homeindex');
+    // Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');
+    Route::get('about', [HomePageController::class, 'about'])->name('about');
 
-        Route::get('news', [HomePageController::class, 'news'])->name('news');
+    Route::get('news', [HomePageController::class, 'news'])->name('news');
 
-        Route::get('contact', [HomePageController::class, 'contact'])->name('contact');
+    Route::get('contact', [HomePageController::class, 'contact'])->name('contact');
 
-        Route::get('register', [HomePageController::class, 'register'])->name('register');
+    Route::get('register', [HomePageController::class, 'register'])->name('register');
 
-        Route::get('login', [HomePageController::class, 'login'])->name('login');
+    Route::get('login', [HomePageController::class, 'login'])->name('login');
 
-        Route::post('logined', [HomePageController::class, 'logined'])->name('logined');
+    Route::post('logined', [HomePageController::class, 'logined'])->name('logined');
 
-        Route::get('editAccout', [HomePageController::class, 'editAccout'])->name('editAccout');
+    Route::get('editAccout', [HomePageController::class, 'editAccout'])->name('editAccout');
 
-        Route::get('changePassword', [HomePageController::class, 'changePassword'])->name('changePassword');
+    Route::get('changePassword', [HomePageController::class, 'changePassword'])->name('changePassword');
 
-        Route::get('history_order', [HomePageController::class, 'history_order'])->name('history_order');
+    Route::get('history_order', [HomePageController::class, 'history_order'])->name('history_order');
 
-        Route::get('account', [HomePageController::class, 'account'])->name('account');
+    Route::get('account', [HomePageController::class, 'account'])->name('account');
 
-        Route::get('clothes', [HomePageController::class, 'clothes'])->name('clothes');
+    Route::get('clothes', [HomePageController::class, 'clothes'])->name('clothes');
 
-        Route::get('nilestill', [HomePageController::class, 'nilestill'])->name('nilestill');
+    Route::get('nilestill', [HomePageController::class, 'nilestill'])->name('nilestill');
 
-        Route::name('product.')->group(function(){
-            Route::get('petuntse/{id}', [HomePageController::class, 'petuntse'])->name('petuntse');
-            Route::get('petuntse-filter/{id}', [HomePageController::class, 'petuntseFilter'])->name('petuntseFilter');
-            Route::post('petuntse', [HomePageController::class, 'petuntseSearch'])->name('petuntseSearch');
+    Route::name('product.')->group(function () {
+        Route::get('petuntse/{id}', [HomePageController::class, 'petuntse'])->name('petuntse');
+        Route::get('petuntse-filter/{id}', [HomePageController::class, 'petuntseFilter'])->name('petuntseFilter');
+        Route::post('petuntse', [HomePageController::class, 'petuntseSearch'])->name('petuntseSearch');
 
-            Route::get('nilesilt/{id}', [HomePageController::class, 'nilesilt'])->name('nilesilt');
+        Route::get('nilesilt/{id}', [HomePageController::class, 'nilesilt'])->name('nilesilt');
 
-            Route::get('jeans/{id}', [HomePageController::class, 'jeans'])->name('jeans');
-            Route::get('carrier/{id}', [HomePageController::class, 'carrier'])->name('carrier');
+        Route::get('jeans/{id}', [HomePageController::class, 'jeans'])->name('jeans');
+        Route::get('carrier/{id}', [HomePageController::class, 'carrier'])->name('carrier');
 
-            Route::get('jesmonite/{id}', [HomePageController::class, 'jesmonite'])->name('jesmonite');
+        Route::get('jesmonite/{id}', [HomePageController::class, 'jesmonite'])->name('jesmonite');
 
-            Route::get('geopolymer/{id}', [HomePageController::class, 'geopolymer'])->name('geopolymer');
+        Route::get('geopolymer/{id}', [HomePageController::class, 'geopolymer'])->name('geopolymer');
 
-            Route::get('lumicera/{id}', [HomePageController::class, 'lumicera'])->name('lumicera');
+        Route::get('lumicera/{id}', [HomePageController::class, 'lumicera'])->name('lumicera');
 
-            Route::get('sea_pottery/{id}', [HomePageController::class, 'sea_pottery'])->name('sea_pottery');
+        Route::get('sea_pottery/{id}', [HomePageController::class, 'sea_pottery'])->name('sea_pottery');
 
-            Route::get('pitchers/{id}', [HomePageController::class, 'pitchers'])->name('pitchers');
+        Route::get('pitchers/{id}', [HomePageController::class, 'pitchers'])->name('pitchers');
 
-            Route::get('kurti/{id}', [HomePageController::class, 'kurti'])->name('kurti');
+        Route::get('kurti/{id}', [HomePageController::class, 'kurti'])->name('kurti');
 
-            Route::get('girl/{id}', [HomePageController::class, 'girl'])->name('girl');
+        Route::get('girl/{id}', [HomePageController::class, 'girl'])->name('girl');
 
-            Route::get('product_compatible/{id}', [HomePageController::class, 'product_compatible'])->name('product_compatible');
-        });
+        Route::get('product_compatible/{id}', [HomePageController::class, 'product_compatible'])->name('product_compatible');
+    });
 
+    Route::name('shopping_cart.')->group(function () {
+        Route::get('cart/{id}', [HomePageController::class, 'cart'])->name('cart');
 
-        Route::name('shopping_cart.')->group(function(){
-            Route::get('cart/{id}', [HomePageController::class, 'cart'])->name('cart');
+        Route::get('details/{id}', [HomePageController::class, 'details'])->name('details');
+    });
 
-            Route::get('details/{id}', [HomePageController::class, 'details'])->name('details');
-        });
+    Route::get('remove/{id}', [HomePageController::class, 'remove'])->name('remove');
 
-        Route::get('remove/{id}', [HomePageController::class, 'remove'])->name('remove');
+    Route::get('wishlist/{id}', [HomePageController::class, 'wishlist'])->name('wishlist');
 
-        Route::get('wishlist/{id}', [HomePageController::class, 'wishlist'])->name('wishlist');
+    Route::get('forgottenpassword', [HomePageController::class, 'forgottenpassword'])->name('forgottenpassword');
 
-        Route::get('forgottenpassword', [HomePageController::class, 'forgottenpassword'])->name('forgottenpassword');
-
-        Route::get('comingsoon/{id}', [HomePageController::class, 'comingsoon'])->name('comingsoon');
+    Route::get('comingsoon/{id}', [HomePageController::class, 'comingsoon'])->name('comingsoon');
 });
-// Route::get('/', [HomePageController::class, 'homeindex'])->name('homeindex');
+

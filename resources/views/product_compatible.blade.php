@@ -46,26 +46,24 @@
     </head>
     <body class="product-compare">
         <div id="page">
-            <div class="header-top-cms">
-
-            </div>
+            <div class="header-top-cms"></div>
             <header>
                 <div class="header">
                     @include('block.header')
                     <style>
                         ::-webkit-scrollbar {
-                width: 12px;
-            }
-             
-            ::-webkit-scrollbar-track {
-                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-                border-radius: 10px;
-            }
-             
-            ::-webkit-scrollbar-thumb {
-                border-radius: 10px;
-                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-            }
+                            width: 12px;
+                        }
+
+                        ::-webkit-scrollbar-track {
+                            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                            border-radius: 10px;
+                        }
+
+                        ::-webkit-scrollbar-thumb {
+                            border-radius: 10px;
+                            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+                        }
                     </style>
                 </div>
             </header>
@@ -162,7 +160,7 @@
                             <tr>
                                 <td></td>
                                 <td>
-                                    <a href="{{route('client.shopping_cart.details',['id'=>'all'])}}"><input type="button" value="Add to Cart" class="btn btn-primary btn-block"/></a>
+                                    <a href="{{route('client.shopping_cart.details',['id'=>'all'])}}"><input type="button" value="Add to Cart" class="btn btn-primary btn-block" /></a>
                                     <button class="btn btn-primary btn-wishlist" type="button" data-toggle="tooltip" onclick="wishlist.add('42');"><i class="material-icons icon-favorite">favorite</i></button>
                                     <a href="{{route('client.remove',['id'=>'product_compatible'])}}" class="btn btn-danger btn-block">Remove</a>
                                 </td>

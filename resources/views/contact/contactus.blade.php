@@ -40,30 +40,28 @@
         <script src="catalog/view/javascript/TemplateTrip/backgroundVideo.js"></script>
         <script src="catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js"></script>
 
-        
         <script src="catalog/view/javascript/TemplateTrip/jquery.bpopup.min.js"></script>
         <script src="catalog/view/javascript/TemplateTrip/jquery.cookie.js"></script>
     </head>
     <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/cart.png" rel="icon" />
     <body class="information-contact">
         <div id="page">
-            
             <header>
                 <div class="header">
                     @include('block.header')
                     <style>
-                                    ::-webkit-scrollbar {
+                        ::-webkit-scrollbar {
                             width: 12px;
                         }
-                        
+
                         ::-webkit-scrollbar-track {
-                            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+                            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
                             border-radius: 10px;
                         }
-                        
+
                         ::-webkit-scrollbar-thumb {
                             border-radius: 10px;
-                            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+                            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
                         }
                     </style>
                 </div>
@@ -93,7 +91,7 @@
                                         <address class="location-detail">
                                             35/6,<br />
                                             Street D5, Ward 25,<br />
-                                            District Binh Thanh,<br /> 
+                                            District Binh Thanh,<br />
                                             HCMC
                                         </address>
                                         <a href="https://maps.google.com/maps?q=21.227628%2C72.8631923&hl=en-gb&t=m&z=15" target="_blank" class="btn btn-info"> <i class="material-icons location-on">location_on</i> View Google Map</a>

@@ -49,14 +49,30 @@
         <script src="catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js"></script>
         <script src="catalog/view/javascript/TemplateTrip/jquery.bpopup.min.js"></script>
         <script src="catalog/view/javascript/TemplateTrip/jquery.cookie.js"></script>
+
+        <style>
+            ::-webkit-scrollbar {
+                width: 12px;
+            }
+
+            ::-webkit-scrollbar-track {
+                -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                border-radius: 10px;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+            }
+        </style>
     </head>
     <body class="product-product-45">
         <div id="page">
             <header>
-				<div class="header">
-					@include('block.header')
-				</div>
-			</header>
+                <div class="header">
+                    @include('block.header')
+                </div>
+            </header>
             <div class="header-content-title">
                 <div style="background-image: url('image/catalog/demo/banners/breadcrumb-parallax.jpg'); background-position: 50% 78.1106%;" data-source-url="image/catalog/demo/banners/breadcrumb-parallax.jpg" class="parallex"></div>
             </div>

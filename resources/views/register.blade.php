@@ -1,4 +1,5 @@
-@extends('master') @section('content')
+@extends('master') 
+@section('content')
 
 <style>
     .h1 {
@@ -71,9 +72,7 @@
             </div>
         </div>
     </fieldset>
-            <input type="submit" value="Continue" class="btn btn-primary input" />
-        </div>
-    </div>
+    <input type="submit" value="Continue" class="btn btn-primary input" />
 </form>
 
 @endsection

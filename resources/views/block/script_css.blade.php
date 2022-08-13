@@ -3,11 +3,11 @@
 
 <link href="{{asset('css/css14.css')}}" rel="stylesheet" type="text/css" />
 <link href="{{asset('css/css13.css')}}" rel="stylesheet" type="text/css" />
-<link href="{{asset('css/css15.css')}}" rel="stylesheet">
+<link href="{{asset('css/css15.css')}}" rel="stylesheet" />
 <link href="{{asset('css/css1.css')}}" rel="stylesheet" media="screen" />
 <link href="{{asset('css/css2.css')}}" rel="stylesheet" media="screen" />
 <link href="{{asset('css/css3.css')}}" rel="stylesheet" media="screen" />
-<link href="{{asset('css/css4.css')}}" rel="stylesheet">
+<link href="{{asset('css/css4.css')}}" rel="stylesheet" />
 <link href="{{asset('css/css5.css')}}" rel="stylesheet" type="text/css" />
 <link href="{{asset('css/css6.css')}}" rel="stylesheet" type="text/css" />
 <link href="{{asset('css/css7.css')}}" rel="stylesheet" type="text/css" />

@@ -12,18 +12,18 @@
                     @include('block.header')
                     <style>
                         ::-webkit-scrollbar {
-                width: 12px;
-            }
-             
-            ::-webkit-scrollbar-track {
-                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-                border-radius: 10px;
-            }
-             
-            ::-webkit-scrollbar-thumb {
-                border-radius: 10px;
-                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-            }
+                            width: 12px;
+                        }
+
+                        ::-webkit-scrollbar-track {
+                            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                            border-radius: 10px;
+                        }
+
+                        ::-webkit-scrollbar-thumb {
+                            border-radius: 10px;
+                            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+                        }
                     </style>
                 </div>
             </header>
@@ -42,12 +42,11 @@
                 <div class="row">
                     <aside id="column-left" class="col-sm-3 hidden-xs">
                         <div class="left-right-inner">
-
                             <div class="swiper-viewport">
                                 <div id="banner0" class="swiper-container">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                                                                        <a><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
+                                            <a><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -94,17 +93,10 @@
                                                     </div>
                                                 </div>
                                                 <div class="button-group">
-                                                    <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('43')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
-                                                    </button>
+                                                    <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('43')"><i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
                                                     <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('43');"><i class="material-icons icon-wishlist">favorite</i></button>
                                                     <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('43');"><i class="material-icons icon-exchange">equalizer</i></button>
-                                                    <button
-                                                        class="btn-quickview"
-                                                        type="button"
-                                                        title=""
-                                                        onclick="tt_quickview.ajaxView('')"
-                                                    >
+                                                    <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('')">
                                                         <i class="material-icons quick_view_icon">visibility</i>
                                                     </button>
                                                 </div>
@@ -138,17 +130,10 @@
                                                     </div>
                                                 </div>
                                                 <div class="button-group">
-                                                    <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('40')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
-                                                    </button>
+                                                    <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('40')"><i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
                                                     <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('40');"><i class="material-icons icon-wishlist">favorite</i></button>
                                                     <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('40');"><i class="material-icons icon-exchange">equalizer</i></button>
-                                                    <button
-                                                        class="btn-quickview"
-                                                        type="button"
-                                                        title=""
-                                                        onclick="tt_quickview.ajaxView('')"
-                                                    >
+                                                    <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('')">
                                                         <i class="material-icons quick_view_icon">visibility</i>
                                                     </button>
                                                 </div>
@@ -189,17 +174,10 @@
                                                     </div>
                                                 </div>
                                                 <div class="button-group">
-                                                    <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('42')">
-                                                        <i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
-                                                    </button>
+                                                    <button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('42')"><i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
                                                     <button class="btn-wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="material-icons icon-wishlist">favorite</i></button>
                                                     <button class="btn-compare" type="button" data-toggle="tooltip" title="Add to compare" onclick="compare.add('42');"><i class="material-icons icon-exchange">equalizer</i></button>
-                                                    <button
-                                                        class="btn-quickview"
-                                                        type="button"
-                                                        title=""
-                                                        onclick="tt_quickview.ajaxView('')"
-                                                    >
+                                                    <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('')">
                                                         <i class="material-icons quick_view_icon">visibility</i>
                                                     </button>
                                                 </div>
