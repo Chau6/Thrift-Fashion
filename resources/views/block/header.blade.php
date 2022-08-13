@@ -17,7 +17,7 @@
                            <a href="{{route('client.login')}}"><i class="material-icons">lock_outline</i>Login</a>
                        </li>
                        <li>
-                           <a href="{{route('client.wishlist',$id='all')}}" id="wishlist-total" title="Wish List (0)"><i class="material-icons icon-wishlist">favorite_border</i><span class="hidden-sm hidden-md">Wish List (0)</span></a>
+                           <a href="{{route('client.wishlist',$id='all')}}" id="wishlist-total" title="Wish List (0)"><i class="material-icons icon-wishlist">favorite_border</i><span class="hidden-sm hidden-md">Wish List (1)</span></a>
                        </li>
                    </ul>
                </li>

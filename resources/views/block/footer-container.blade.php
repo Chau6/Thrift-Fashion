@@ -25,9 +25,6 @@
    <div class="col-xs-3 footer-column footer-extras">
        <h5>Extras</h5>
        <ul class="list-unstyled">
-           {{--
-           <li><a href="{{route('client.wishlist',$id='all')}}">About Us</a></li>
-           --}}
            <li><a href="{{route('client.contact')}}">Contact Us</a></li>
        </ul>
    </div>
