@@ -70,7 +70,7 @@
                                 <div id="banner0" class="swiper-container">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <a href="#"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
+                                            <a><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -90,7 +90,7 @@
                                     <div class="product-layouts">
                                         <div class="product-thumb transition">
                                             <div class="image">
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">
+                                                <a>
                                                     <img
                                                         class="image_thumb"
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09-70x91.jpg"
@@ -109,7 +109,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">perspiciatis unde omnis</a></h4>
+                                                    <h4><a>perspiciatis unde omnis</a></h4>
                                                     <div class="price">
                                                         <span class="price-new">$8.00</span>
                                                         <span class="price-old">$14.00</span>
@@ -137,7 +137,7 @@
                                     <div class="product-layouts">
                                         <div class="product-thumb transition">
                                             <div class="image">
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">
+                                                <a>
                                                     <img
                                                         class="image_thumb"
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-70x91.jpg"
@@ -154,7 +154,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">voluptate velit esse</a></h4>
+                                                    <h4><a>voluptate velit esse</a></h4>
                                                     <div class="price">
                                                         $123.20
                                                         <span class="price-tax">Ex Tax: $101.00</span>
@@ -181,7 +181,7 @@
                                     <div class="product-layouts">
                                         <div class="product-thumb transition">
                                             <div class="image">
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">
+                                                <a>
                                                     <img
                                                         class="image_thumb"
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-70x91.jpg"
@@ -198,7 +198,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">aliquam quaerat voluptatem</a></h4>
+                                                    <h4><a>aliquam quaerat voluptatem</a></h4>
                                                     <div class="rating">
                                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>

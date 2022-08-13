@@ -47,7 +47,7 @@
                             <i class="material-icons">local_phone</i>
                             <div class="contact-title"><span>call us</span></div>
                             <span class="phone">
-                            <a href="#">0123456789</a>
+                            <a>0123456789</a>
                             </span>
                          </div>
                       </li>
@@ -55,7 +55,7 @@
                          <div class="data fax">
                             <i class="material-icons">present_to_all</i>
                             <span class="fax-address">
-                            <a href="#">0123-456-7890</a>
+                            <a>0123-456-7890</a>
                             </span>
                          </div>
                       </li>

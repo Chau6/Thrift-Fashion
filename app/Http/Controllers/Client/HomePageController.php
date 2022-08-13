@@ -169,6 +169,9 @@ class HomePageController extends Controller
         if($id=='suscipit+laboriosam+nisi'){
             return view('list_products.p17');
         }
+        if($id=='quis+autem+veleuminium'){
+            return view('list_products.p18');
+        }
     }
 
     public function girl ($id) {

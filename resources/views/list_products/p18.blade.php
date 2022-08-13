@@ -1,31 +1,59 @@
 <!DOCTYPE html>
-
 <html dir="ltr" lang="en">
     <head>
-        @include('block.head-extra')
-        <style>
-            ::-webkit-scrollbar {
-    width: 12px;
-}
- 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-    border-radius: 10px;
-}
- 
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-}
-        </style>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Quis Autem Veleuminium</title>
+        <base href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/" />
+        <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
+        <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,400,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css" />
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+        <link href="catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.css" rel="stylesheet" media="screen" />
+        <link href="catalog/view/javascript/jquery/owl-carousel/owl.theme.default.min.css" rel="stylesheet" media="screen" />
+        <link href="catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/bootstrap.min.css" rel="stylesheet" media="screen" />
+        <link href="catalog/view/theme/OPC164_01/stylesheet/stylesheet.css" rel="stylesheet" />
+        <link href="catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/ttblogstyle.css" rel="stylesheet" type="text/css" />
+        <link href="catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/newsletter.css" rel="stylesheet" type="text/css" />
+        <link href="catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/animate.css" rel="stylesheet" type="text/css" />
+        <link href="catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/ttcountdown.css" rel="stylesheet" type="text/css" />
+        <link href="catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/menu.css" rel="stylesheet" type="text/css" />
+        <link href="catalog/view/theme/OPC164_01/stylesheet/TemplateTrip/lightbox.css" rel="stylesheet" type="text/css" />
+        <link href="catalog/view/javascript/jquery/magnific/magnific-popup.css" type="text/css" rel="stylesheet" media="screen" />
+        <link href="catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet" media="screen" />
+        <script src="catalog/view/javascript/common.js"></script>
+
+        <script src="catalog/view/javascript/TemplateTrip/addonScript.js"></script>
+        <script src="catalog/view/javascript/TemplateTrip/tt_quickview.js"></script>
+        <script src="catalog/view/javascript/TemplateTrip/inview.js"></script>
+        <script src="catalog/view/javascript/TemplateTrip/parallex.js"></script>
+        <script src="catalog/view/javascript/TemplateTrip/theia-sticky-sidebar.min.js"></script>
+        <script src="catalog/view/javascript/TemplateTrip/menu.js"></script>
+        <script src="catalog/view/javascript/TemplateTrip/ResizeSensor.min.js"></script>
+        <script src="catalog/view/javascript/TemplateTrip/lightbox-2.6.min.js"></script>
+        <script src="catalog/view/javascript/TemplateTrip/waypoints.min.js"></script>
+        <script src="catalog/view/javascript/TemplateTrip/bootstrap-notify.min.js"></script>
+        <script src="catalog/view/javascript/TemplateTrip/ttcountdown.js"></script>
+        <script src="catalog/view/javascript/TemplateTrip/backgroundVideo.js"></script>
+        <script src="catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js"></script>
+
+        <link rel="canonical" />
+        <link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/cart.png" rel="icon" />
+        <script src="catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js"></script>
+        <script src="catalog/view/javascript/jquery/datetimepicker/moment/moment.min.js"></script>
+        <script src="catalog/view/javascript/jquery/datetimepicker/moment/moment-with-locales.min.js"></script>
+        <script src="catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+        <script src="catalog/view/javascript/TemplateTrip/jquery.bpopup.min.js"></script>
+        <script src="catalog/view/javascript/TemplateTrip/jquery.cookie.js"></script>
     </head>
-    <body class="product-product-42">
+    <body class="product-product-45">
         <div id="page">
-            
             <header>
-                <div class="header">
-                    @include('block.header')
-                </div>
+                @include('block.header')
             </header>
             <div class="header-content-title">
                 <div style="background-image: url('image/catalog/demo/banners/breadcrumb-parallax.jpg'); background-position: 50% 78.1106%;" data-source-url="image/catalog/demo/banners/breadcrumb-parallax.jpg" class="parallex"></div>
@@ -35,85 +63,90 @@
                     <li>
                         <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a>aliquam quaerat voluptatem</a></li>
+                    <li><a>quis autem veleuminium</a></li>
                 </ul>
                 <div class="row">
                     <div id="content" class="col-sm-12">
-                        <h1 class="page-title">aliquam quaerat voluptatem</h1>
+                        <h1 class="page-title">quis autem veleuminium</h1>
 
                         <div class="row">
                             <div class="col-xs-12 col-sm-5 col-md-5 product-images">
                                 <div class="thumbnails">
                                     <div class="product-image">
-<a class="thumbnail" href="{{asset('images/bag.jpg')}}" title="aliquam quaerat voluptatem">                                            <img
-                                                src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg"
-                                                title="aliquam quaerat voluptatem"
-                                                data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg"
-                                                alt="aliquam quaerat voluptatem"
+                                        <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11-800x1040.jpg" title="quis autem veleuminium">
+                                            <img
+                                                src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11-800x1040.jpg"
+                                                title="quis autem veleuminium"
+                                                data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11-800x1040.jpg"
+                                                alt="quis autem veleuminium"
                                             />
                                         </a>
                                     </div>
                                     <div class="additional-images-container">
                                         <div class="additional-images">
                                             <div class="image-additional">
-        <a class="thumbnail" href="{{asset('images/bag.jpg')}}" title="aliquam quaerat voluptatem">                                                    <img
-                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg"
-                                                        title="aliquam quaerat voluptatem"
-                                                        data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg"
-                                                        data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-800x1040.jpg"
-                                                        alt="aliquam quaerat voluptatem"
-                                                    />
-                                                </a>
-                                            </div>
-                                            <div class="image-additional">
-<a class="thumbnail" href="{{asset('images/bag.jpg')}}" title="aliquam quaerat voluptatem">                                                    <img
-                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--371x482.jpg"
-                                                        title="aliquam quaerat voluptatem"
-                                                        data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--800x1040.jpg"
-                                                        data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--800x1040.jpg"
-                                                        alt="aliquam quaerat voluptatem"
-                                                    />
-                                                </a>
-                                            </div>
-                                            <div class="image-additional">
-                                                                                                    <a class="thumbnail" href="{{asset('images/ao.jpg')}}" title="aliquam quaerat voluptatem">                                                    <img
-                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-371x482.jpg"
-                                                        title="aliquam quaerat voluptatem"
-                                                        data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-800x1040.jpg"
-                                                        data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-800x1040.jpg"
-                                                        alt="aliquam quaerat voluptatem"
-                                                    />
-                                                </a>
-                                            </div>
-                                            <div class="image-additional">
-                                                    <a class="thumbnail" href="{{asset('images/quan.jpg')}}" title="aliquam quaerat voluptatem">                                                    <img
-                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-371x482.jpg"
-                                                        title="aliquam quaerat voluptatem"
-                                                        data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-800x1040.jpg"
-                                                        data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-800x1040.jpg"
-                                                        alt="aliquam quaerat voluptatem"
-                                                    />
-                                                </a>
-                                            </div>
-                                            <div class="image-additional">
-                                                <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/03-800x1040.jpg" title="aliquam quaerat voluptatem">
+                                                <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11-800x1040.jpg" title="quis autem veleuminium">
                                                     <img
-                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/03-371x482.jpg"
-                                                        title="aliquam quaerat voluptatem"
-                                                        data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/03-800x1040.jpg"
-                                                        data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/03-800x1040.jpg"
-                                                        alt="aliquam quaerat voluptatem"
+                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11-800x1040.jpg"
+                                                        title="quis autem veleuminium"
+                                                        data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11-800x1040.jpg"
+                                                        data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11-800x1040.jpg"
+                                                        alt="quis autem veleuminium"
                                                     />
                                                 </a>
                                             </div>
                                             <div class="image-additional">
-                                                <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/02-800x1040.jpg" title="aliquam quaerat voluptatem">
+                                                <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11--800x1040.jpg" title="quis autem veleuminium">
                                                     <img
-                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/02-371x482.jpg"
-                                                        title="aliquam quaerat voluptatem"
-                                                        data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/02-800x1040.jpg"
-                                                        data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/02-800x1040.jpg"
-                                                        alt="aliquam quaerat voluptatem"
+                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11--371x482.jpg"
+                                                        title="quis autem veleuminium"
+                                                        data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11--800x1040.jpg"
+                                                        data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11--800x1040.jpg"
+                                                        alt="quis autem veleuminium"
+                                                    />
+                                                </a>
+                                            </div>
+                                            <div class="image-additional">
+                                                <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/14-800x1040.jpg" title="quis autem veleuminium">
+                                                    <img
+                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/14-371x482.jpg"
+                                                        title="quis autem veleuminium"
+                                                        data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/14-800x1040.jpg"
+                                                        data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/14-800x1040.jpg"
+                                                        alt="quis autem veleuminium"
+                                                    />
+                                                </a>
+                                            </div>
+                                            <div class="image-additional">
+                                                <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/06-800x1040.jpg" title="quis autem veleuminium">
+                                                    <img
+                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/06-371x482.jpg"
+                                                        title="quis autem veleuminium"
+                                                        data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/06-800x1040.jpg"
+                                                        data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/06-800x1040.jpg"
+                                                        alt="quis autem veleuminium"
+                                                    />
+                                                </a>
+                                            </div>
+                                            <div class="image-additional">
+                                                <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/16-800x1040.jpg" title="quis autem veleuminium">
+                                                    <img
+                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/16-371x482.jpg"
+                                                        title="quis autem veleuminium"
+                                                        data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/16-800x1040.jpg"
+                                                        data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/16-800x1040.jpg"
+                                                        alt="quis autem veleuminium"
+                                                    />
+                                                </a>
+                                            </div>
+                                            <div class="image-additional">
+                                                <a class="thumbnail" href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/10-800x1040.jpg" title="quis autem veleuminium">
+                                                    <img
+                                                        src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/10-371x482.jpg"
+                                                        title="quis autem veleuminium"
+                                                        data-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/10-800x1040.jpg"
+                                                        data-zoom-image="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/10-800x1040.jpg"
+                                                        alt="quis autem veleuminium"
                                                     />
                                                 </a>
                                             </div>
@@ -123,7 +156,8 @@
                             </div>
                             <script>
                                 var ttadditionalcontent = $(".additional-images").owlCarousel({
-                                    items: 4,                                     nav: true,
+                                    items: 4, //1 items above 1000px browser width
+                                    nav: true,
                                     dots: false,
                                     loop: false,
                                     autoplay: false,
@@ -147,7 +181,8 @@
                                     },
                                 });
 
-                                
+                                // Custom Navigation Events
+
                                 $(".additional-next").click(function () {
                                     ttadditionalcontent.trigger("next.owl.carousel", [700]);
                                 });
@@ -156,18 +191,18 @@
                                 });
                             </script>
                             <div class="col-xs-12 col-sm-7 col-md-7 product-details">
-                                <h1 class="product-name">aliquam quaerat voluptatem</h1>
+                                <h1 class="product-name">quis autem veleuminium</h1>
 
                                 <div class="rating">
                                     <div class="product-rating">
-                                        <span class="fa fa-stack"><i class="material-icons star_on">star</i></span>
-                                        <span class="fa fa-stack"><i class="material-icons star_on">star</i></span>
-                                        <span class="fa fa-stack"><i class="material-icons star_on">star</i></span>
-                                        <span class="fa fa-stack"><i class="material-icons star_on">star</i></span>
+                                        <span class="fa fa-stack"><i class="material-icons star_off">star_border</i></span>
+                                        <span class="fa fa-stack"><i class="material-icons star_off">star_border</i></span>
+                                        <span class="fa fa-stack"><i class="material-icons star_off">star_border</i></span>
+                                        <span class="fa fa-stack"><i class="material-icons star_off">star_border</i></span>
                                         <span class="fa fa-stack"><i class="material-icons star_off">star_border</i></span>
                                     </div>
-                                    <a class="product-total-review" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-comment">mode_comment</i>1 reviews</a>
-                                    <a class="product-write-review" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-edit">edit</i>Write a review</a>
+                                    <a class="product-total-review" href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-comment">mode_comment</i>0 reviews</a>
+                                    <a class="product-write-review" href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"> <i class="material-icons mode-edit">edit</i>Write a review</a>
                                 </div>
 
                                 <table class="product-info">
@@ -177,11 +212,11 @@
                                     </tr>
                                     <tr>
                                         <td>Product Code:</td>
-                                        <td class="product-info-value">Product 15</td>
+                                        <td class="product-info-value">Product 18</td>
                                     </tr>
                                     <tr>
                                         <td>Reward Points:</td>
-                                        <td class="product-info-value">100</td>
+                                        <td class="product-info-value">800</td>
                                     </tr>
                                     <tr>
                                         <td>Availability:</td>
@@ -190,148 +225,32 @@
                                 </table>
                                 <ul class="list-unstyled product-price">
                                     <li>
-                                        <h2>$122.00</h2>
+                                        <h2>$2,000.00</h2>
                                     </li>
-                                    <li class="product-tax">Ex Tax: $100.00</li>
-                                    <li class="product-reward-points">Price in reward points: 400</li>
-                                    <li>
-                                        <ul class="product-discounts">
-                                            <li>10 or more $107.60</li>
-                                            <li>20 or more $94.40</li>
-                                            <li>30 or more $81.20</li>
-                                        </ul>
-                                    </li>
+                                    <li class="product-tax">Ex Tax: $2,000.00</li>
                                 </ul>
 
                                 <div id="product" class="product-options">
-                                    <h3>Available Options</h3>
-                                    <div class="form-group required">
-                                        <label class="control-label">Radio</label>
-                                        <div id="input-option218">
-                                            <div class="radio">
-                                                <label>
-                                                    <input type="radio" name="option[218]" value="5" />
-                                                    Small (+$12.00)
-                                                </label>
-                                            </div>
-                                            <div class="radio">
-                                                <label>
-                                                    <input type="radio" name="option[218]" value="6" />
-                                                    Medium (+$24.00)
-                                                </label>
-                                            </div>
-                                            <div class="radio">
-                                                <label>
-                                                    <input type="radio" name="option[218]" value="7" />
-                                                    Large (+$36.00)
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group required">
-                                        <label class="control-label">Checkbox</label>
-                                        <div id="input-option223">
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox" name="option[223][]" value="8" />
-                                                    Checkbox 1 (+$12.00)
-                                                </label>
-                                            </div>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox" name="option[223][]" value="9" />
-                                                    Checkbox 2 (+$24.00)
-                                                </label>
-                                            </div>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox" name="option[223][]" value="10" />
-                                                    Checkbox 3 (+$36.00)
-                                                </label>
-                                            </div>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox" name="option[223][]" value="11" />
-                                                    Checkbox 4 (+$48.00)
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group required">
-                                        <label class="control-label" for="input-option208">Text</label>
-                                        <input type="text" name="option[208]" value="test" placeholder="Text" id="input-option208" class="form-control" />
-                                    </div>
-                                    <div class="form-group required">
-                                        <label class="control-label" for="input-option217">Select</label>
-                                        <select name="option[217]" id="input-option217" class="form-control">
-                                            <option value=""> --- Please Select --- </option>
-                                            <option value="4">
-                                                Red (+$4.80)
-                                            </option>
-                                            <option value="3">
-                                                Blue (+$3.60)
-                                            </option>
-                                            <option value="1">
-                                                Green (+$1.20)
-                                            </option>
-                                            <option value="2">
-                                                Yellow (+$2.40)
-                                            </option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group required">
-                                        <label class="control-label" for="input-option209">Textarea</label>
-                                        <textarea name="option[209]" rows="5" placeholder="Textarea" id="input-option209" class="form-control"></textarea>
-                                    </div>
-
-                                    <div class="form-group required">
-                                        <label class="control-label" for="input-option219">Date</label>
-                                        <div class="input-group date">
-                                            <input type="text" name="option[219]" value="2011-02-20" data-date-format="YYYY-MM-DD" id="input-option219" class="form-control" />
-                                            <span class="input-group-btn">
-                                                <button class="btn btn-default" type="button"><i class="material-icons calendar-today">calendar_today</i></button>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="form-group required">
-                                        <label class="control-label" for="input-option221">Time</label>
-                                        <div class="input-group time">
-                                            <input type="text" name="option[221]" value="22:25" data-date-format="HH:mm" id="input-option221" class="form-control" />
-                                            <span class="input-group-btn">
-                                                <button type="button" class="btn btn-default"><i class="material-icons calendar-today">calendar_today</i></button>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="form-group required">
-                                        <label class="control-label" for="input-option220">Date &amp; Time</label>
-                                        <div class="input-group datetime">
-                                            <input type="text" name="option[220]" value="2011-02-20 22:25" data-date-format="YYYY-MM-DD HH:mm" id="input-option220" class="form-control" />
-                                            <span class="input-group-btn">
-                                                <button type="button" class="btn btn-default"><i class="material-icons calendar-today">calendar_today</i></button>
-                                            </span>
-                                        </div>
-                                    </div>
                                     <div class="form-group product-quantity">
                                         <label class="control-label" for="input-quantity">Qty</label>
-                                        <input type="text" name="quantity" value="2" size="2" id="input-quantity" class="form-control" />
-                                        <input type="hidden" name="product_id" value="42" />
+                                        <input type="text" name="quantity" value="1" size="2" id="input-quantity" class="form-control" />
+                                        <input type="hidden" name="product_id" value="45" />
                                         <button type="button" id="button-cart" data-loading-text="Loading..." class="btn btn-primary btn-lg btn-block">Add to Cart</button>
                                     </div>
-                                    <div class="alert alert-info"><i class="material-icons info-circle">info</i> This product has a minimum quantity of 2</div>
                                 </div>
 
                                 <div class="btn-group">
-                                    <button class="btn btn-default product-btn-wishlist" type="button" class="btn btn-default" title="Add to Wish List" onclick="wishlist.add('42');">
+                                    <button class="btn btn-default product-btn-wishlist" type="button" class="btn btn-default" title="Add to Wish List" onclick="wishlist.add('45');">
                                         <i class="material-icons favorite">favorite_border</i>
                                         Add to Wish List
                                     </button>
-                                    <button class="btn btn-default product-btn-compare" type="button" class="btn btn-default" title="Add to compare" onclick="compare.add('42');">
+                                    <button class="btn btn-default product-btn-compare" type="button" class="btn btn-default" title="Add to compare" onclick="compare.add('45');">
                                         <i class="material-icons compare-arrows">compare_arrows</i>
                                         Add to compare
                                     </button>
                                 </div>
 
-                                <div class="addthis_toolbox addthis_default_style" data-url="">
+                                <div class="addthis_toolbox addthis_default_style" data-url="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=45">
                                     <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a> <a class="addthis_button_tweet"></a> <a class="addthis_button_pinterest_pinit"></a>
                                     <a class="addthis_counter addthis_pill_style"></a>
                                 </div>
@@ -343,128 +262,45 @@
                     <div class="col-sm-12 product-tabs">
                         <ul class="nav nav-tabs">
                             <li class="active"><a href="#tab-description" data-toggle="tab">Description</a></li>
-                            <li><a href="#tab-specification" data-toggle="tab">Specification</a></li>
-                            <li class="li-tab-review"><a href="#tab-review" data-toggle="tab">Reviews (1)</a></li>
+                            <li class="li-tab-review"><a href="#tab-review" data-toggle="tab">Reviews (0)</a></li>
                         </ul>
                         <div class="tab-content">
                             <div class="tab-pane active" id="tab-description">
-                                <div class="electro-description clearfix">
-                                    <p>
-                                        Praesent ornare, ex a interdum consectetur, lectus diam sodales elit, vitae egestas est enim ornare nisl. Nullam in lectus nec sem semper viverra. In lobortis egestas massa. Nam nec massa nisi.
-                                        Suspendisse potenti. Quisque suscipit vulputate dui quis volutpat. Ut id elit facilisis, feugiat est in, tempus lacus. Ut ultrices dictum metus, a ultricies ex vulputate ac. Ut id cursus tellus, non
-                                        tempor quam. Morbi porta diam nisi, id finibus nunc tincidunt eu.
-                                    </p>
-                                    <table class="layout-desc col-sm-12">
-                                        <tbody>
-                                            <tr>
-                                                <td class="col-sm-6 col-xs-12" style="padding: 0;">
-                                                    <div class="hightlights">
-                                                        <h2>Raw Material</h2>
-                                                        <p>
-                                                            Praesent ornare, ex a interdum consectetur, lectus diam sodales elit, vitae egestas est enim ornare nisl. Nullam in lectus nec sem semper viverra. In lobortis egestas massa. Nam
-                                                            nec massa nisi. Suspendisse potenti. Quisque suscipit vulputate dui quis volutpat. Ut id elit facilisis.
-                                                        </p>
-                                                    </div>
-                                                    <div class="services">
-                                                        <h2>Popular Culture</h2>
-                                                        <p>
-                                                            Fusce vitae nibh mi. Integer posuere, libero et ullamcorper facilisis, enim eros tincidunt orci, eget vestibulum sapien nisi ut leo. Cras finibus vel est ut mollis. Donec luctus
-                                                            condimentum ante et euismod.
-                                                        </p>
-                                                    </div>
-                                                    <div class="culture">
-                                                        <h2>Safety Gear</h2>
-                                                        <p>Hashtag fingerstache kitsch stumptown photo booth. Leggings semiotics bicycle rights umami asymmetrical banjo mixtape.</p>
-                                                    </div>
-                                                </td>
-                                                <td class="col-sm-6 col-xs-12" style="padding: 0;">
-                                                    <div class="image">
-                                                        <img alt="" src="image/catalog/demo/banners/For-Description.jpg" width="400" height="480" />
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <table class="layout-desc col-sm-12">
-                                        <tbody>
-                                            <tr>
-                                                <td class="col-sm-4 col-xs-12" style="padding: 0;">
-                                                    <div class="image">
-                                                        <img alt="ForDescription" src="image/catalog/demo/banners/For-Description-1.jpg" width="432" height="307" />
-                                                    </div>
-                                                </td>
-                                                <td class="col-sm-7 col-xs-12" style="padding: 0; float: right; text-align: right;">
-                                                    <div class="general">
-                                                        <h2 style="text-align: left;">General</h2>
-                                                    </div>
-                                                    <div style="padding: 0;" class="col-sm-12">
-                                                        <div class="col-sm-4" style="text-align: left; float: left; color: #777777; padding: 2px 0;">Model Name:</div>
-                                                        <div class="col-sm-8" style="float: right; text-align: left; color: #111111; padding: 0;">Rockerz 400 Super Extra Bass</div>
-                                                    </div>
-                                                    <br />
-                                                    <div style="padding: 0;" class="col-sm-12">
-                                                        <div class="col-sm-4" style="text-align: left; float: left; color: #777777; padding: 2px 0;">Headphone Type:</div>
-                                                        <div class="col-sm-8" style="float: right; text-align: left; color: #111111; padding: 0;">On the Ear</div>
-                                                    </div>
-                                                    <br />
-                                                    <div style="padding: 0;" class="col-sm-12">
-                                                        <div class="col-sm-4" style="text-align: left; float: left; color: #777777; padding: 2px 0;">Inline Remote:</div>
-                                                        <div class="col-sm-8" style="float: right; text-align: left; color: #111111; padding: 0;">no</div>
-                                                    </div>
-                                                    <br />
-                                                    <div style="padding: 0;" class="col-sm-12">
-                                                        <div class="col-sm-4" style="text-align: left; float: left; color: #777777; padding: 2px 0;">Connectivity:</div>
-                                                        <div class="col-sm-8" style="float: right; text-align: left; color: #111111; padding: 0;">Bluetooth</div>
-                                                    </div>
-                                                    <div style="padding: 0;" class="col-sm-12">
-                                                        <div class="col-sm-4" style="text-align: left; float: left; color: #777777; padding: 2px 0;">Sales Package:</div>
-                                                        <div class="col-sm-8" style="float: right; text-align: left; color: #111111; padding: 0;">Manual, Audio Cable, Wireless Headphone, Charging Cable</div>
-                                                    </div>
-                                                    <div style="padding: 0;" class="col-sm-12">
-                                                        <div class="col-sm-4" style="text-align: left; float: left; color: #777777; padding: 2px 0;">Battery Time:</div>
-                                                        <div class="col-sm-8" style="float: right; text-align: left; color: #111111; padding: 0;">100 Hours</div>
-                                                    </div>
-                                                    <div style="padding: 0;" class="col-sm-12">
-                                                        <div class="col-sm-4" style="text-align: left; float: left; color: #777777; padding: 2px 0;">Power Input (mW):</div>
-                                                        <div class="col-sm-8" style="float: right; text-align: left; color: #111111; padding: 0;">10mw</div>
-                                                    </div>
-                                                    <div style="padding: 0;" class="col-sm-12">
-                                                        <div class="col-sm-4" style="text-align: left; float: left; color: #777777; padding: 2px 0;">Detachable Cord:</div>
-                                                        <div class="col-sm-8" style="float: right; text-align: left; color: #111111; padding: 0;">Yes</div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <table class="layout-desc">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div class="privacy">
-                                                        <h3>Terms &amp; Conditions</h3>
-                                                        <p>The images represent actual product though color of the image and product may slightly differ.</p>
-                                                        <p>Groom does not select, edit, modify, alter, add or supplement the information, description and other specifications provided by the Seller.</p>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                <div class="cpt_product_description">
+                                    <div>
+                                        <p>
+                                            <b>Latest Intel mobile architecture</b>
+                                        </p>
+                                        <p>
+                                            Powered by the most advanced mobile processors from Intel, the new Core 2 Duo MacBook Pro is over 50% faster than the original Core Duo MacBook Pro and now supports up to 4GB of RAM.
+                                        </p>
+                                        <p>
+                                            <b>Leading-edge graphics</b>
+                                        </p>
+                                        <p>
+                                            The NVIDIA GeForce 8600M GT delivers exceptional graphics processing power. For the ultimate creative canvas, you can even configure the 17-inch model with a 1920-by-1200 resolution display.
+                                        </p>
+                                        <p>
+                                            <b>Designed for life on the road</b>
+                                        </p>
+                                        <p>
+                                            Innovations such as a magnetic power connection and an illuminated keyboard with ambient light sensor put the MacBook Pro in a class by itself.
+                                        </p>
+                                        <p>
+                                            <b>Connect. Create. Communicate.</b>
+                                        </p>
+                                        <p>
+                                            Quickly set up a video conference with the built-in iSight camera. Control presentations and media from up to 30 feet away with the included Apple Remote. Connect to high-bandwidth peripherals
+                                            with FireWire 800 and DVI.
+                                        </p>
+                                        <p>
+                                            <b>Next-generation wireless</b>
+                                        </p>
+                                        <p>
+                                            Featuring 802.11n wireless technology, the MacBook Pro delivers up to five times the performance and up to twice the range of previous-generation technologies.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane" id="tab-specification">
-                                <table class="table table-bordered">
-                                    <thead>
-                                        <tr>
-                                            <td colspan="2"><strong>Processor</strong></td>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Clockspeed</td>
-                                            <td>100mhz</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
                             </div>
                             <div class="tab-pane" id="tab-review">
                                 <form class="form-horizontal" id="form-review">
@@ -520,7 +356,8 @@
                         }
 
                         var ttrelatedcontent = $(".related-items").owlCarousel({
-                            items: 4,                             nav: true,
+                            items: 4, //1 items above 1000px browser width
+                            nav: true,
                             dots: false,
                             loop: false,
                             autoplay: false,
@@ -683,7 +520,8 @@
                 				     	'</div>'
                 				     });
 
-                					                 					setTimeout(function () {
+                					 // Need to set timeout otherwise it wont update the total
+                					setTimeout(function () {
                 						$('#cart > button').html('<i class="material-icons shopping-cart">shopping_cart</i><span id="cart-total"> ' + json['total'] + '</span>');
                 					}, 100);
 
@@ -691,8 +529,7 @@
                 				}
                 		},
                         error: function(xhr, ajaxOptions, thrownError) {
-                            									alert('Success Payment');
-
+                            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
                         }
                 	});
                 });
@@ -761,8 +598,7 @@
                 					}
                 				},
                 				error: function(xhr, ajaxOptions, thrownError) {
-                														alert('Success Payment');
-
+                					alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
                 				}
                 			});
                 		}
@@ -782,11 +618,11 @@
                     $('#review').fadeIn('slow');
                 });
 
-                $('#review').load('index.php?route=product/product/review&product_id=42');
+                $('#review').load('index.php?route=product/product/review&product_id=45');
 
                 $('#button-review').on('click', function() {
                 	$.ajax({
-                		url: 'index.php?route=product/product/write&product_id=42',
+                		url: 'index.php?route=product/product/write&product_id=45',
                 		type: 'post',
                 		dataType: 'json',
                 		data: $("#form-review").serialize(),
@@ -851,7 +687,8 @@
             					html += '<div class="result-text"></div>';
             					html += '</div>';
 
-            					            					$(tt_live_search.selector).after(html);
+            					//$(tt_live_search.selector).parent().closest('div').after(html);
+            					$(tt_live_search.selector).after(html);
 
             					$(tt_live_search.selector).autocomplete({
             						'source': function(request, response) {

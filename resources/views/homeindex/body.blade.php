@@ -112,7 +112,7 @@
                                               <span title="Add to Compare">Add to Compare</span>
                                               <span class="loading"><i class="material-icons">cached</i></span>
                                               </button>
-                                              <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=28')"><i class="material-icons quick_view_icon">visibility</i>
+                                              <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('{{route('client.shopping_cart.details',$id='aspetur+autodit+autfugit')}}')"><i class="material-icons quick_view_icon">visibility</i>
                                               <span title=""></span>
                                               <span class="loading"><i class="material-icons">cached</i></span>
                                               </button>
@@ -155,7 +155,7 @@
                                               <span title="Add to Compare">Add to Compare</span>
                                               <span class="loading"><i class="material-icons">cached</i></span>
                                               </button>
-                                              <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=41')"><i class="material-icons quick_view_icon">visibility</i>
+                                              <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('{{route('client.shopping_cart.details',$id='magni+dolores+eosquies')}}')"><i class="material-icons quick_view_icon">visibility</i>
                                               <span title=""></span>
                                               <span class="loading"><i class="material-icons">cached</i></span>
                                               </button>
@@ -387,10 +387,10 @@
                             </div>
                             <div class="product-layouts">
                                <div class="product-thumb transition">
-                                  <div class="image"> <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=45"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11-380x494.jpg" title="quis autem veleuminium" alt="quis autem veleuminium" /> <img class="image_thumb_swap" src="{{asset('images/dongu.jpg')}}" title="quis autem veleuminium" alt="quis autem veleuminium" /> </a></div>
+                                  <div class="image"> <a> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11-380x494.jpg" title="quis autem veleuminium" alt="quis autem veleuminium" /> <img class="image_thumb_swap" src="{{asset('images/dongu.jpg')}}" title="quis autem veleuminium" alt="quis autem veleuminium" /> </a></div>
                                   <div class="thumb-description">
                                      <div class="caption">
-                                        <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=45">quis autem veleuminium</a></h4>
+                                        <h4><a>quis autem veleuminium</a></h4>
                                         <div class="price"> $2,000.00
                                            <span class="price-tax">Without tax: $2,000.00</span> 
                                         </div>
@@ -426,7 +426,7 @@
                             <div class="product-layouts">
                                <div class="product-thumb transition">
                                   <div class="image">
-                                     <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=41"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-380x494.jpg" title="magni dolores eosquies" alt="magni dolores eosquies" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05--380x494.jpg" title="magni dolores eosquies" alt="magni dolores eosquies" /> </a>
+                                     <a href="{{route('client.shopping_cart.details',$id='magni+dolores+eosquies')}}"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05-380x494.jpg" title="magni dolores eosquies" alt="magni dolores eosquies" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/05--380x494.jpg" title="magni dolores eosquies" alt="magni dolores eosquies" /> </a>
                                      <div class="rating">
                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
@@ -437,7 +437,7 @@
                                   </div>
                                   <div class="thumb-description">
                                      <div class="caption">
-                                        <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=41">magni dolores eosquies</a></h4>
+                                        <h4><a href="{{route('client.shopping_cart.details',$id='magni+dolores+eosquies')}}">magni dolores eosquies</a></h4>
                                         <div class="price"> $122.00
                                            <span class="price-tax">Without tax: $100.00</span> 
                                         </div>
@@ -456,7 +456,7 @@
                                               <span title="Add to Compare">Add to Compare</span>
                                               <span class="loading"><i class="material-icons">cached</i></span>
                                               </button>
-                                              <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=41')"><i class="material-icons quick_view_icon">visibility</i>
+                                              <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('{{route('client.shopping_cart.details',$id='magni+dolores+eosquies')}}')"><i class="material-icons quick_view_icon">visibility</i>
                                               <span title=""></span>
                                               <span class="loading"><i class="material-icons">cached</i></span>
                                               </button>
@@ -503,13 +503,13 @@
                             <div class="product-layouts">
                                <div class="product-thumb transition">
                                   <div class="image">
-                                     <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=28"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-380x494.jpg" title="aspetur autodit autfugit" alt="aspetur autodit autfugit" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04--380x494.jpg" title="aspetur autodit autfugit" alt="aspetur autodit autfugit" /> </a>
+                                     <a href="{{route('client.shopping_cart.details',$id='aspetur+autodit+autfugit')}}"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04-380x494.jpg" title="aspetur autodit autfugit" alt="aspetur autodit autfugit" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/04--380x494.jpg" title="aspetur autodit autfugit" alt="aspetur autodit autfugit" /> </a>
                                      <div class="sale-icon">Sale</div>
                                      <span class="percent">-80%</span>
                                   </div>
                                   <div class="thumb-description">
                                      <div class="caption">
-                                        <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=28">aspetur autodit autfugit</a></h4>
+                                        <h4><a href="{{route('client.shopping_cart.details',$id='aspetur+autodit+autfugit')}}">aspetur autodit autfugit</a></h4>
                                         <div class="price"> <span class="price-new">$26.00</span> <span class="price-old">$122.00</span> <span class="price-tax">Without tax: $20.00</span> </div>
                                         <div class="ttproducthover">
                                            <div class="ttcart">
@@ -526,7 +526,7 @@
                                               <span title="Add to Compare">Add to Compare</span>
                                               <span class="loading"><i class="material-icons">cached</i></span>
                                               </button>
-                                              <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=28')"><i class="material-icons quick_view_icon">visibility</i>
+                                              <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('{{route('client.shopping_cart.details',$id='aspetur+autodit+autfugit')}}')"><i class="material-icons quick_view_icon">visibility</i>
                                               <span title=""></span>
                                               <span class="loading"><i class="material-icons">cached</i></span>
                                               </button>
@@ -539,7 +539,7 @@
                             <div class="product-layouts">
                                <div class="product-thumb transition">
                                   <div class="image">
-                                     <a> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-380x494.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--380x494.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> </a>
+                                     <a href="{{route('client.shopping_cart.details',$id='aliquam+quaerat+voluptatem')}}"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-380x494.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--380x494.jpg" title="aliquam quaerat voluptatem" alt="aliquam quaerat voluptatem" /> </a>
                                      <div class="rating">
                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
@@ -550,7 +550,7 @@
                                   </div>
                                   <div class="thumb-description">
                                      <div class="caption">
-                                        <h4><a>aliquam quaerat voluptatem</a></h4>
+                                        <h4><a href="{{route('client.shopping_cart.details',$id='aliquam+quaerat+voluptatem')}}">aliquam quaerat voluptatem</a></h4>
                                         <div class="price"> $122.00
                                            <span class="price-tax">Without tax: $100.00</span> 
                                         </div>
@@ -581,10 +581,10 @@
                             </div>
                             <div class="product-layouts">
                                <div class="product-thumb transition">
-                                  <div class="image"> <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=45"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11-380x494.jpg" title="quis autem veleuminium" alt="quis autem veleuminium" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11--380x494.jpg" title="quis autem veleuminium" alt="quis autem veleuminium" /> </a></div>
+                                  <div class="image"> <a href="{{route('client.shopping_cart.details',$id='quis+autem+veleuminium')}}"> <img class="image_thumb" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11-380x494.jpg" title="quis autem veleuminium" alt="quis autem veleuminium" /> <img class="image_thumb_swap" src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/11--380x494.jpg" title="quis autem veleuminium" alt="quis autem veleuminium" /> </a></div>
                                   <div class="thumb-description">
                                      <div class="caption">
-                                        <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=45">quis autem veleuminium</a></h4>
+                                        <h4><a>quis autem veleuminium</a></h4>
                                         <div class="price"> $2,000.00
                                            <span class="price-tax">Without tax: $2,000.00</span> 
                                         </div>
@@ -753,7 +753,7 @@
                                      <span title="Add to Compare">Add to Compare</span>
                                      <span class="loading"><i class="material-icons">cached</i></span>
                                      </button>
-                                     <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=28')"><i class="material-icons quick_view_icon">visibility</i>
+                                     <button class="btn-quickview" type="button" title="" onclick="tt_quickview.ajaxView('{{route('client.shopping_cart.details',$id='aspetur+autodit+autfugit')}}')"><i class="material-icons quick_view_icon">visibility</i>
                                      <span title=""></span>
                                      <span class="loading"><i class="material-icons">cached</i></span>
                                      </button>
@@ -923,7 +923,7 @@
                                <div class="ttinnerdesc">
                                   <div class="title">stylish shop</div>
                                   <div class="subtitle">sale flat 50% off</div>
-                                  <div class="button"><a class="buy_now" href="#">shop now</a></div>
+                                  <div class="button"><a class="buy_now">shop now</a></div>
                                </div>
                             </div>
                          </div>
@@ -936,7 +936,7 @@
                                <div class="ttinnerdesc">
                                   <div class="title">be stylus</div>
                                   <div class="subtitle">sale on big brands</div>
-                                  <div class="button"><a class="buy_now" href="#">new trends</a></div>
+                                  <div class="button"><a class="buy_now">new trends</a></div>
                                </div>
                             </div>
                          </div>

@@ -61,8 +61,8 @@
                     <li>
                         <a href="{{route('client.homeindex')}}"><i class="material-icons">home</i></a>
                     </li>
-                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/tt_blog">Latest Blog</a></li>
-                    <li><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=information/tt_blog&amp;tt_blog_id=3">Upon of seasons earth...</a></li>
+                    <li><a>Latest Blog</a></li>
+                    <li><a>Upon of seasons earth</a></li>
                 </ul>
                 <div class="row">
                     <aside id="column-left" class="col-sm-3 hidden-xs">
@@ -71,7 +71,7 @@
                                 <div id="banner0" class="swiper-container">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <a href="#"><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
+                                            <a><img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/banners/left-banner-300x450.jpg" alt="Left-Banner" class="img-responsive" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -91,7 +91,7 @@
                                     <div class="product-layouts">
                                         <div class="product-thumb transition">
                                             <div class="image">
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">
+                                                <a>
                                                     <img
                                                         class="image_thumb"
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/09-70x91.jpg"
@@ -110,7 +110,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=43">perspiciatis unde omnis</a></h4>
+                                                    <h4><a>perspiciatis unde omnis</a></h4>
                                                     <div class="price">
                                                         <span class="price-new">$8.00</span>
                                                         <span class="price-old">$14.00</span>
@@ -138,7 +138,7 @@
                                     <div class="product-layouts">
                                         <div class="product-thumb transition">
                                             <div class="image">
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">
+                                                <a>
                                                     <img
                                                         class="image_thumb"
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/19-70x91.jpg"
@@ -155,7 +155,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40">voluptate velit esse</a></h4>
+                                                    <h4><a>voluptate velit esse</a></h4>
                                                     <div class="price">
                                                         $123.20
                                                         <span class="price-tax">Ex Tax: $101.00</span>
@@ -182,7 +182,7 @@
                                     <div class="product-layouts">
                                         <div class="product-thumb transition">
                                             <div class="image">
-                                                <a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">
+                                                <a>
                                                     <img
                                                         class="image_thumb"
                                                         src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-70x91.jpg"
@@ -199,7 +199,7 @@
                                             </div>
                                             <div class="thumb-description">
                                                 <div class="caption">
-                                                    <h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">aliquam quaerat voluptatem</a></h4>
+                                                    <h4><a>aliquam quaerat voluptatem</a></h4>
                                                     <div class="rating">
                                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
                                                         <span class="fa-stack"><i class="material-icons star_on">star</i></span>
@@ -235,7 +235,7 @@
                         </div>
                     </aside>
                     <div id="content" class="col-sm-9 blog-detail">
-                        <h1>Upon of seasons earth...</h1>
+                        <h1>Upon of seasons earth</h1>
                         <div class="blog-post">
                             <div class="blog_image_holder">
                                 <img
@@ -247,9 +247,9 @@
                                 />
                             </div>
                             <div class="blog-detail-content">
-                                <div class="page-item-title"><h1>Upon of seasons earth...</h1></div>
+                                <div class="page-item-title"><h1>Upon of seasons earth</h1></div>
                                 <div class="blog-tool">
-                                    <span class="date-time"><i class="material-icons calendar-today">calendar_today</i>19/06/2021</span>
+                                    <span class="date-time"><i class="material-icons calendar-today">calendar_today</i>19/08/2022</span>
                                 </div>
                                 <div class="article-desc">
                                     <p></p>

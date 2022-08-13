@@ -43,7 +43,7 @@
 		<script src="catalog/view/javascript/TemplateTrip/backgroundVideo.js"></script>
 		<script src="catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js"></script>
 
-		<link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=40" rel="canonical" />
+		<link rel="canonical" />
 		<link href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/cart.png" rel="icon" />
 		<script src="catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js"></script>
 		<script src="catalog/view/javascript/jquery/datetimepicker/moment/moment.min.js"></script>
@@ -312,78 +312,6 @@
 							</div>
 						</div>
 					</div>
-
-					<div class="related-carousel products-list col-sm-12">
-						<div class="box-heading"><h3>Related Products</h3></div>
-						<div class="related-items products-carousel row">
-							<div class="product-layouts">
-								<div class="product-thumb transition">
-									<div class="image">
-										<a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">
-											<img
-												class="image_thumb"
-												src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01-371x482.jpg"
-												title="aliquam quaerat voluptatem"
-												alt="aliquam quaerat voluptatem"
-											/>
-											<img
-												class="image_thumb_swap"
-												src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/cache/catalog/demo/product/01--371x482.jpg"
-												title="aliquam quaerat voluptatem"
-												alt="aliquam quaerat voluptatem"
-											/>
-										</a>
-										<div class="rating">
-											<span class="fa-stack"><i class="material-icons star_on">star</i></span>
-											<span class="fa-stack"><i class="material-icons star_on">star</i></span>
-											<span class="fa-stack"><i class="material-icons star_on">star</i></span>
-											<span class="fa-stack"><i class="material-icons star_on">star</i></span>
-											<span class="fa-stack"><i class="material-icons star_off">star_border</i></span>
-										</div>
-									</div>
-									<div class="thumb-description">
-										<div class="caption">
-											<h4><a href="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42">aliquam quaerat voluptatem</a></h4>
-											<div class="price">
-												$100.00
-												<span class="price-tax">Ex Tax: $100.00</span>
-											</div>
-											<div class="ttproducthover">
-												<div class="ttcart">
-													<button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('42')">
-														<i class="material-icons">add</i><span class="hidden-xs hidden-sm hidden-md">Add to Cart </span><span class="loading"><i class="material-icons">cached</i></span>
-													</button>
-												</div>
-												<div class="button-group">
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('42');">
-														<i class="material-icons icon-wishlist">favorite</i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="material-icons">cached</i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('42');">
-														<i class="material-icons icon-exchange">equalizer</i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="material-icons">cached</i></span>
-													</button>
-													<button
-														class="btn-quickview"
-														type="button"
-														title=""
-														onclick="tt_quickview.ajaxView('https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/index.php?route=product/product&amp;product_id=42')"
-													>
-														<i class="material-icons quick_view_icon">visibility</i>
-														<span title=""></span>
-														<span class="loading"><i class="material-icons">cached</i></span>
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
 					<script>
 						// Carousel Counter
 						colsCarousel = $('#column-right, #column-left').length;
