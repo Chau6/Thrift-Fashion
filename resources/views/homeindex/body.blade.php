@@ -671,8 +671,8 @@
                       <a class="popup_close">X</a>
                       <div class="wrapper_inner">
                          <video id="my-video">
-                            <source src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/Video.mp4" type="video/mp4">
-                            <source src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/Video.webm" type="video/webm">
+                            <source src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/Video.mp4" autoplay="true" type="video/mp4">
+                            <source src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/Video.webm" autoplay="true" type="video/webm">
                          </video>
                       </div>
                    </div>
@@ -916,7 +916,7 @@
                 <div class="container">
                    <div class="row">
                       <div class="subbanner col-xs-6">
-                         <a href="http://#">
+                         <a>
                          <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/subbanner-1.jpg" alt="subbanner-1" width="630" height="390"></a>
                          <div class="description">
                             <div class="tt-desc">
@@ -929,7 +929,7 @@
                          </div>
                       </div>
                       <div class="subbanner col-xs-6">
-                         <a href="http://#">
+                         <a>
                          <img src="https://opencart.templatetrip.com/OPC06/OPC164_peter/OPC01/image/catalog/demo/banners/subbanner-2.jpg" alt="subbanner-2" width="630" height="390"></a>
                          <div class="description">
                             <div class="tt-desc">

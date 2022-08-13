@@ -53,8 +53,10 @@
     <body class="product-product-45">
         <div id="page">
             <header>
-                @include('block.header')
-            </header>
+				<div class="header">
+					@include('block.header')
+				</div>
+			</header>
             <div class="header-content-title">
                 <div style="background-image: url('image/catalog/demo/banners/breadcrumb-parallax.jpg'); background-position: 50% 78.1106%;" data-source-url="image/catalog/demo/banners/breadcrumb-parallax.jpg" class="parallex"></div>
             </div>
